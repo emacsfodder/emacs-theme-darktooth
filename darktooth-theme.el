@@ -192,12 +192,6 @@
     ,darktooth-neutral_green ,darktooth-neutral_yellow ,darktooth-neutral_blue
     ,darktooth-neutral_purple ,darktooth-neutral_aqua ,darktooth-light1])))
 
-(defun darktooth-set-ansi-color-names-vector ()
-  "Give comint and the like the same colours as the term colours we set."
-  (setq ansi-color-names-vector
-    [term-color-black term-color-red term-color-green term-color-yellow term-color-blue
-     term-color-purple term-color-aqua term-color-white]))
-
 ;;;###autoload
 (and load-file-name
     (boundp 'custom-theme-load-path)
