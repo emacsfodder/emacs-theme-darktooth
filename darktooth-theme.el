@@ -3,7 +3,7 @@
 ;; Copyright (c) 2015 Jasonm23
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
-;; URL: http://github.com/emacsfodder/emacs-darktooth-theme
+;; URL: https://github.com/emacsfodder/emacs-theme-darktooth
 ;; Version: 0.1.0
 
 ;;; Commentary:
