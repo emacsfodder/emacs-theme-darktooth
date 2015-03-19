@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.1
+;; Version: 0.1.2
 
 ;;; Commentary:
 
@@ -74,130 +74,174 @@
       )
 
   (custom-theme-set-faces
-    'darktooth
+   'darktooth
 
-    ;; UI
-    `(default                           ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0))))
-    `(cursor                            ((t (:background ,darktooth-light0))))
+   ;; UI
+   `(default                           ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0))))
+   `(cursor                            ((t (:background ,darktooth-light0))))
 
-    `(mode-line                         ((t (:box nil :foreground ,darktooth-light1 :background ,darktooth-dark0_hard))))
-    `(mode-line-inactive                ((t (:box nil :background ,darktooth-dark2 :foreground ,darktooth-light4))))
-    `(fringe                            ((t (:background ,darktooth-dark0))))
-    `(linum                             ((t (:foreground ,darktooth-dark4))))
-    `(hl-line                           ((t (:background ,darktooth-dark1))))
-    `(region                            ((t (:background ,darktooth-dark2)))) ;;selection
-    `(secondary-selection               ((t (:background ,darktooth-dark1))))
-    `(minibuffer-prompt                 ((t (:background ,darktooth-dark0 :foreground ,darktooth-turquoise4 :bold nil))))
+   `(mode-line                         ((t (:box nil :foreground ,darktooth-light1 :background ,darktooth-dark0_hard))))
+   `(mode-line-inactive                ((t (:box nil :background ,darktooth-dark2 :foreground ,darktooth-light4))))
+   `(fringe                            ((t (:background ,darktooth-dark0))))
+   `(linum                             ((t (:foreground ,darktooth-dark4))))
+   `(hl-line                           ((t (:background ,darktooth-dark1))))
+   `(region                            ((t (:background ,darktooth-dark2)))) ;;selection
+   `(secondary-selection               ((t (:background ,darktooth-dark1))))
+   `(minibuffer-prompt                 ((t (:background ,darktooth-dark0 :foreground ,darktooth-turquoise4 :bold nil))))
 
-    ;; Built-in syntax
-    `(font-lock-builtin-face            ((t (:foreground ,darktooth-bright_orange))))
-    `(font-lock-constant-face           ((t (:foreground ,darktooth-burlywood4))))
-    `(font-lock-comment-face            ((t (:foreground ,darktooth-dark4))))
-    `(font-lock-function-name-face      ((t (:foreground ,darktooth-light4))))
-    `(font-lock-keyword-face            ((t (:foreground ,darktooth-sienna))))
-    `(font-lock-string-face             ((t (:foreground ,darktooth-darkslategray4))))
-    `(font-lock-variable-name-face      ((t (:foreground ,darktooth-aquamarine4))))
-    `(font-lock-type-face               ((t (:foreground ,darktooth-lightblue4))))
-    `(font-lock-warning-face            ((t (:foreground ,darktooth-neutral_red :bold t))))
+   ;; Built-in syntax
+   `(font-lock-builtin-face            ((t (:foreground ,darktooth-bright_orange))))
+   `(font-lock-constant-face           ((t (:foreground ,darktooth-burlywood4))))
+   `(font-lock-comment-face            ((t (:foreground ,darktooth-dark4))))
+   `(font-lock-function-name-face      ((t (:foreground ,darktooth-light4))))
+   `(font-lock-keyword-face            ((t (:foreground ,darktooth-sienna))))
+   `(font-lock-string-face             ((t (:foreground ,darktooth-darkslategray4))))
+   `(font-lock-variable-name-face      ((t (:foreground ,darktooth-aquamarine4))))
+   `(font-lock-type-face               ((t (:foreground ,darktooth-lightblue4))))
+   `(font-lock-warning-face            ((t (:foreground ,darktooth-neutral_red :bold t))))
 
-    ;; whitespace-mode
-    `(whitespace-space                  ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
-    `(whitespace-hspace                 ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
-    `(whitespace-tab                    ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
-    `(whitespace-newline                ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
-    `(whitespace-trailing               ((t (:background ,darktooth-dark1 :foreground ,darktooth-neutral_red))))
-    `(whitespace-line                   ((t (:background ,darktooth-dark1 :foreground ,darktooth-neutral_red))))
-    `(whitespace-space-before-tab       ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
-    `(whitespace-indentation            ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
-    `(whitespace-empty                  ((t (:background nil :foreground nil))))
-    `(whitespace-space-after-tab        ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   ;; whitespace-mode
+   `(whitespace-space                  ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   `(whitespace-hspace                 ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   `(whitespace-tab                    ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   `(whitespace-newline                ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   `(whitespace-trailing               ((t (:background ,darktooth-dark1 :foreground ,darktooth-neutral_red))))
+   `(whitespace-line                   ((t (:background ,darktooth-dark1 :foreground ,darktooth-neutral_red))))
+   `(whitespace-space-before-tab       ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   `(whitespace-indentation            ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
+   `(whitespace-empty                  ((t (:background nil :foreground nil))))
+   `(whitespace-space-after-tab        ((t (:background ,darktooth-dark0 :foreground ,darktooth-dark4))))
 
-    ;; RainbowDelimiters
-    `(rainbow-delimiters-depth-1-face   ((t (:foreground ,darktooth-delimiter-one))))
-    `(rainbow-delimiters-depth-2-face   ((t (:foreground ,darktooth-delimiter-two))))
-    `(rainbow-delimiters-depth-3-face   ((t (:foreground ,darktooth-delimiter-three))))
-    `(rainbow-delimiters-depth-4-face   ((t (:foreground ,darktooth-delimiter-four))))
-    `(rainbow-delimiters-depth-5-face   ((t (:foreground ,darktooth-delimiter-one))))
-    `(rainbow-delimiters-depth-6-face   ((t (:foreground ,darktooth-delimiter-two))))
-    `(rainbow-delimiters-depth-7-face   ((t (:foreground ,darktooth-delimiter-three))))
-    `(rainbow-delimiters-depth-8-face   ((t (:foreground ,darktooth-delimiter-four))))
-    `(rainbow-delimiters-depth-9-face   ((t (:foreground ,darktooth-delimiter-one))))
-    `(rainbow-delimiters-depth-10-face  ((t (:foreground ,darktooth-delimiter-two))))
-    `(rainbow-delimiters-depth-11-face  ((t (:foreground ,darktooth-delimiter-three))))
-    `(rainbow-delimiters-depth-12-face  ((t (:foreground ,darktooth-delimiter-four))))
-    `(rainbow-delimiters-unmatched-face ((t (:background nil :foreground ,darktooth-light0))))
+   ;; RainbowDelimiters
+   `(rainbow-delimiters-depth-1-face   ((t (:foreground ,darktooth-delimiter-one))))
+   `(rainbow-delimiters-depth-2-face   ((t (:foreground ,darktooth-delimiter-two))))
+   `(rainbow-delimiters-depth-3-face   ((t (:foreground ,darktooth-delimiter-three))))
+   `(rainbow-delimiters-depth-4-face   ((t (:foreground ,darktooth-delimiter-four))))
+   `(rainbow-delimiters-depth-5-face   ((t (:foreground ,darktooth-delimiter-one))))
+   `(rainbow-delimiters-depth-6-face   ((t (:foreground ,darktooth-delimiter-two))))
+   `(rainbow-delimiters-depth-7-face   ((t (:foreground ,darktooth-delimiter-three))))
+   `(rainbow-delimiters-depth-8-face   ((t (:foreground ,darktooth-delimiter-four))))
+   `(rainbow-delimiters-depth-9-face   ((t (:foreground ,darktooth-delimiter-one))))
+   `(rainbow-delimiters-depth-10-face  ((t (:foreground ,darktooth-delimiter-two))))
+   `(rainbow-delimiters-depth-11-face  ((t (:foreground ,darktooth-delimiter-three))))
+   `(rainbow-delimiters-depth-12-face  ((t (:foreground ,darktooth-delimiter-four))))
+   `(rainbow-delimiters-unmatched-face ((t (:background nil :foreground ,darktooth-light0))))
 
-    ;; linum-relative
-    `(linum-relative-current-face       ((t (:background ,darktooth-dark1 :foreground ,darktooth-light4))))
+   ;; linum-relative
+   `(linum-relative-current-face       ((t (:background ,darktooth-dark1 :foreground ,darktooth-light4))))
 
-    ;; Highlight indentation mode
-    `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark2 ))))
-    `(highlight-indentation-face                ((t (:background ,darktooth-dark1 ))))
+   ;; Highlight indentation mode
+   `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark2 ))))
+   `(highlight-indentation-face                ((t (:background ,darktooth-dark1 ))))
 
-    ;; Smartparens
-    `(sp-pair-overlay-face              ((t (:background ,darktooth-dark2))))
-    ;`(sp-wrap-overlay-face             ((t (:inherit sp-wrap-overlay-face))))
-    ;`(sp-wrap-tag-overlay-face         ((t (:inherit sp-wrap-overlay-face))))
-    `(sp-show-pair-match-face           ((t (:background ,darktooth-dark2)))) ;; Pair tags highlight
-    `(sp-show-pair-mismatch-face        ((t (:background ,darktooth-neutral_red)))) ;; Highlight for bracket without pair
+   ;; Smartparens
+   `(sp-pair-overlay-face              ((t (:background ,darktooth-dark2))))
+                                        ;`(sp-wrap-overlay-face             ((t (:inherit sp-wrap-overlay-face))))
+                                        ;`(sp-wrap-tag-overlay-face         ((t (:inherit sp-wrap-overlay-face))))
+   `(sp-show-pair-match-face           ((t (:background ,darktooth-dark2)))) ;; Pair tags highlight
+   `(sp-show-pair-mismatch-face        ((t (:background ,darktooth-neutral_red)))) ;; Highlight for bracket without pair
 
-    ;; elscreen
-    `(elscreen-tab-background-face      ((t (:box nil :background ,darktooth-dark0)))) ;; Tab bar, not the tabs
-    `(elscreen-tab-control-face         ((t (:box nil :background ,darktooth-dark2 :foreground ,darktooth-neutral_red :underline nil)))) ;; The controls
-    `(elscreen-tab-current-screen-face  ((t (:box nil :background ,darktooth-dark4 :foreground ,darktooth-dark0)))) ;; Current tab
-    `(elscreen-tab-other-screen-face    ((t (:box nil :background ,darktooth-dark2 :foreground ,darktooth-light4 :underline nil)))) ;; Inactive tab
+   ;; elscreen
+   `(elscreen-tab-background-face      ((t (:box nil :background ,darktooth-dark0)))) ;; Tab bar, not the tabs
+   `(elscreen-tab-control-face         ((t (:box nil :background ,darktooth-dark2 :foreground ,darktooth-neutral_red :underline nil)))) ;; The controls
+   `(elscreen-tab-current-screen-face  ((t (:box nil :background ,darktooth-dark4 :foreground ,darktooth-dark0)))) ;; Current tab
+   `(elscreen-tab-other-screen-face    ((t (:box nil :background ,darktooth-dark2 :foreground ,darktooth-light4 :underline nil)))) ;; Inactive tab
 
-    ;; ag (The Silver Searcher)
-    `(ag-hit-face                       ((t (:foreground ,darktooth-neutral_blue))))
-    `(ag-match-face                     ((t (:foreground ,darktooth-neutral_red))))
+   ;; ag (The Silver Searcher)
+   `(ag-hit-face                       ((t (:foreground ,darktooth-neutral_blue))))
+   `(ag-match-face                     ((t (:foreground ,darktooth-neutral_red))))
 
-    ;; Diffs
-    `(diff-changed                      ((t (:background nil :foreground ,darktooth-light1))))
-    `(diff-added                        ((t (:background nil :foreground ,darktooth-neutral_green))))
-    `(diff-removed                      ((t (:background nil :foreground ,darktooth-neutral_red))))
-    `(diff-indicator-changed            ((t (:inherit diff-changed))))
-    `(diff-indicator-added              ((t (:inherit diff-added))))
-    `(diff-indicator-removed            ((t (:inherit diff-removed))))
+   ;; Diffs
+   `(diff-changed                      ((t (:background nil :foreground ,darktooth-light1))))
+   `(diff-added                        ((t (:background nil :foreground ,darktooth-neutral_green))))
+   `(diff-removed                      ((t (:background nil :foreground ,darktooth-neutral_red))))
+   `(diff-indicator-changed            ((t (:inherit diff-changed))))
+   `(diff-indicator-added              ((t (:inherit diff-added))))
+   `(diff-indicator-removed            ((t (:inherit diff-removed))))
 
-    `(js2-warning                       ((t (:underline (:color ,darktooth-bright_yellow :style wave)))))
-    `(js2-error                         ((t (:underline (:color ,darktooth-bright_red :style wave)))))
-    `(js2-external-variable             ((t (:underline (:color ,darktooth-bright_aqua :style wave)))))
-    `(js2-jsdoc-tag                     ((t (:background nil :foreground ,darktooth-medium ))))
-    `(js2-jsdoc-type                    ((t (:background nil :foreground ,darktooth-light4 ))))
-    `(js2-jsdoc-value                   ((t (:background nil :foreground ,darktooth-light3 ))))
-    `(js2-function-param                ((t (:background nil :foreground ,darktooth-bright_aqua ))))
-    `(js2-function-call                 ((t (:background nil :foreground ,darktooth-bright_blue ))))
-    `(js2-instance-member               ((t (:background nil :foreground ,darktooth-bright_orange ))))
-    `(js2-private-member                ((t (:background nil :foreground ,darktooth-faded_yellow ))))
-    `(js2-private-function-call         ((t (:background nil :foreground ,darktooth-faded_aqua ))))
-    `(js2-jsdoc-html-tag-name           ((t (:background nil :foreground ,darktooth-light4 ))))
-    `(js2-jsdoc-html-tag-delimiter      ((t (:background nil :foreground ,darktooth-light3 ))))
+   `(js2-warning                       ((t (:underline (:color ,darktooth-bright_yellow :style wave)))))
+   `(js2-error                         ((t (:underline (:color ,darktooth-bright_red :style wave)))))
+   `(js2-external-variable             ((t (:underline (:color ,darktooth-bright_aqua :style wave)))))
+   `(js2-jsdoc-tag                     ((t (:background nil :foreground ,darktooth-medium ))))
+   `(js2-jsdoc-type                    ((t (:background nil :foreground ,darktooth-light4 ))))
+   `(js2-jsdoc-value                   ((t (:background nil :foreground ,darktooth-light3 ))))
+   `(js2-function-param                ((t (:background nil :foreground ,darktooth-bright_aqua ))))
+   `(js2-function-call                 ((t (:background nil :foreground ,darktooth-bright_blue ))))
+   `(js2-instance-member               ((t (:background nil :foreground ,darktooth-bright_orange ))))
+   `(js2-private-member                ((t (:background nil :foreground ,darktooth-faded_yellow ))))
+   `(js2-private-function-call         ((t (:background nil :foreground ,darktooth-faded_aqua ))))
+   `(js2-jsdoc-html-tag-name           ((t (:background nil :foreground ,darktooth-light4 ))))
+   `(js2-jsdoc-html-tag-delimiter      ((t (:background nil :foreground ,darktooth-light3 ))))
 
-    ;; Term
-    `(term-color-black                  ((t (:foreground ,darktooth-dark1))))
-    `(term-color-blue                   ((t (:foreground ,darktooth-neutral_blue))))
-    `(term-color-cyan                   ((t (:foreground ,darktooth-neutral_aqua))))
-    `(term-color-green                  ((t (:foreground ,darktooth-neutral_green))))
-    `(term-color-magenta                ((t (:foreground ,darktooth-neutral_purple))))
-    `(term-color-red                    ((t (:foreground ,darktooth-neutral_red))))
-    `(term-color-white                  ((t (:foreground ,darktooth-light1))))
-    `(term-color-yellow                 ((t (:foreground ,darktooth-neutral_yellow))))
-    `(term-default-fg-color             ((t (:foreground ,darktooth-light0))))
-    `(term-default-bg-color             ((t (:background ,darktooth-dark0)))))
+   ;; helm
+   `(helm-M-x-key                      ((t (:foreground ,darktooth-neutral_orange))))
+   `(helm-action                       ((t (:foreground ,"#ffffff" :underline t))))
+   `(helm-bookmark-addressbook         ((t (:foreground ,darktooth-neutral_red))))
+   `(helm-bookmark-directory           ((t (:foreground ,darktooth-bright_purple))))
+   `(helm-bookmark-file                ((t (:foreground ,darktooth-faded_blue))))
+   `(helm-bookmark-gnus                ((t (:foreground ,darktooth-faded_purple))))
+   `(helm-bookmark-info                ((t (:foreground ,darktooth-turquoise4))))
+   `(helm-bookmark-man                 ((t (:foreground ,darktooth-sienna))))
+   `(helm-bookmark-w3m                 ((t (:foreground ,darktooth-neutral_yellow))))
+   `(helm-buffer-directory             ((t (:foreground ,"#ffffff" :background ,darktooth-bright_blue))))
+   `(helm-buffer-not-saved             ((t (:foreground ,darktooth-faded_red))))
+   `(helm-buffer-process               ((t (:foreground ,darktooth-burlywood4))))
+   `(helm-buffer-saved-out             ((t (:foreground ,darktooth-bright_red))))
+   `(helm-buffer-size                  ((t (:foreground ,darktooth-bright_purple))))
+   `(helm-candidate-number             ((t (:foreground ,darktooth-neutral_green))))
+   `(helm-ff-directory                 ((t (:foreground ,darktooth-neutral_purple))))
+   `(helm-ff-executable                ((t (:foreground ,darktooth-turquoise4))))
+   `(helm-ff-file                      ((t (:foreground ,darktooth-sienna))))
+   `(helm-ff-invalid-symlink           ((t (:foreground ,"#ffffff" :background ,darktooth-bright_red))))
+   `(helm-ff-prefix                    ((t (:foreground ,"#000000" :background ,darktooth-neutral_yellow))))
+   `(helm-ff-symlink                   ((t (:foreground ,darktooth-neutral_orange))))
+   `(helm-grep-cmd-line                ((t (:foreground ,darktooth-neutral_green))))
+   `(helm-grep-file                    ((t (:foreground ,darktooth-faded_purple))))
+   `(helm-grep-finish                  ((t (:foreground ,darktooth-turquoise4))))
+   `(helm-grep-lineno                  ((t (:foreground ,darktooth-neutral_orange))))
+   `(helm-grep-match                   ((t (:foreground ,darktooth-neutral_yellow))))
+   `(helm-grep-running                 ((t (:foreground ,darktooth-neutral_red))))
+   `(helm-header                       ((t (:foreground ,darktooth-aquamarine4))))
+   `(helm-helper                       ((t (:foreground ,darktooth-aquamarine4))))
+   `(helm-history-deleted              ((t (:foreground ,"#000000" :background ,darktooth-bright_red))))
+   `(helm-history-remote               ((t (:foreground ,darktooth-faded_red))))
+   `(helm-lisp-completion-info         ((t (:foreground ,darktooth-faded_orange))))
+   `(helm-lisp-show-completion         ((t (:foreground ,darktooth-bright_red))))
+   `(helm-locate-finish                ((t (:foreground ,"#ffffff" :background ,darktooth-aquamarine4))))
+   `(helm-match                        ((t (:foreground ,darktooth-neutral_orange))))
+   `(helm-moccur-buffer                ((t (:foreground ,darktooth-bright_aqua :underline t))))
+   `(helm-prefarg                      ((t (:foreground ,darktooth-turquoise4))))
+   `(helm-selection                    ((t (:foreground ,"#ffffff" :background ,darktooth-dark2))))
+   `(helm-selection-line               ((t (:foreground ,"#ffffff" :background ,darktooth-dark2))))
+   `(helm-separator                    ((t (:foreground ,darktooth-faded_red))))
+   `(helm-source-header                ((t (:foreground ,darktooth-light2))))
+   `(helm-visible-mark                 ((t (:foreground ,"#000000" :background ,darktooth-light3))))
 
-(custom-theme-set-variables
-  'darktooth
+   ;; Term
+   `(term-color-black                  ((t (:foreground ,darktooth-dark1))))
+   `(term-color-blue                   ((t (:foreground ,darktooth-neutral_blue))))
+   `(term-color-cyan                   ((t (:foreground ,darktooth-neutral_aqua))))
+   `(term-color-green                  ((t (:foreground ,darktooth-neutral_green))))
+   `(term-color-magenta                ((t (:foreground ,darktooth-neutral_purple))))
+   `(term-color-red                    ((t (:foreground ,darktooth-neutral_red))))
+   `(term-color-white                  ((t (:foreground ,darktooth-light1))))
+   `(term-color-yellow                 ((t (:foreground ,darktooth-neutral_yellow))))
+   `(term-default-fg-color             ((t (:foreground ,darktooth-light0))))
+   `(term-default-bg-color             ((t (:background ,darktooth-dark0)))))
 
-  `(ansi-color-names-vector [,darktooth-dark1 ,darktooth-neutral_red
-    ,darktooth-neutral_green ,darktooth-neutral_yellow ,darktooth-neutral_blue
-    ,darktooth-neutral_purple ,darktooth-neutral_aqua ,darktooth-light1])))
+  (custom-theme-set-variables
+   'darktooth
+
+   `(ansi-color-names-vector [,darktooth-dark1 ,darktooth-neutral_red
+                                               ,darktooth-neutral_green ,darktooth-neutral_yellow ,darktooth-neutral_blue
+                                               ,darktooth-neutral_purple ,darktooth-neutral_aqua ,darktooth-light1])))
 
 ;;;###autoload
 (and load-file-name
-    (boundp 'custom-theme-load-path)
-    (add-to-list 'custom-theme-load-path
-                 (file-name-as-directory
-                  (file-name-directory load-file-name))))
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
 
 (provide-theme 'darktooth)
 
