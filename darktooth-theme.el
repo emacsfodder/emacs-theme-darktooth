@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.1
+;; Version: 0.2.0
 
 ;;; Commentary:
 
@@ -12,8 +12,7 @@
 
 ;;; Code:
 
-(unless (>= emacs-major-version 24)
-  (error "Requires Emacs 24 or later"))
+(unless (>= emacs-major-version 24) (error "Requires Emacs 24 or later"))
 
 (deftheme darktooth "A retro-groove colour theme")
 
@@ -198,16 +197,17 @@ Uses `darktooth-colors' to lookup color names."
  `(term-default-fg-color             ,(dt//spec '(:foreground darktooth-light0)))
  `(term-default-bg-color             ,(dt//spec '(:background darktooth-dark0))))
 
+;; TODO: BROKEN
 (custom-theme-set-variables
  'darktooth
- `(ansi-color-names-vector [,(dt//spec '(darktooth-dark1))
-                            ,(dt//spec '(darktooth-neutral_red))
-                            ,(dt//spec '(darktooth-neutral_green))
-                            ,(dt//spec '(darktooth-neutral_yellow))
-                            ,(dt//spec '(darktooth-neutral_blue))
-                            ,(dt//spec '(darktooth-neutral_purple))
-                            ,(dt//spec '(darktooth-neutral_aqua))
-                            ,(dt//spec '(darktooth-light1))]))
+ `(ansi-color-names-vector [,(dt//spec '(darktooth-dark1
+                                         darktooth-neutral_red
+                                         darktooth-neutral_green
+                                         darktooth-neutral_yellow
+                                         darktooth-neutral_blue
+                                         darktooth-neutral_purple
+                                         darktooth-neutral_aqua
+                                         darktooth-light1))]))
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
