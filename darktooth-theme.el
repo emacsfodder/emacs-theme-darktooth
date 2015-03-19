@@ -68,7 +68,7 @@
   )
 
 
-(defun dt//spec (spec)
+(defun darktooth-set-spec (spec)
   "Set a darktooth face from SPEC.
 Uses `darktooth-colors' to lookup color names."
   (mapcar
@@ -85,122 +85,125 @@ Uses `darktooth-colors' to lookup color names."
                     spec)))
    '(((type graphic)) t)))
 
-(custom-theme-set-faces
- 'darktooth
 
- ;; UI
- `(default                           ,(dt//spec '(:foreground darktooth-light0 :background darktooth-dark0)))
- `(cursor                            ,(dt//spec '(:background darktooth-light0)))
+(apply #'custom-theme-set-faces
+        'darktooth
+        ;; UI
+        (mapcar
+         (lambda (entry)
+           (list (car entry) (darktooth-set-spec (cdr entry))))
+ `((default                           (:foreground darktooth-light0 :background darktooth-dark0))
+ (cursor                            (:background darktooth-light0))
 
- `(mode-line                         ,(dt//spec '(:box nil :foreground darktooth-light1 :background darktooth-dark0_hard)))
- `(mode-line-inactive                ,(dt//spec '(:box nil :background darktooth-dark2 :foreground darktooth-light4)))
- `(fringe                            ,(dt//spec '(:background darktooth-dark0)))
- `(linum                             ,(dt//spec '(:foreground darktooth-dark4)))
- `(hl-line                           ,(dt//spec '(:background darktooth-dark1)))
- `(region                            ,(dt//spec '(:background darktooth-dark2)))
- `(secondary-selection               ,(dt//spec '(:background darktooth-dark1)))
- `(minibuffer-prompt                 ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-turquoise4 :bold nil)))
+ (mode-line                         (:box nil :foreground darktooth-light1 :background darktooth-dark0_hard))
+ (mode-line-inactive                (:box nil :background darktooth-dark2 :foreground darktooth-light4))
+ (fringe                            (:background darktooth-dark0))
+ (linum                             (:foreground darktooth-dark4))
+ (hl-line                           (:background darktooth-dark1))
+ (region                            (:background darktooth-dark2))
+ (secondary-selection               (:background darktooth-dark1))
+ (minibuffer-prompt                 (:background darktooth-dark0 :foreground darktooth-turquoise4 :bold nil))
 
- ;; Built-in syntax
- `(font-lock-builtin-face            ,(dt//spec '(:foreground darktooth-bright_orange)))
- `(font-lock-constant-face           ,(dt//spec '(:foreground darktooth-burlywood4)))
- `(font-lock-comment-face            ,(dt//spec '(:foreground darktooth-dark4)))
- `(font-lock-function-name-face      ,(dt//spec '(:foreground darktooth-light4)))
- `(font-lock-keyword-face            ,(dt//spec '(:foreground darktooth-sienna)))
- `(font-lock-string-face             ,(dt//spec '(:foreground darktooth-darkslategray4)))
- `(font-lock-variable-name-face      ,(dt//spec '(:foreground darktooth-aquamarine4)))
- `(font-lock-type-face               ,(dt//spec '(:foreground darktooth-lightblue4)))
- `(font-lock-warning-face            ,(dt//spec '(:foreground darktooth-neutral_red :bold t)))
+ ; Built-in syntax
+ (font-lock-builtin-face            (:foreground darktooth-bright_orange))
+ (font-lock-constant-face           (:foreground darktooth-burlywood4))
+ (font-lock-comment-face            (:foreground darktooth-dark4))
+ (font-lock-function-name-face      (:foreground darktooth-light4))
+ (font-lock-keyword-face            (:foreground darktooth-sienna))
+ (font-lock-string-face             (:foreground darktooth-darkslategray4))
+ (font-lock-variable-name-face      (:foreground darktooth-aquamarine4))
+ (font-lock-type-face               (:foreground darktooth-lightblue4))
+ (font-lock-warning-face            (:foreground darktooth-neutral_red :bold t))
 
- ;; whitespace-mode
- `(whitespace-space                  ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
- `(whitespace-hspace                 ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
- `(whitespace-tab                    ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
- `(whitespace-newline                ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
- `(whitespace-trailing               ,(dt//spec '(:background darktooth-dark1 :foreground darktooth-neutral_red)))
- `(whitespace-line                   ,(dt//spec '(:background darktooth-dark1 :foreground darktooth-neutral_red)))
- `(whitespace-space-before-tab       ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
- `(whitespace-indentation            ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
- `(whitespace-empty                  ,(dt//spec '(:background nil :foreground nil)))
- `(whitespace-space-after-tab        ,(dt//spec '(:background darktooth-dark0 :foreground darktooth-dark4)))
+ ; whitespace-mode
+ (whitespace-space                  (:background darktooth-dark0 :foreground darktooth-dark4))
+ (whitespace-hspace                 (:background darktooth-dark0 :foreground darktooth-dark4))
+ (whitespace-tab                    (:background darktooth-dark0 :foreground darktooth-dark4))
+ (whitespace-newline                (:background darktooth-dark0 :foreground darktooth-dark4))
+ (whitespace-trailing               (:background darktooth-dark1 :foreground darktooth-neutral_red))
+ (whitespace-line                   (:background darktooth-dark1 :foreground darktooth-neutral_red))
+ (whitespace-space-before-tab       (:background darktooth-dark0 :foreground darktooth-dark4))
+ (whitespace-indentation            (:background darktooth-dark0 :foreground darktooth-dark4))
+ (whitespace-empty                  (:background nil :foreground nil))
+ (whitespace-space-after-tab        (:background darktooth-dark0 :foreground darktooth-dark4))
 
- ;; RainbowDelimiters
- `(rainbow-delimiters-depth-1-face   ,(dt//spec '(:foreground darktooth-delimiter-one)))
- `(rainbow-delimiters-depth-2-face   ,(dt//spec '(:foreground darktooth-delimiter-two)))
- `(rainbow-delimiters-depth-3-face   ,(dt//spec '(:foreground darktooth-delimiter-three)))
- `(rainbow-delimiters-depth-4-face   ,(dt//spec '(:foreground darktooth-delimiter-four)))
- `(rainbow-delimiters-depth-5-face   ,(dt//spec '(:foreground darktooth-delimiter-one)))
- `(rainbow-delimiters-depth-6-face   ,(dt//spec '(:foreground darktooth-delimiter-two)))
- `(rainbow-delimiters-depth-7-face   ,(dt//spec '(:foreground darktooth-delimiter-three)))
- `(rainbow-delimiters-depth-8-face   ,(dt//spec '(:foreground darktooth-delimiter-four)))
- `(rainbow-delimiters-depth-9-face   ,(dt//spec '(:foreground darktooth-delimiter-one)))
- `(rainbow-delimiters-depth-10-face  ,(dt//spec '(:foreground darktooth-delimiter-two)))
- `(rainbow-delimiters-depth-11-face  ,(dt//spec '(:foreground darktooth-delimiter-three)))
- `(rainbow-delimiters-depth-12-face  ,(dt//spec '(:foreground darktooth-delimiter-four)))
- `(rainbow-delimiters-unmatched-face ,(dt//spec '(:background nil :foreground darktooth-light0)))
+ ; RainbowDelimiters
+ (rainbow-delimiters-depth-1-face   (:foreground darktooth-delimiter-one))
+ (rainbow-delimiters-depth-2-face   (:foreground darktooth-delimiter-two))
+ (rainbow-delimiters-depth-3-face   (:foreground darktooth-delimiter-three))
+ (rainbow-delimiters-depth-4-face   (:foreground darktooth-delimiter-four))
+ (rainbow-delimiters-depth-5-face   (:foreground darktooth-delimiter-one))
+ (rainbow-delimiters-depth-6-face   (:foreground darktooth-delimiter-two))
+ (rainbow-delimiters-depth-7-face   (:foreground darktooth-delimiter-three))
+ (rainbow-delimiters-depth-8-face   (:foreground darktooth-delimiter-four))
+ (rainbow-delimiters-depth-9-face   (:foreground darktooth-delimiter-one))
+ (rainbow-delimiters-depth-10-face  (:foreground darktooth-delimiter-two))
+ (rainbow-delimiters-depth-11-face  (:foreground darktooth-delimiter-three))
+ (rainbow-delimiters-depth-12-face  (:foreground darktooth-delimiter-four))
+ (rainbow-delimiters-unmatched-face (:background nil :foreground darktooth-light0))
 
- ;; linum-relative
- `(linum-relative-current-face       ,(dt//spec '(:background darktooth-dark1 :foreground darktooth-light4)))
+ ; linum-relative
+ (linum-relative-current-face       (:background darktooth-dark1 :foreground darktooth-light4))
 
- ;; Highlight indentation mode
- `(highlight-indentation-current-column-face ,(dt//spec '(:background darktooth-dark2 )))
- `(highlight-indentation-face                ,(dt//spec '(:background darktooth-dark1 )))
+ ; Highlight indentation mode
+ (highlight-indentation-current-column-face (:background darktooth-dark2 ))
+ (highlight-indentation-face                (:background darktooth-dark1 ))
 
- ;; Smartparens
- `(sp-pair-overlay-face              ,(dt//spec '(:background darktooth-dark2)))
- ;;`(sp-wrap-overlay-face             ,(dt//spec '(:inherit sp-wrap-overlay-face)))
- ;;`(sp-wrap-tag-overlay-face         ,(dt//spec '(:inherit sp-wrap-overlay-face)))
- `(sp-show-pair-match-face           ,(dt//spec '(:background darktooth-dark2))) ;; Pair tags highlight
- `(sp-show-pair-mismatch-face        ,(dt//spec '(:background darktooth-neutral_red))) ;; Highlight for bracket without pair
+ ; Smartparens
+ (sp-pair-overlay-face              (:background darktooth-dark2))
+ ;(sp-wrap-overlay-face             (:inherit sp-wrap-overlay-face))
+ ;(sp-wrap-tag-overlay-face         (:inherit sp-wrap-overlay-face))
+ (sp-show-pair-match-face           (:background darktooth-dark2)) ;; Pair tags highlight
+ (sp-show-pair-mismatch-face        (:background darktooth-neutral_red)) ;; Highlight for bracket without pair
 
- ;; elscreen
- `(elscreen-tab-background-face      ,(dt//spec '(:box nil :background darktooth-dark0))) ;; Tab bar not the tabs
- `(elscreen-tab-control-face         ,(dt//spec '(:box nil :background darktooth-dark2 :foreground darktooth-neutral_red :underline nil))) ;; The controls
- `(elscreen-tab-current-screen-face  ,(dt//spec '(:box nil :background darktooth-dark4 :foreground darktooth-dark0))) ;; Current tab
- `(elscreen-tab-other-screen-face    ,(dt//spec '(:box nil :background darktooth-dark2 :foreground darktooth-light4 :underline nil))) ;; Inactive tab
+ ; elscreen
+ (elscreen-tab-background-face      (:box nil :background darktooth-dark0)) ;; Tab bar not the tabs
+ (elscreen-tab-control-face         (:box nil :background darktooth-dark2 :foreground darktooth-neutral_red :underline nil)) ;; The controls
+ (elscreen-tab-current-screen-face  (:box nil :background darktooth-dark4 :foreground darktooth-dark0)) ;; Current tab
+ (elscreen-tab-other-screen-face    (:box nil :background darktooth-dark2 :foreground darktooth-light4 :underline nil)) ;; Inactive tab
 
- ;; ag (The Silver Searcher)
- `(ag-hit-face                       ,(dt//spec '(:foreground darktooth-neutral_blue)))
- `(ag-match-face                     ,(dt//spec '(:foreground darktooth-neutral_red)))
+ ; ag (The Silver Searcher)
+ (ag-hit-face                       (:foreground darktooth-neutral_blue))
+ (ag-match-face                     (:foreground darktooth-neutral_red))
 
- ;; Diffs
- `(diff-changed                      ,(dt//spec '(:background nil :foreground darktooth-light1)))
- `(diff-added                        ,(dt//spec '(:background nil :foreground darktooth-neutral_green)))
- `(diff-removed                      ,(dt//spec '(:background nil :foreground darktooth-neutral_red)))
- `(diff-indicator-changed            ,(dt//spec '(:inherit diff-changed)))
- `(diff-indicator-added              ,(dt//spec '(:inherit diff-added)))
- `(diff-indicator-removed            ,(dt//spec '(:inherit diff-removed)))
+ ; Diffs
+ (diff-changed                      (:background nil :foreground darktooth-light1))
+ (diff-added                        (:background nil :foreground darktooth-neutral_green))
+ (diff-removed                      (:background nil :foreground darktooth-neutral_red))
+ (diff-indicator-changed            (:inherit diff-changed))
+ (diff-indicator-added              (:inherit diff-added))
+ (diff-indicator-removed            (:inherit diff-removed))
 
- `(js2-warning                       ,(dt//spec '(:underline (:color darktooth-bright_yellow :style wave))))
- `(js2-error                         ,(dt//spec '(:underline (:color darktooth-bright_red :style wave))))
- `(js2-external-variable             ,(dt//spec '(:underline (:color darktooth-bright_aqua :style wave))))
- `(js2-jsdoc-tag                     ,(dt//spec '(:background nil :foreground darktooth-medium )))
- `(js2-jsdoc-type                    ,(dt//spec '(:background nil :foreground darktooth-light4 )))
- `(js2-jsdoc-value                   ,(dt//spec '(:background nil :foreground darktooth-light3 )))
- `(js2-function-param                ,(dt//spec '(:background nil :foreground darktooth-bright_aqua )))
- `(js2-function-call                 ,(dt//spec '(:background nil :foreground darktooth-bright_blue )))
- `(js2-instance-member               ,(dt//spec '(:background nil :foreground darktooth-bright_orange )))
- `(js2-private-member                ,(dt//spec '(:background nil :foreground darktooth-faded_yellow )))
- `(js2-private-function-call         ,(dt//spec '(:background nil :foreground darktooth-faded_aqua )))
- `(js2-jsdoc-html-tag-name           ,(dt//spec '(:background nil :foreground darktooth-light4 )))
- `(js2-jsdoc-html-tag-delimiter      ,(dt//spec '(:background nil :foreground darktooth-light3 )))
+ (js2-warning                       (:underline (:color darktooth-bright_yellow :style wave)))
+ (js2-error                         (:underline (:color darktooth-bright_red :style wave)))
+ (js2-external-variable             (:underline (:color darktooth-bright_aqua :style wave)))
+ (js2-jsdoc-tag                     (:background nil :foreground darktooth-medium ))
+ (js2-jsdoc-type                    (:background nil :foreground darktooth-light4 ))
+ (js2-jsdoc-value                   (:background nil :foreground darktooth-light3 ))
+ (js2-function-param                (:background nil :foreground darktooth-bright_aqua ))
+ (js2-function-call                 (:background nil :foreground darktooth-bright_blue ))
+ (js2-instance-member               (:background nil :foreground darktooth-bright_orange ))
+ (js2-private-member                (:background nil :foreground darktooth-faded_yellow ))
+ (js2-private-function-call         (:background nil :foreground darktooth-faded_aqua ))
+ (js2-jsdoc-html-tag-name           (:background nil :foreground darktooth-light4 ))
+ (js2-jsdoc-html-tag-delimiter      (:background nil :foreground darktooth-light3 ))
 
- ;; Term
- `(term-color-black                  ,(dt//spec '(:foreground darktooth-dark1)))
- `(term-color-blue                   ,(dt//spec '(:foreground darktooth-neutral_blue)))
- `(term-color-cyan                   ,(dt//spec '(:foreground darktooth-neutral_aqua)))
- `(term-color-green                  ,(dt//spec '(:foreground darktooth-neutral_green)))
- `(term-color-magenta                ,(dt//spec '(:foreground darktooth-neutral_purple)))
- `(term-color-red                    ,(dt//spec '(:foreground darktooth-neutral_red)))
- `(term-color-white                  ,(dt//spec '(:foreground darktooth-light1)))
- `(term-color-yellow                 ,(dt//spec '(:foreground darktooth-neutral_yellow)))
- `(term-default-fg-color             ,(dt//spec '(:foreground darktooth-light0)))
- `(term-default-bg-color             ,(dt//spec '(:background darktooth-dark0))))
+ ; Term
+ (term-color-black                  (:foreground darktooth-dark1))
+ (term-color-blue                   (:foreground darktooth-neutral_blue))
+ (term-color-cyan                   (:foreground darktooth-neutral_aqua))
+ (term-color-green                  (:foreground darktooth-neutral_green))
+ (term-color-magenta                (:foreground darktooth-neutral_purple))
+ (term-color-red                    (:foreground darktooth-neutral_red))
+ (term-color-white                  (:foreground darktooth-light1))
+ (term-color-yellow                 (:foreground darktooth-neutral_yellow))
+ (term-default-fg-color             (:foreground darktooth-light0))
+ (term-default-bg-color             (:background darktooth-dark0))
 
 ;; TODO: BROKEN
 (custom-theme-set-variables
  'darktooth
- `(ansi-color-names-vector [,(dt//spec '(darktooth-dark1
+ `(ansi-color-names-vector [(darktooth-dark1
                                          darktooth-neutral_red
                                          darktooth-neutral_green
                                          darktooth-neutral_yellow
