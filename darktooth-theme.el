@@ -90,7 +90,6 @@ Uses `darktooth-colors' to lookup color names."
    (lambda (display)
      (list display (mapcar
                     (lambda (element)
-                      (message "%s" display)
                       (let* ((entry (assoc element (darktooth-palette-transform)))
                              (variant (assoc display (cdr entry)))
                              (subst (cdr variant)))
