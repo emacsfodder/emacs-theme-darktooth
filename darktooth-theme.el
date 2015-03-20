@@ -178,6 +178,7 @@
    `(powerline-active2                 ((t (:background ,darktooth-dark1 :inherit mode-line))))
    `(powerline-inactive1               ((t (:background ,darktooth-medium :inherit mode-line-inactive))))
    `(powerline-inactive2               ((t (:background ,darktooth-dark2 :inherit mode-line-inactive))))
+
    ;; helm
    `(helm-M-x-key                      ((t (:foreground ,darktooth-neutral_orange))))
    `(helm-action                       ((t (:foreground ,"#ffffff" :underline t))))
