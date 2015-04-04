@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.5
+;; Version: 0.1.6
 
 ;;; Commentary:
 
@@ -61,6 +61,14 @@
       (darktooth-faded_aqua      (if (display-graphic-p) "#427B58" "color-66"))
       (darktooth-faded_orange    (if (display-graphic-p) "#AF3A03" "color-130"))
 
+      (darktooth-dark_red       (if (display-graphic-p) "#421E1E" "#421E1E")) ;; TODO: Convert to xterm256
+      (darktooth-dark_green     (if (display-graphic-p) "#2B280F" "#2B280F"))
+      (darktooth-dark_yellow    (if (display-graphic-p) "#4D3B27" "#4D3B27"))
+      (darktooth-dark_blue      (if (display-graphic-p) "#2B3C44" "#2B3C44"))
+      (darktooth-dark_purple    (if (display-graphic-p) "#4E3D45" "#4E3D45"))
+      (darktooth-dark_aqua      (if (display-graphic-p) "#36473A" "#36473A"))
+      (darktooth-dark_orange    (if (display-graphic-p) "#613620" "#613620"))
+
       (darktooth-delimiter-one   (if (display-graphic-p) "#5C7E81" "color-66"))
       (darktooth-delimiter-two   (if (display-graphic-p) "#837486" "color-102"))
       (darktooth-delimiter-three (if (display-graphic-p) "#9C6F68" "color-94"))
@@ -88,9 +96,9 @@
    `(fringe                                    ((t (                                      :background ,darktooth-dark0                                             ))))
    `(linum                                     ((t ( :foreground ,darktooth-dark4                                                                                  ))))
    `(hl-line                                   ((t (                                      :background ,darktooth-dark1                                             ))))
-   `(region                                    ((t (                                      :background ,darktooth-dark2                                             )))) ;;selection
-   `(secondary-selection                       ((t (                                      :background ,darktooth-dark1                                             ))))
-   `(cua-rectangle                             ((t (                                      :background ,darktooth-dark2                                             ))))
+   `(region                                    ((t (                                      :background ,darktooth-dark1                                             ))))
+   `(secondary-selection                       ((t (                                      :background ,darktooth-dark_blue                                         ))))
+   `(cua-rectangle                             ((t (                                      :background ,darktooth-dark_aqua                                         ))))
    `(minibuffer-prompt                         ((t ( :foreground ,darktooth-turquoise4    :background ,darktooth-dark0 :bold nil                                   ))))
 
    ;; Built-in syntax
@@ -216,28 +224,27 @@
    `(org-footnote                              ((t ( :foreground ,darktooth-faded_aqua :underline t                                                                ))))
 
    ;; powerline
-   `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line                     ))))
-   `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line                     ))))
-   `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive           ))))
-   `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive            ))))
+   `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line                                                                ))))
+   `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line                                                                ))))
+   `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive                                                      ))))
+   `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive                                                       ))))
 
    ;; Matches and Isearch
-   `(lazy-highlight                            ((t (:background ,darktooth-dark2 :foreground ,darktooth-light0          ))))
-   `(match                                     ((t (:background ,darktooth-dark2 :foreground ,darktooth-light0          ))))
-   `(isearch                                   ((t (:background ,darktooth-faded_aqua :foreground ,darktooth-light0     ))))
-   `(isearch-fail                              ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard ))))
-   `(show-paren-match                          ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0     ))))
-   `(show-paren-mismatch                       ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard ))))
-   `(anzu-mode-line                            ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 :height 100 ))))
+   `(lazy-highlight                            ((t (:background ,darktooth-dark2 :foreground ,darktooth-light0                                                     ))))
+   `(match                                     ((t (:background ,darktooth-dark2 :foreground ,darktooth-light0                                                     ))))
+   `(isearch                                   ((t (:background ,darktooth-faded_aqua :foreground ,darktooth-light0                                                ))))
+   `(isearch-fail                              ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard                                            ))))
+   `(show-paren-match                          ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0                                                ))))
+   `(show-paren-mismatch                       ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard                                            ))))
+   `(anzu-mode-line                            ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 :height 100                                    ))))
 
    ;; Evil
 
    ;; Popup
-   `(popup-face                                ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0 ))))
-   `(popup-menu-mouse-face                     ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
-   `(popup-menu-selection-face                 ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
-   `(popup-tip-face                            ((t (:background ,darktooth-faded_aqua :foreground ,darktooth-light0_hard ))))
-
+   `(popup-face                                ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0                                                     ))))
+   `(popup-menu-mouse-face                     ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0                                                ))))
+   `(popup-menu-selection-face                 ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0                                                ))))
+   `(popup-tip-face                            ((t (:background ,darktooth-dark_aqua :foreground ,darktooth-light0_hard                                            ))))
    ;; helm
    `(helm-M-x-key                              ((t ( :foreground ,darktooth-neutral_orange                                                                         ))))
    `(helm-action                               ((t ( :foreground ,darktooth-white :underline t                                                                     ))))
@@ -310,7 +317,7 @@
      (boundp 'custom-theme-load-path)
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
-                   (file-name-directory load-file-name))))
+                   (file-name-directory load-file-name                                                                                                             ))))
 
 (provide-theme 'darktooth)
 
