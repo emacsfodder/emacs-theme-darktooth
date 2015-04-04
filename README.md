@@ -31,3 +31,7 @@ A remix of the excellent theme Gruvbox.
 ##### Dired
 
 ![](darktooth-dired.png)
+
+##### Terminal (xterm256 / iTerm)
+
+![](darktooth-terminal.png)
