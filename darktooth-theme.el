@@ -61,6 +61,14 @@
       (darktooth-faded_aqua      (if (display-graphic-p) "#427B58" "color-66"))
       (darktooth-faded_orange    (if (display-graphic-p) "#AF3A03" "color-130"))
 
+      (darktooth-dark_red       (if (display-graphic-p) "#421E1E" ""))
+      (darktooth-dark_green     (if (display-graphic-p) "#2B280F" ""))
+      (darktooth-dark_yellow    (if (display-graphic-p) "#4D3B27" ""))
+      (darktooth-dark_blue      (if (display-graphic-p) "#2B3C44" ""))
+      (darktooth-dark_purple    (if (display-graphic-p) "#4E3D45" ""))
+      (darktooth-dark_aqua      (if (display-graphic-p) "#36473A" ""))
+      (darktooth-dark_orange    (if (display-graphic-p) "#613620" ""))
+
       (darktooth-delimiter-one   (if (display-graphic-p) "#5C7E81" "color-66"))
       (darktooth-delimiter-two   (if (display-graphic-p) "#837486" "color-102"))
       (darktooth-delimiter-three (if (display-graphic-p) "#9C6F68" "color-94"))
@@ -236,7 +244,7 @@
    `(popup-face                                ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0 ))))
    `(popup-menu-mouse-face                     ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
    `(popup-menu-selection-face                 ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
-   `(popup-tip-face                            ((t (:background ,darktooth-faded_aqua :foreground ,darktooth-light0_hard ))))
+   `(popup-tip-face                            ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0_hard ))))
 
    ;; helm
    `(helm-M-x-key                              ((t ( :foreground ,darktooth-neutral_orange                                                                         ))))

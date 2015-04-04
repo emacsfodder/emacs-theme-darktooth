@@ -6,6 +6,8 @@ A remix of the excellent theme Gruvbox.
 
 ![](darktooth-popup.png)
 
+![](darktooth-popup-tip.png)
+
 ![](darktooth-emacslisp.png)
 
 ![](darktooth-coffee.png)
