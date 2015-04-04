@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.6
+;; Version: 0.1.7
 
 ;;; Commentary:
 
@@ -61,13 +61,13 @@
       (darktooth-faded_aqua      (if (display-graphic-p) "#427B58" "color-66"))
       (darktooth-faded_orange    (if (display-graphic-p) "#AF3A03" "color-130"))
 
-      (darktooth-dark_red       (if (display-graphic-p) "#421E1E" "#421E1E")) ;; TODO: Convert to xterm256
-      (darktooth-dark_green     (if (display-graphic-p) "#2B280F" "#2B280F"))
-      (darktooth-dark_yellow    (if (display-graphic-p) "#4D3B27" "#4D3B27"))
-      (darktooth-dark_blue      (if (display-graphic-p) "#2B3C44" "#2B3C44"))
-      (darktooth-dark_purple    (if (display-graphic-p) "#4E3D45" "#4E3D45"))
-      (darktooth-dark_aqua      (if (display-graphic-p) "#36473A" "#36473A"))
-      (darktooth-dark_orange    (if (display-graphic-p) "#613620" "#613620"))
+      (darktooth-dark_red       (if (display-graphic-p)  "#421E1E" "color-52"))
+      (darktooth-dark_green     (if (display-graphic-p)  "#2B280F" "color-22"))
+      (darktooth-dark_yellow    (if (display-graphic-p)  "#4D3B27" "color-3"))
+      (darktooth-dark_blue      (if (display-graphic-p)  "#2B3C44" "color-4"))
+      (darktooth-dark_purple    (if (display-graphic-p)  "#4E3D45" "color-57"))
+      (darktooth-dark_aqua      (if (display-graphic-p)  "#36473A" "color-23"))
+      (darktooth-dark_orange    (if (display-graphic-p)  "#613620" "color-130"))
 
       (darktooth-delimiter-one   (if (display-graphic-p) "#5C7E81" "color-66"))
       (darktooth-delimiter-two   (if (display-graphic-p) "#837486" "color-102"))
