@@ -4,7 +4,9 @@ A remix of the excellent theme Gruvbox.
 
 ### Screenshots
 
-![](darktooth-popup.png)
+![](darktooth-popup-menu.png)
+
+![](darktooth-popup-tip.png)
 
 ![](darktooth-emacslisp.png)
 
