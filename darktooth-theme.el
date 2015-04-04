@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.4
+;; Version: 0.1.5
 
 ;;; Commentary:
 
@@ -90,6 +90,7 @@
    `(hl-line                                   ((t (                                      :background ,darktooth-dark1                                             ))))
    `(region                                    ((t (                                      :background ,darktooth-dark2                                             )))) ;;selection
    `(secondary-selection                       ((t (                                      :background ,darktooth-dark1                                             ))))
+   `(cua-rectangle                             ((t (                                      :background ,darktooth-dark2                                             ))))
    `(minibuffer-prompt                         ((t ( :foreground ,darktooth-turquoise4    :background ,darktooth-dark0 :bold nil                                   ))))
 
    ;; Built-in syntax
@@ -215,10 +216,27 @@
    `(org-footnote                              ((t ( :foreground ,darktooth-faded_aqua :underline t                                                                ))))
 
    ;; powerline
-   `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line))))
-   `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line))))
-   `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive))))
-   `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive))))
+   `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line                     ))))
+   `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line                     ))))
+   `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive           ))))
+   `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive            ))))
+
+   ;; Matches and Isearch
+   `(lazy-highlight                            ((t (:background ,darktooth-dark2 :foreground ,darktooth-light0          ))))
+   `(match                                     ((t (:background ,darktooth-dark2 :foreground ,darktooth-light0          ))))
+   `(isearch                                   ((t (:background ,darktooth-faded_aqua :foreground ,darktooth-light0     ))))
+   `(isearch-fail                              ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard ))))
+   `(show-paren-match                          ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0     ))))
+   `(show-paren-mismatch                       ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard ))))
+   `(anzu-mode-line                            ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 :height 100 ))))
+
+   ;; Evil
+
+   ;; Popup
+   `(popup-face                                ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0 ))))
+   `(popup-menu-mouse-face                     ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
+   `(popup-menu-selection-face                 ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
+   `(popup-tip-face                            ((t (:background ,darktooth-faded_aqua :foreground ,darktooth-light0_hard ))))
 
    ;; helm
    `(helm-M-x-key                              ((t ( :foreground ,darktooth-neutral_orange                                                                         ))))
@@ -279,10 +297,14 @@
   (custom-theme-set-variables
    'darktooth
 
-   `(ansi-color-names-vector [,darktooth-dark1 ,darktooth-neutral_red
-                                               ,darktooth-neutral_green ,darktooth-neutral_yellow ,darktooth-neutral_blue
-                                               ,darktooth-neutral_purple ,darktooth-neutral_aqua ,darktooth-light1])))
-
+   `(ansi-color-names-vector [,darktooth-dark1
+                              ,darktooth-neutral_red
+                              ,darktooth-neutral_green
+                              ,darktooth-neutral_yellow
+                              ,darktooth-neutral_blue
+                              ,darktooth-neutral_purple
+                              ,darktooth-neutral_aqua
+                              ,darktooth-light1])))
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
