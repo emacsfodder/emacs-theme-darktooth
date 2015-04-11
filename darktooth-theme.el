@@ -238,13 +238,30 @@
    `(show-paren-mismatch                       ((t (:background ,darktooth-faded_red :foreground ,darktooth-light0_hard                                            ))))
    `(anzu-mode-line                            ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 :height 100                                    ))))
 
-   ;; Evil
-
    ;; Popup
    `(popup-face                                ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0                                                     ))))
    `(popup-menu-mouse-face                     ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0                                                ))))
    `(popup-menu-selection-face                 ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0                                                ))))
    `(popup-tip-face                            ((t (:background ,darktooth-dark_aqua :foreground ,darktooth-light0_hard                                            ))))
+   ;; Use tip colors for the pos-tip color vars (see below)
+
+   ;; Company Mode
+
+   ;; TODO more support of Company mode
+   ;;`(company-echo                            ((t (:foreground nil :background nil ))))
+   ;;`(company-echo-common                     ((t (:foreground nil :background nil ))))
+   ;;`(company-preview                         ((t (:foreground nil :background nil ))))
+   ;;`(company-preview-search                  ((t (:foreground nil :background nil ))))
+   ;;`(company-template-field                  ((t (:foreground nil :background nil ))))
+   `(company-scrollbar-fg                      ((t (:background ,darktooth-dark2 :foreground nil ))))
+   `(company-scrollbar-bg                      ((t (:background ,darktooth-dark3 :foreground nil ))))
+   `(company-tooltip                           ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0_hard ))))
+   `(company-preview-common                    ((t (:inherit font-lock-comment-face ))))
+   `(company-tooltip-common                    ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0 ))))
+   `(company-tooltip-common-selection          ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
+   `(company-tooltip-mouse                     ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
+   `(company-tooltip-selection                 ((t (:background ,darktooth-faded_blue :foreground ,darktooth-light0 ))))
+
    ;; helm
    `(helm-M-x-key                              ((t ( :foreground ,darktooth-neutral_orange                                                                         ))))
    `(helm-action                               ((t ( :foreground ,darktooth-white :underline t                                                                     ))))
@@ -303,6 +320,9 @@
 
   (custom-theme-set-variables
    'darktooth
+
+   `(pos-tip-foreground-color ,darktooth-light0_hard)
+   `(pos-tip-background-color ,darktooth-dark_aqua)
 
    `(ansi-color-names-vector [,darktooth-dark1
                               ,darktooth-neutral_red
