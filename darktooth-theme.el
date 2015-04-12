@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.7
+;; Version: 0.1.8
 
 ;;; Commentary:
 
@@ -251,7 +251,7 @@
    `(company-preview-common                    ((t (:underline ,darktooth-light1 ))))
    `(company-preview                           ((t (:inherit company-preview-common ))))
    `(company-preview-search                    ((t (:inherit company-preview-common ))))
-   `(company-template-field                    ((t (:foreground ,darktooth-bright_blue               :background nil                   :underline ,darktooth-dark_blue                      ))))
+   `(company-template-field                    ((t (:foreground ,darktooth-bright_blue :background nil :underline ,darktooth-dark_blue ))))
    `(company-scrollbar-fg                      ((t (:foreground nil :background ,darktooth-dark2 ))))
    `(company-scrollbar-bg                      ((t (:foreground nil :background ,darktooth-dark3 ))))
    `(company-tooltip                           ((t (:foreground ,darktooth-light0_hard :background ,darktooth-dark1 ))))
