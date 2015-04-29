@@ -139,6 +139,23 @@
    `(rainbow-delimiters-depth-12-face          ((t (:foreground ,darktooth-delimiter-four ))))
    `(rainbow-delimiters-unmatched-face         ((t (:foreground ,darktooth-light0 :background nil ))))
 
+   ;; RainbowIdentifiers
+   `(rainbow-identifiers-identifier-1          ((t (:foreground ,darktooth-delimiter-one ))))
+   `(rainbow-identifiers-identifier-2          ((t (:foreground ,darktooth-delimiter-two ))))
+   `(rainbow-identifiers-identifier-3          ((t (:foreground ,darktooth-delimiter-three ))))
+   `(rainbow-identifiers-identifier-4          ((t (:foreground ,darktooth-delimiter-four ))))
+   `(rainbow-identifiers-identifier-5          ((t (:foreground ,darktooth-delimiter-one ))))
+   `(rainbow-identifiers-identifier-6          ((t (:foreground ,darktooth-delimiter-two ))))
+   `(rainbow-identifiers-identifier-7          ((t (:foreground ,darktooth-delimiter-three ))))
+   `(rainbow-identifiers-identifier-8          ((t (:foreground ,darktooth-delimiter-four ))))
+   `(rainbow-identifiers-identifier-9          ((t (:foreground ,darktooth-delimiter-one ))))
+   `(rainbow-identifiers-identifier-10         ((t (:foreground ,darktooth-delimiter-two ))))
+   `(rainbow-identifiers-identifier-11         ((t (:foreground ,darktooth-delimiter-three ))))
+   `(rainbow-identifiers-identifier-12         ((t (:foreground ,darktooth-delimiter-four ))))
+   `(rainbow-identifiers-identifier-13         ((t (:foreground ,darktooth-delimiter-one ))))
+   `(rainbow-identifiers-identifier-14         ((t (:foreground ,darktooth-delimiter-two ))))
+   `(rainbow-identifiers-identifier-15         ((t (:foreground ,darktooth-delimiter-three ))))
+
    ;; linum-relative
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1 ))))
 
