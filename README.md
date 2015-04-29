@@ -4,15 +4,25 @@
 
 A remix of the excellent theme Gruvbox.
 
-# Modes supported
+## Installation
+
+You can install Darktooth easily into Emacs via MELPA
+
+[For details on installing from MELPA see this guide](http://melpa.org/#/getting-started)
+
+Once you have MELPA use `M-x package-install darktooth-theme`
+
+## Modes supported
 
 - Whitespace
 - Rainbow delimiters
+- Rainbow identifiers
 - Linum relative
 - Highlight indentation
 - Smartparens
 - Elscreen
 - Ag
+- Magit
 - Diff/EDiff
 - Js2
 - Org
