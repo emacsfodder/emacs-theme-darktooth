@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.9
+;; Version: 0.1.20
 
 ;;; Commentary:
 
@@ -89,16 +89,16 @@
 
    ;; UI
    `(default                                   ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0 ))))
-   `(cursor                                    ((t ( :background ,darktooth-light0 ))))
+   `(cursor                                    ((t (:background ,darktooth-light0 ))))
 
    `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0_hard :box nil ))))
    `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark2 :box nil ))))
-   `(fringe                                    ((t ( :background ,darktooth-dark0 ))))
+   `(fringe                                    ((t (:background ,darktooth-dark0 ))))
    `(linum                                     ((t (:foreground ,darktooth-dark4 ))))
-   `(hl-line                                   ((t ( :background ,darktooth-dark1 ))))
-   `(region                                    ((t ( :background ,darktooth-dark1 ))))
-   `(secondary-selection                       ((t ( :background ,darktooth-dark_blue ))))
-   `(cua-rectangle                             ((t ( :background ,darktooth-dark_aqua ))))
+   `(hl-line                                   ((t (:background ,darktooth-dark_blue ))))
+   `(region                                    ((t (:background ,darktooth-dark1 ))))
+   `(secondary-selection                       ((t (:background ,darktooth-dark_blue ))))
+   `(cua-rectangle                             ((t (:background ,darktooth-dark_aqua ))))
    `(minibuffer-prompt                         ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil ))))
 
    ;; Built-in syntax
@@ -143,18 +143,18 @@
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1 ))))
 
    ;; Highlight indentation mode
-   `(highlight-indentation-current-column-face ((t ( :background ,darktooth-dark2 ))))
-   `(highlight-indentation-face                ((t ( :background ,darktooth-dark1 ))))
+   `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark2 ))))
+   `(highlight-indentation-face                ((t (:background ,darktooth-dark1 ))))
 
    ;; Smartparens
-   `(sp-pair-overlay-face                      ((t ( :background ,darktooth-dark2 ))))
+   `(sp-pair-overlay-face                      ((t (:background ,darktooth-dark2 ))))
    ;;`(sp-wrap-overlay-face                    ((t (:inherit sp-wrap-overlay-face                                                                                                           ))))
    ;;`(sp-wrap-tag-overlay-face                ((t (:inherit sp-wrap-overlay-face ))))
-   `(sp-show-pair-match-face                   ((t ( :background ,darktooth-dark2 )))) ;; Pair tags highlight
-   `(sp-show-pair-mismatch-face                ((t ( :background ,darktooth-neutral_red )))) ;; Highlight for bracket without pair
+   `(sp-show-pair-match-face                   ((t (:background ,darktooth-dark2 )))) ;; Pair tags highlight
+   `(sp-show-pair-mismatch-face                ((t (:background ,darktooth-neutral_red )))) ;; Highlight for bracket without pair
 
    ;; elscreen
-   `(elscreen-tab-background-face              ((t ( :background ,darktooth-dark0 :box nil )))) ;; Tab bar, not the tabs
+   `(elscreen-tab-background-face              ((t (:background ,darktooth-dark0 :box nil )))) ;; Tab bar, not the tabs
    `(elscreen-tab-control-face                 ((t (:foreground ,darktooth-neutral_red :background ,darktooth-dark2 :box nil :underline nil )))) ;; The controls
    `(elscreen-tab-current-screen-face          ((t (:foreground ,darktooth-dark0 :background ,darktooth-dark4 :box nil )))) ;; Current tab
    `(elscreen-tab-other-screen-face            ((t (:foreground ,darktooth-light4 :background ,darktooth-dark2 :box nil :underline nil )))) ;; Inactive tab
@@ -189,7 +189,7 @@
    `(org-agenda-date-today                     ((t (:foreground ,darktooth-light2 :slant italic :weight bold))) t)
    `(org-agenda-structure                      ((t (:inherit font-lock-comment-face ))))
    `(org-archived                              ((t (:foreground ,darktooth-light0 :weight bold ))))
-   `(org-checkbox                              ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0 :box ( :line-width 1 :style released-button) ))))
+   `(org-checkbox                              ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0 :box (:line-width 1 :style released-button) ))))
    `(org-date                                  ((t (:foreground ,darktooth-faded_blue :underline t ))))
    `(org-deadline-announce                     ((t (:foreground ,darktooth-faded_red ))))
    `(org-done                                  ((t (:foreground ,darktooth-bright_green :bold t :weight bold ))))
@@ -216,18 +216,18 @@
    `(org-todo                                  ((t (:foreground ,darktooth-bright_red :weight bold :bold t ))))
    `(org-upcoming-deadline                     ((t (:inherit font-lock-keyword-face ))))
    `(org-warning                               ((t (:foreground ,darktooth-bright_red :weight bold :underline nil :bold t ))))
-   `(org-column                                ((t ( :background ,darktooth-dark0 ))))
-   `(org-column-title                          ((t ( :background ,darktooth-dark0_hard :underline t :weight bold ))))
+   `(org-column                                ((t (:background ,darktooth-dark0 ))))
+   `(org-column-title                          ((t (:background ,darktooth-dark0_hard :underline t :weight bold ))))
    `(org-mode-line-clock                       ((t (:foreground ,darktooth-light2 :background ,darktooth-dark0 ))))
    `(org-mode-line-clock-overrun               ((t (:foreground ,darktooth-black :background ,darktooth-bright_red ))))
    `(org-ellipsis                              ((t (:foreground ,darktooth-bright_yellow :underline t ))))
    `(org-footnote                              ((t (:foreground ,darktooth-faded_aqua :underline t ))))
 
    ;; powerline
-   `(powerline-active1                         ((t ( :background ,darktooth-dark2 :inherit mode-line ))))
-   `(powerline-active2                         ((t ( :background ,darktooth-dark1 :inherit mode-line ))))
-   `(powerline-inactive1                       ((t ( :background ,darktooth-medium :inherit mode-line-inactive ))))
-   `(powerline-inactive2                       ((t ( :background ,darktooth-dark2 :inherit mode-line-inactive ))))
+   `(powerline-active1                         ((t (:background ,darktooth-dark2 :inherit mode-line ))))
+   `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line ))))
+   `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive ))))
+   `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive ))))
 
    ;; Matches and Isearch
    `(lazy-highlight                            ((t (:foreground ,darktooth-light0 :background ,darktooth-dark2 ))))
