@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.20
+;; Version: 0.1.21
 
 ;;; Commentary:
 
@@ -90,15 +90,18 @@
    ;; UI
    `(default                                   ((t (:foreground ,darktooth-light0 :background ,darktooth-dark0 ))))
    `(cursor                                    ((t (:background ,darktooth-light0 ))))
+   `(link                                      ((t (:foreground ,darktooth-bright_blue :underline t ))))
+   `(link-visited                              ((t (:foreground ,darktooth-bright_blue :underline nil))))
 
    `(mode-line                                 ((t (:foreground ,darktooth-light1 :background ,darktooth-dark0_hard :box nil ))))
    `(mode-line-inactive                        ((t (:foreground ,darktooth-light4 :background ,darktooth-dark2 :box nil ))))
    `(fringe                                    ((t (:background ,darktooth-dark0 ))))
    `(linum                                     ((t (:foreground ,darktooth-dark4 ))))
    `(hl-line                                   ((t (:background ,darktooth-dark_blue ))))
-   `(region                                    ((t (:background ,darktooth-dark1 ))))
+   `(region                                    ((t (:background ,darktooth-dark1 :distant-foreground ,darktooth-light0))))
    `(secondary-selection                       ((t (:background ,darktooth-dark_blue ))))
    `(cua-rectangle                             ((t (:background ,darktooth-dark_aqua ))))
+   `(header-line                               ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil ))))
    `(minibuffer-prompt                         ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil ))))
 
    ;; Built-in syntax
@@ -306,6 +309,11 @@
    `(helm-separator                            ((t (:foreground ,darktooth-faded_red ))))
    `(helm-source-header                        ((t (:foreground ,darktooth-light2 ))))
    `(helm-visible-mark                         ((t (:foreground ,darktooth-black :background ,darktooth-light3 ))))
+
+   ;; Magit
+   `(magit-branch    ((t(:foreground ,darktooth-turquoise4   :background nil ))))
+   `(magit-log-sha1  ((t(:foreground ,darktooth-bright_red  :background nil ))))
+   `(magit-tag       ((t(:foreground ,darktooth-aquamarine4  :background ,darktooth-dark_yellow ))))
 
    ;; Term
    `(term-color-black                          ((t (:foreground ,darktooth-dark1 ))))
