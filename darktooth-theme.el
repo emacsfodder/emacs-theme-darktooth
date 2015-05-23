@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.23
+;; Version: 0.1.24
 
 ;;; Commentary:
 
@@ -73,6 +73,24 @@
       (darktooth-delimiter-two   (if (display-graphic-p) "#837486" "color-102"))
       (darktooth-delimiter-three (if (display-graphic-p) "#9C6F68" "color-94"))
       (darktooth-delimiter-four  (if (display-graphic-p) "#7B665C" "color-137"))
+
+      ;; 24 bit has tints from light0 and terminal cycles through
+      ;; the 4 darktooth-delimiter colors
+      (darktooth-identifiers-1   (if (display-graphic-p) "#E5D5C5" "color-66"))
+      (darktooth-identifiers-2   (if (display-graphic-p) "#DFE5C5" "color-102"))
+      (darktooth-identifiers-3   (if (display-graphic-p) "#D5E5C5" "color-94"))
+      (darktooth-identifiers-4   (if (display-graphic-p) "#CAE5C5" "color-137"))
+      (darktooth-identifiers-5   (if (display-graphic-p) "#C5E5CA" "color-66"))
+      (darktooth-identifiers-6   (if (display-graphic-p) "#C5E5D5" "color-102"))
+      (darktooth-identifiers-7   (if (display-graphic-p) "#C5E5DF" "color-94"))
+      (darktooth-identifiers-8   (if (display-graphic-p) "#C5DFE5" "color-137"))
+      (darktooth-identifiers-9   (if (display-graphic-p) "#C5D5E5" "color-66"))
+      (darktooth-identifiers-10  (if (display-graphic-p) "#C5CAE5" "color-102"))
+      (darktooth-identifiers-11  (if (display-graphic-p) "#CAC5E5" "color-94"))
+      (darktooth-identifiers-12  (if (display-graphic-p) "#D5C5E5" "color-137"))
+      (darktooth-identifiers-13  (if (display-graphic-p) "#DFC5E5" "color-66"))
+      (darktooth-identifiers-14  (if (display-graphic-p) "#E5C5DF" "color-102"))
+      (darktooth-identifiers-15  (if (display-graphic-p) "#E5C5D5" "color-94"))
 
       (darktooth-white           (if (display-graphic-p) "#FFFFFF" "white"))
       (darktooth-black           (if (display-graphic-p) "#000000" "black"))
@@ -143,21 +161,21 @@
    `(rainbow-delimiters-unmatched-face         ((t (:foreground ,darktooth-light0 :background nil ))))
 
    ;; RainbowIdentifiers
-   `(rainbow-identifiers-identifier-1          ((t (:foreground ,darktooth-delimiter-one ))))
-   `(rainbow-identifiers-identifier-2          ((t (:foreground ,darktooth-delimiter-two ))))
-   `(rainbow-identifiers-identifier-3          ((t (:foreground ,darktooth-delimiter-three ))))
-   `(rainbow-identifiers-identifier-4          ((t (:foreground ,darktooth-delimiter-four ))))
-   `(rainbow-identifiers-identifier-5          ((t (:foreground ,darktooth-delimiter-one ))))
-   `(rainbow-identifiers-identifier-6          ((t (:foreground ,darktooth-delimiter-two ))))
-   `(rainbow-identifiers-identifier-7          ((t (:foreground ,darktooth-delimiter-three ))))
-   `(rainbow-identifiers-identifier-8          ((t (:foreground ,darktooth-delimiter-four ))))
-   `(rainbow-identifiers-identifier-9          ((t (:foreground ,darktooth-delimiter-one ))))
-   `(rainbow-identifiers-identifier-10         ((t (:foreground ,darktooth-delimiter-two ))))
-   `(rainbow-identifiers-identifier-11         ((t (:foreground ,darktooth-delimiter-three ))))
-   `(rainbow-identifiers-identifier-12         ((t (:foreground ,darktooth-delimiter-four ))))
-   `(rainbow-identifiers-identifier-13         ((t (:foreground ,darktooth-delimiter-one ))))
-   `(rainbow-identifiers-identifier-14         ((t (:foreground ,darktooth-delimiter-two ))))
-   `(rainbow-identifiers-identifier-15         ((t (:foreground ,darktooth-delimiter-three ))))
+   `(rainbow-identifiers-identifier-1          ((t (:foreground ,darktooth-identifiers-1 ))))
+   `(rainbow-identifiers-identifier-2          ((t (:foreground ,darktooth-identifiers-2 ))))
+   `(rainbow-identifiers-identifier-3          ((t (:foreground ,darktooth-identifiers-3 ))))
+   `(rainbow-identifiers-identifier-4          ((t (:foreground ,darktooth-identifiers-4 ))))
+   `(rainbow-identifiers-identifier-5          ((t (:foreground ,darktooth-identifiers-5 ))))
+   `(rainbow-identifiers-identifier-6          ((t (:foreground ,darktooth-identifiers-6 ))))
+   `(rainbow-identifiers-identifier-7          ((t (:foreground ,darktooth-identifiers-7 ))))
+   `(rainbow-identifiers-identifier-8          ((t (:foreground ,darktooth-identifiers-8 ))))
+   `(rainbow-identifiers-identifier-9          ((t (:foreground ,darktooth-identifiers-9 ))))
+   `(rainbow-identifiers-identifier-10         ((t (:foreground ,darktooth-identifiers-10 ))))
+   `(rainbow-identifiers-identifier-11         ((t (:foreground ,darktooth-identifiers-11 ))))
+   `(rainbow-identifiers-identifier-12         ((t (:foreground ,darktooth-identifiers-12 ))))
+   `(rainbow-identifiers-identifier-13         ((t (:foreground ,darktooth-identifiers-13 ))))
+   `(rainbow-identifiers-identifier-14         ((t (:foreground ,darktooth-identifiers-14 ))))
+   `(rainbow-identifiers-identifier-15         ((t (:foreground ,darktooth-identifiers-15 ))))
 
    ;; linum-relative
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1 ))))
