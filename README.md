@@ -57,3 +57,13 @@ A remix of the excellent theme Gruvbox.
 ##### Terminal (xterm256 / iTerm)
 
 ![](darktooth-terminal.png)
+
+### Installation
+Clone this repo somewhere.
+
+Then add these lines in the Emacs init file `~/.emacs` (or in the [Emacs init file](http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html) you are using):
+
+    (load "/SOMEPATH/emacs-theme-darktooth/darktooth-theme.el")
+    (load-theme 'darktooth t)
+
+replacing `SOMEPATH` with the path in which you cloned the repository.
