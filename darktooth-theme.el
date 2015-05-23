@@ -1,10 +1,10 @@
-;;; darktooth-theme.el --- colour theme for Emacs, a remix of gruvbox
+;;; darktooth-theme.el --- Color theme for Emacs, when soothe and gruvbox collide
 
 ;; Copyright (c) 2015 Jasonm23
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.21
+;; Version: 0.1.22
 
 ;;; Commentary:
 
@@ -15,7 +15,7 @@
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
 
-(deftheme darktooth "A remix of the excellent theme Gruvbox")
+(deftheme darktooth "Color theme for Emacs, when soothe and gruvbox collide")
 
 (let (
       (darktooth-dark0_hard      (if (display-graphic-p) "#1D2021" "color-234"))
@@ -98,7 +98,7 @@
    `(fringe                                    ((t (:background ,darktooth-dark0 ))))
    `(linum                                     ((t (:foreground ,darktooth-dark4 ))))
    `(hl-line                                   ((t (:background ,darktooth-dark_blue ))))
-   `(region                                    ((t (:background ,darktooth-dark1 :distant-foreground ,darktooth-light0))))
+   `(region                                    ((t (:background ,darktooth-dark_purple :distant-foreground ,darktooth-light0))))
    `(secondary-selection                       ((t (:background ,darktooth-dark_blue ))))
    `(cua-rectangle                             ((t (:background ,darktooth-dark_aqua ))))
    `(header-line                               ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil ))))
@@ -311,9 +311,9 @@
    `(helm-visible-mark                         ((t (:foreground ,darktooth-black :background ,darktooth-light3 ))))
 
    ;; Magit
-   `(magit-branch    ((t(:foreground ,darktooth-turquoise4   :background nil ))))
-   `(magit-log-sha1  ((t(:foreground ,darktooth-bright_red  :background nil ))))
-   `(magit-tag       ((t(:foreground ,darktooth-aquamarine4  :background ,darktooth-dark_yellow ))))
+   `(magit-branch    ((t(:foreground ,darktooth-aquamarine4   :background nil ))))
+   `(magit-log-sha1  ((t(:foreground ,darktooth-sienna        :background nil ))))
+   `(magit-tag       ((t(:foreground ,darktooth-light0        :background ,darktooth-dark_purple ))))
 
    ;; Term
    `(term-color-black                          ((t (:foreground ,darktooth-dark1 ))))
