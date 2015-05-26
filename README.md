@@ -2,7 +2,7 @@
 
 # Darktooth
 
-A remix of the excellent theme Gruvbox.
+An Emacs theme inspired by a collision of [Soothe][soothe] and [Gruvbox][gruvbox]
 
 ## Installation
 
@@ -67,3 +67,6 @@ Once you have MELPA use `M-x package-install darktooth-theme`
 ##### Terminal (xterm256 / iTerm)
 
 ![](darktooth-terminal.png)
+
+[gruvbox]: https://github.com/Greduan/emacs-theme-gruvbox
+[soothe]: https://github.com/emacsfodder/emacs-soothe-theme
