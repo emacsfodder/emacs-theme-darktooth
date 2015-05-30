@@ -4,6 +4,8 @@
 
 An Emacs theme inspired by a collision of [Soothe][soothe] and [Gruvbox][gruvbox]
 
+![](darktooth-vera.png)
+
 ## Installation
 
 You can install Darktooth easily into Emacs via MELPA
