@@ -4,11 +4,10 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.24
+;; Version: 0.1.25
 
 ;;; Commentary:
-
-;; A remix of the excellent theme Gruvbox.
+;;  Color theme for Emacs, when soothe and gruvbox collide.
 
 ;;; Code:
 
@@ -181,7 +180,7 @@
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1 ))))
 
    ;; Highlight indentation mode
-   `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark2 ))))
+   `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark4 ))))
    `(highlight-indentation-face                ((t (:background ,darktooth-dark1 ))))
 
    ;; Smartparens
