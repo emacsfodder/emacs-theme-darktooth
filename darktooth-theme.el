@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.28
+;; Version: 0.1.29
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -67,6 +67,14 @@
       (darktooth-dark_purple    (if (display-graphic-p)  "#4E3D45" "color-57"))
       (darktooth-dark_aqua      (if (display-graphic-p)  "#36473A" "color-23"))
       (darktooth-dark_orange    (if (display-graphic-p)  "#613620" "color-130"))
+
+      (darktooth-mid_red       (if (display-graphic-p)  "#3F1B1B" "color-52"))
+      (darktooth-mid_green     (if (display-graphic-p)  "#27321C" "color-22"))
+      (darktooth-mid_yellow    (if (display-graphic-p)  "#4C3A25" "color-3"))
+      (darktooth-mid_blue      (if (display-graphic-p)  "#30434C" "color-4"))
+      (darktooth-mid_purple    (if (display-graphic-p)  "#4C3B43" "color-57"))
+      (darktooth-mid_aqua      (if (display-graphic-p)  "#394C3D" "color-23"))
+      (darktooth-mid_orange    (if (display-graphic-p)  "#603000" "color-130"))
 
       (darktooth-delimiter-one   (if (display-graphic-p) "#5C7E81" "color-66"))
       (darktooth-delimiter-two   (if (display-graphic-p) "#837486" "color-102"))
@@ -360,10 +368,26 @@
    `(helm-source-header                        ((t (:foreground ,darktooth-light2 ))))
    `(helm-visible-mark                         ((t (:foreground ,darktooth-black :background ,darktooth-light3 ))))
 
+   ;;Smerge
+   ;; TODO: smerge-base, smerge-refined-changed
+   `(smerge-mine            ((t(:background ,darktooth-mid_purple ))))
+   `(smerge-other           ((t(:background ,darktooth-mid_blue ))))
+   `(smerge-markers         ((t(:background ,darktooth-dark0_soft))))
+   `(smerge-refined-added   ((t(:background ,darktooth-dark_green))))
+   `(smerge-refined-removed ((t(:background ,darktooth-dark_red))))
+
    ;; Magit
-   `(magit-branch                       ((t (:foreground ,darktooth-aquamarine4))))
+   `(magit-branch                       ((t (:foreground ,darktooth-turquoise4 :background nil ))))
+   `(magit-branch-local                 ((t (:foreground ,darktooth-turquoise4 :background nil ))))
+   `(magit-branch-remote                ((t (:foreground ,darktooth-aquamarine4 :background nil ))))
    `(magit-cherry-equivalent            ((t (:foreground ,darktooth-neutral_orange))))
    `(magit-cherry-unmatched             ((t (:foreground ,darktooth-neutral_purple))))
+   `(magit-diff-context                 ((t (:foreground ,darktooth-dark3 :background nil ))))
+   `(magit-diff-context-highlight       ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0_soft ))))
+   `(magit-diff-added                   ((t (:foreground ,darktooth-bright_green   :background ,darktooth-mid_green ))))
+   `(magit-diff-added-highlight         ((t (:foreground ,darktooth-bright_green   :background ,darktooth-mid_green ))))
+   `(magit-diff-removed                 ((t (:foreground ,darktooth-bright_red :background ,darktooth-mid_red ))))
+   `(magit-diff-removed-highlight       ((t (:foreground ,darktooth-bright_red :background ,darktooth-mid_red ))))
    `(magit-diff-add                     ((t (:foreground ,darktooth-bright_green))))
    `(magit-diff-del                     ((t (:foreground ,darktooth-bright_red))))
    `(magit-diff-file-header             ((t (:foreground ,darktooth-bright_blue))))
@@ -405,13 +429,100 @@
    `(magit-log-sha1                     ((t (:foreground ,darktooth-bright_orange))))
    `(magit-process-ng                   ((t (:foreground ,darktooth-bright_red :weight bold))))
    `(magit-process-ok                   ((t (:foreground ,darktooth-bright_green :weight bold))))
-   `(magit-section-title                ((t (:foreground ,darktooth-light4 :weight bold))))
+   `(magit-section-heading              ((t (:foreground ,darktooth-light2 :background ,darktooth-dark_blue ))))
    `(magit-signature-bad                ((t (:foreground ,darktooth-bright_red :weight bold))))
    `(magit-signature-good               ((t (:foreground ,darktooth-bright_green :weight bold))))
    `(magit-signature-none               ((t (:foreground ,darktooth-faded_red))))
    `(magit-signature-untrusted          ((t (:foreground ,darktooth-bright_purple :weight bold))))
    `(magit-tag                          ((t (:foreground ,darktooth-darkslategray4))))
    `(magit-whitespace-warning-face      ((t (:background ,darktooth-faded_red))))
+   `(magit-bisect-bad                   ((t (:foreground ,darktooth-faded_red))))
+   `(magit-bisect-good                  ((t (:foreground ,darktooth-neutral_green))))
+   `(magit-bisect-skip                  ((t (:foreground ,darktooth-light2))))
+
+   ;; TODO: Many new magit faces to theme
+
+   ;;magit-diff-conflict-heading
+   ;;magit-diff-base
+   ;;magit-diff-base-highlight
+   ;;magit-diff-file-heading
+   ;;magit-diff-file-heading-highlight
+   ;;magit-diff-file-heading-selection
+   ;;magit-diff-hunk-heading
+   ;;magit-diff-hunk-heading-highlight
+   ;;magit-diff-hunk-heading-selection
+   ;;magit-diff-lines-boundary
+   ;;magit-diff-lines-heading
+   ;;magit-diff-our
+   ;;magit-diff-our-highlight
+   ;;magit-diff-their
+   ;;magit-diff-their-highlight
+   ;;magit-diff-whitespace-warning
+   ;;magit-diffstat-added
+   ;;magit-diffstat-removed
+
+   ;;magit-blame-date
+   ;;magit-blame-hash
+   ;;magit-blame-heading
+   ;;magit-blame-name
+   ;;magit-blame-summary
+
+   ;;magit-branch-current
+   ;;magit-branch-local
+   ;;magit-branch-remote
+
+   ;;magit-cherry-equivalent
+   ;;magit-cherry-unmatched
+
+   ;;magit-dimmed
+   ;;magit-filename
+   ;;magit-hash
+   ;;magit-head
+   ;;magit-header-line
+   ;;magit-log-author
+   ;;magit-log-date
+   ;;magit-log-graph
+   ;;magit-popup-argument
+   ;;magit-popup-disabled-argument
+   ;;magit-popup-heading
+   ;;magit-popup-key
+   ;;magit-popup-option-value
+
+   ;;magit-process-ng
+   ;;magit-process-ok
+
+   ;;magit-reflog-amend
+   ;;magit-reflog-checkout
+   ;;magit-reflog-cherry-pick
+   ;;magit-reflog-commit
+   ;;magit-reflog-merge
+   ;;magit-reflog-other
+   ;;magit-reflog-rebase
+   ;;magit-reflog-remote
+   ;;magit-reflog-reset
+
+   ;;magit-refname
+   ;;magit-refname-stash
+   ;;magit-refname-wip
+
+   ;;magit-section-heading
+   ;;magit-section-heading-selection
+   ;;magit-section-highlight
+   ;;magit-section-secondary-heading
+
+   ;;magit-sequence-done
+   ;;magit-sequence-drop
+   ;;magit-sequence-head
+   ;;magit-sequence-onto
+   ;;magit-sequence-part
+   ;;magit-sequence-pick
+   ;;magit-sequence-stop
+
+   ;;magit-signature-bad
+   ;;magit-signature-good
+   ;;magit-signature-untrusted
+
+   ;;magit-tag
 
    ;; Term
    `(term-color-black                          ((t (:foreground ,darktooth-dark1 ))))
@@ -445,12 +556,13 @@
                               "#D3869B"
                               "#8EC07C"
                               "#EBDBB2"])))
+
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
-                   (file-name-directory load-file-name                                                                                                             ))))
+                   (file-name-directory load-file-name))))
 
 (provide-theme 'darktooth)
 
