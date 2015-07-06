@@ -367,20 +367,26 @@
    `(pos-tip-foreground-color ,darktooth-light0_hard)
    `(pos-tip-background-color ,darktooth-dark_aqua)
 
-   `(ansi-color-names-vector ["#3C3836"
-                              "#FB4934"
-                              "#B8BB26"
-                              "#FABD2F"
-                              "#83A598"
-                              "#D3869B"
-                              "#8EC07C"
-                              "#EBDBB2"])))
+   ))
+
 ;;;###autoload
 (and load-file-name
      (boundp 'custom-theme-load-path)
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
-                   (file-name-directory load-file-name                                                                                                             ))))
+                   (file-name-directory load-file-name))))
+
+(defun darktooth-set-ansi-color-names-vector ()
+  "Give comint and the like the same colours as the term colours we set."
+  (setq ansi-color-names-vector
+    ["#3C3836"
+     "#FB4934"
+     "#B8BB26"
+     "#FABD2F"
+     "#83A598"
+     "#D3869B"
+     "#8EC07C"
+     "#EBDBB2"]))
 
 (provide-theme 'darktooth)
 
