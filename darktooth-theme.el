@@ -283,6 +283,9 @@
    `(popup-tip-face                            ((t (:foreground ,darktooth-light0_hard :background ,darktooth-dark_aqua ))))
    ;; Use tip colors for the pos-tip color vars (see below)
 
+   ;; sh mode
+   `(sh-heredoc                                ((t (:foreground ,darktooth-bright_blue :background nil))))
+
    ;; Company Mode
    `(company-echo                              ((t (:inherit company-echo-common ))))
    `(company-echo-common                       ((t (:foreground ,darktooth-bright_blue :background nil ))))
