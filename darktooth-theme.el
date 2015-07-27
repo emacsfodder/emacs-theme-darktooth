@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.26
+;; Version: 0.1.27
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -373,11 +373,11 @@
    `(magit-log-head-label-bisect-good   ((t (:foreground ,darktooth-bright_green))))
    `(magit-log-head-label-bisect-skip   ((t (:foreground ,darktooth-neutral_yellow))))
    `(magit-log-head-label-default       ((t (:foreground ,darktooth-neutral_blue))))
-   `(magit-log-head-label-head          ((t (:foreground ,darktooth-faded_yellow :weight bold))))
-   `(magit-log-head-label-local         ((t (:foreground ,darktooth-neutral_green :weight bold))))
+   `(magit-log-head-label-head          ((t (:foreground ,darktooth-light0 :background ,darktooth-dark_aqua))))
+   `(magit-log-head-label-local         ((t (:foreground ,darktooth-faded_blue :weight bold))))
    `(magit-log-head-label-patches       ((t (:foreground ,darktooth-faded_orange))))
-   `(magit-log-head-label-remote        ((t (:foreground ,darktooth-neutral_purple :weight bold))))
-   `(magit-log-head-label-tags          ((t (:foreground ,darktooth-neutral_green))))
+   `(magit-log-head-label-remote        ((t (:foreground ,darktooth-neutral_blue :weight bold))))
+   `(magit-log-head-label-tags          ((t (:foreground ,darktooth-neutral_aqua))))
    `(magit-log-head-label-wip           ((t (:foreground ,darktooth-neutral_red))))
    `(magit-log-message                  ((t (:foreground ,darktooth-light1))))
    `(magit-log-reflog-label-amend       ((t (:foreground ,darktooth-bright_blue))))
@@ -386,10 +386,10 @@
    `(magit-log-reflog-label-commit      ((t (:foreground ,darktooth-neutral_green))))
    `(magit-log-reflog-label-merge       ((t (:foreground ,darktooth-bright_green))))
    `(magit-log-reflog-label-other       ((t (:foreground ,darktooth-faded_red))))
-   `(magit-log-reflog-label-rebase      ((t (:foreground ,darktooth-bright_purple))))
+   `(magit-log-reflog-label-rebase      ((t (:foreground ,darktooth-bright_blue))))
    `(magit-log-reflog-label-remote      ((t (:foreground ,darktooth-neutral_orange))))
    `(magit-log-reflog-label-reset       ((t (:foreground ,darktooth-neutral_yellow))))
-   `(magit-log-sha1                     ((t (:foreground ,darktooth-sienna))))
+   `(magit-log-sha1                     ((t (:foreground ,darktooth-bright_orange))))
    `(magit-process-ng                   ((t (:foreground ,darktooth-bright_red :weight bold))))
    `(magit-process-ok                   ((t (:foreground ,darktooth-bright_green :weight bold))))
    `(magit-section-title                ((t (:foreground ,darktooth-light4 :weight bold))))
@@ -397,7 +397,7 @@
    `(magit-signature-good               ((t (:foreground ,darktooth-bright_green :weight bold))))
    `(magit-signature-none               ((t (:foreground ,darktooth-faded_red))))
    `(magit-signature-untrusted          ((t (:foreground ,darktooth-bright_purple :weight bold))))
-   `(magit-tag                          ((t (:foreground ,darktooth-neutral_green))))
+   `(magit-tag                          ((t (:foreground ,darktooth-darkslategray4))))
    `(magit-whitespace-warning-face      ((t (:background ,darktooth-faded_red))))
 
    ;; Term
