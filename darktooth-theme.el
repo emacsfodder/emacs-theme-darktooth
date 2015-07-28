@@ -183,6 +183,12 @@
    `(highlight-indentation-current-column-face ((t (:background ,darktooth-dark4 ))))
    `(highlight-indentation-face                ((t (:background ,darktooth-dark1 ))))
 
+   ;; highlight-numbers
+   `(highlight-numbers-number                  ((t (:foreground ,darktooth-bright_purple :bold nil))))
+
+   ;; highlight-symbol
+   `(highlight-symbol-face                     ((t (:foreground ,darktooth-neutral_purple))))
+
    ;; Smartparens
    `(sp-pair-overlay-face                      ((t (:background ,darktooth-dark2 ))))
    ;;`(sp-wrap-overlay-face                    ((t (:inherit sp-wrap-overlay-face                                                                                                           ))))
