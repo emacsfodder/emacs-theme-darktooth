@@ -208,6 +208,12 @@
    `(diff-indicator-added                      ((t (:inherit diff-added ))))
    `(diff-indicator-removed                    ((t (:inherit diff-removed ))))
 
+   ;; Diff-hl
+   `(diff-hl-change                            ((t (:inherit diff-changed ))))
+   `(diff-hl-delete                            ((t (:inherit diff-removed ))))
+   `(diff-hl-insert                            ((t (:inherit diff-added ))))
+   `(diff-hl-unknown                           ((t (:foreground ,darktooth-dark_aqua ))))
+
    `(js2-warning                               ((t (:underline (:color ,darktooth-bright_yellow :style wave) ))))
    `(js2-error                                 ((t (:underline (:color ,darktooth-bright_red :style wave) ))))
    `(js2-external-variable                     ((t (:underline (:color ,darktooth-bright_aqua :style wave) ))))
@@ -360,7 +366,7 @@
    `(magit-diff-merge-proposed          ((t (:background ,darktooth-dark_green))))
    `(magit-diff-merge-separator         ((t (:foreground ,darktooth-neutral_orange))))
    `(magit-diff-none                    ((t (:foreground ,darktooth-medium))))
-   `(magit-item-highlight               ((t (:background ,darktooth-dark1 :weigpht normal))))
+   `(magit-item-highlight               ((t (:background ,darktooth-dark1 :weight normal))))
    `(magit-item-mark                    ((t (:background ,darktooth-dark0))))
    `(magit-key-mode-args-face           ((t (:foreground ,darktooth-light4))))
    `(magit-key-mode-button-face         ((t (:foreground ,darktooth-neutral_orange :weight bold))))
