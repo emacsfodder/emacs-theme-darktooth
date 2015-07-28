@@ -418,6 +418,12 @@
    `(term-default-fg-color                     ((t (:foreground ,darktooth-light0 ))))
    `(term-default-bg-color                     ((t (:background ,darktooth-dark0 )))))
 
+  ;; Elfeed
+  `(elfeed-search-date-face ((t (:foreground ,darktooth-dark1))))
+  `(elfeed-search-feed-face ((t (:foreground ,darktooth-dark1))))
+  `(elfeed-search-tag-face ((t (:foreground ,darktooth-dark0))))
+  `(elfeed-search-title-face ((t (:foreground ,darktooth-dark0))))
+
   (custom-theme-set-variables
    'darktooth
 
