@@ -1,8 +1,8 @@
-![](darktooth-java.png)
-
 [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
 
 # Darktooth
+
+![](darktooth-java.png)
 
 An Emacs theme inspired by a collision of [Soothe][soothe] and [Gruvbox][gruvbox]
 
