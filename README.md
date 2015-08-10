@@ -1,3 +1,5 @@
+![](darktooth-java.png)
+
 [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
 
 # Darktooth
