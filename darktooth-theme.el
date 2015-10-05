@@ -242,6 +242,16 @@
    `(js2-jsdoc-html-tag-name                   ((t (:foreground ,darktooth-light4 :background nil))))
    `(js2-jsdoc-html-tag-delimiter              ((t (:foreground ,darktooth-light3 :background nil))))
 
+   ;; Haskell
+   `(haskell-interactive-face-compile-warning  ((t (:underline (:color ,darktooth-bright_yellow :style wave)))))
+   `(haskell-interactive-face-compile-error    ((t (:underline (:color ,darktooth-bright_red :style wave)))))
+   `(haskell-interactive-face-garbage          ((t (:foreground ,darktooth-dark4 :background nil))))
+   `(haskell-interactive-face-prompt           ((t (:foreground ,darktooth-light0 :background nil))))
+   `(haskell-interactive-face-result           ((t (:foreground ,darktooth-light3 :background nil))))
+   `(haskell-literate-comment-face             ((t (:foreground ,darktooth-light0 :background nil))))
+   `(haskell-pragma-face                       ((t (:foreground ,darktooth-medium :background nil))))
+   `(haskell-constructor-face                  ((t (:foreground ,darktooth-neutral_aqua :background nil))))
+
    ;; org-mode
    `(org-agenda-date-today                     ((t (:foreground ,darktooth-light2 :slant italic :weight bold))) t)
    `(org-agenda-structure                      ((t (:inherit font-lock-comment-face))))
