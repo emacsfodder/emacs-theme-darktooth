@@ -108,7 +108,7 @@
       (darktooth-burlywood4      (if (display-graphic-p) "#BBAA97" "burlywood4"))
       (darktooth-aquamarine4     (if (display-graphic-p) "#83A598" "aquamarine4"))
       (darktooth-turquoise4      (if (display-graphic-p) "#61ACBB" "turquoise4"))
-     )
+      )
 
   (custom-theme-set-faces
    'darktooth
@@ -296,6 +296,25 @@
    `(powerline-active2                         ((t (:background ,darktooth-dark1 :inherit mode-line))))
    `(powerline-inactive1                       ((t (:background ,darktooth-medium :inherit mode-line-inactive))))
    `(powerline-inactive2                       ((t (:background ,darktooth-dark2 :inherit mode-line-inactive))))
+
+   ;; smart-mode-line
+   ;; use (setq sml/theme nil) to enable Darktooth for sml
+   `(sml/modes                                 ((t (:foreground ,darktooth-light0_hard :weight bold :bold t))))
+   `(sml/minor-modes                           ((t (:foreground ,darktooth-neutral_orange))))
+   `(sml/filename                              ((t (:foreground ,darktooth-light0_hard :weight bold :bold t))))
+   `(sml/prefix                                ((t (:foreground ,darktooth-neutral_blue))))
+   `(sml/git                                   ((t (:inherit sml/prefix))))
+   `(sml/process                               ((t (:inherit sml/prefix))))
+   `(sml/sudo                                  ((t (:foreground ,darktooth-dark_orange :weight bold))))
+   `(sml/read-only                             ((t (:foreground ,darktooth-neutral_blue))))
+   `(sml/outside-modified                      ((t (:foreground ,darktooth-neutral_blue))))
+   `(sml/modified                              ((t (:foreground ,darktooth-neutral_blue))))
+   `(sml/vc                                    ((t (:foreground ,darktooth-faded_green))))
+   `(sml/vc-edited                             ((t (:foreground ,darktooth-bright_green))))
+   `(sml/charging                              ((t (:foreground ,darktooth-faded_aqua))))
+   `(sml/discharging                           ((t (:foreground ,darktooth-faded_aqua :weight bold))))
+   `(sml/col-number                            ((t (:foreground ,darktooth-neutral_orange))))
+   `(sml/position-percentage                   ((t (:foreground ,darktooth-faded_aqua))))
 
    ;; Matches and Isearch
    `(lazy-highlight                            ((t (:foreground ,darktooth-light0 :background ,darktooth-dark2))))
