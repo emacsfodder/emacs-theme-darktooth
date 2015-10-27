@@ -1,11 +1,10 @@
-
 ;;; darktooth-theme.el --- Color theme for Emacs, when soothe and gruvbox collide
 
 ;; Copyright (c) 2015 Jasonm23
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.32
+;; Version: 0.1.33
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -184,6 +183,9 @@
    `(rainbow-identifiers-identifier-13         ((t (:foreground ,darktooth-identifiers-13))))
    `(rainbow-identifiers-identifier-14         ((t (:foreground ,darktooth-identifiers-14))))
    `(rainbow-identifiers-identifier-15         ((t (:foreground ,darktooth-identifiers-15))))
+
+   ;; ido
+   `(ido-first-match                           ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0_hard))))
 
    ;; linum-relative
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
