@@ -418,6 +418,16 @@
    `(helm-source-header                        ((t (:foreground ,darktooth-light2 :background ,darktooth-dark1))))
    `(helm-visible-mark                         ((t (:foreground ,darktooth-black :background ,darktooth-light3))))
 
+   ;; ivy/swiper
+   `(ivy-current-match                         ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
+   `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
+   `(ivy-minibuffer-match-face-2               ((t (:background ,darktooth-dark2))))
+   `(ivy-minibuffer-match-face-3               ((t (:background ,darktooth-faded_aqua))))
+   `(ivy-minibuffer-match-face-4               ((t (:background ,darktooth-faded_purple))))
+   `(ivy-confirm-face                          ((t (:foreground ,darktooth-bright_green))))
+   `(ivy-match-required-face                   ((t (:foreground ,darktooth-bright_red))))
+   `(ivy-remote                                ((t (:foreground ,darktooth-neutral_blue))))
+
    ;;Smerge
    ;; TODO: smerge-base, smerge-refined-changed
    `(smerge-mine            ((t(:background ,darktooth-mid_purple))))
