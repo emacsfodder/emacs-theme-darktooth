@@ -4,7 +4,7 @@
 
 ;; Authors: Jasonm23 <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.38
+;; Version: 0.1.39
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
