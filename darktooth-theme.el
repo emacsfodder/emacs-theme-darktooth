@@ -208,6 +208,12 @@
    `(sp-show-pair-match-face                   ((t (:background ,darktooth-dark2)))) ;; Pair tags highlight
    `(sp-show-pair-mismatch-face                ((t (:background ,darktooth-neutral_red)))) ;; Highlight for bracket without pair
 
+   ;; AucTeX
+   `(font-latex-math-face                      ((t (:foreground ,darktooth-lightblue4))))
+   `(font-latex-sectioning-5-face              ((t (:foreground ,darktooth-neutral_green))))
+   `(font-latex-string-face                    ((t (:inherit font-lock-string-face))))
+   `(font-latex-warning-face                   ((t (:inherit warning))))
+
    ;; elscreen
    `(elscreen-tab-background-face              ((t (:background ,darktooth-dark0 :box nil)))) ;; Tab bar, not the tabs
    `(elscreen-tab-control-face                 ((t (:foreground ,darktooth-neutral_red :background ,darktooth-dark2 :box nil :underline nil)))) ;; The controls
