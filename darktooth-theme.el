@@ -129,6 +129,13 @@
    `(header-line                               ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil))))
    `(minibuffer-prompt                         ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil))))
 
+   ;; compilation messages
+   `(compilation-info                          ((t (:foreground ,darktooth-neutral_green))))
+   `(compilation-mode-line-fail                ((t (:foreground ,darktooth-neutral_red))))
+   `(error                                     ((t (:foreground ,darktooth-bright_orange :bold t))))
+   `(success                                   ((t (:foreground ,darktooth-neutral_green :bold t))))
+   `(warning                                   ((t (:foreground ,darktooth-bright_red :bold t))))
+
    ;; Built-in syntax
    `(font-lock-builtin-face                    ((t (:foreground ,darktooth-bright_orange))))
    `(font-lock-constant-face                   ((t (:foreground ,darktooth-burlywood4))))
