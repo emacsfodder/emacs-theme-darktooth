@@ -212,7 +212,7 @@
    `(sp-pair-overlay-face                      ((t (:background ,darktooth-dark2))))
    ;;`(sp-wrap-overlay-face                    ((t (:inherit sp-wrap-overlay-face))))
    ;;`(sp-wrap-tag-overlay-face                ((t (:inherit sp-wrap-overlay-face))))
-   `(sp-show-pair-match-face                   ((t (:background ,darktooth-dark2)))) ;; Pair tags highlight
+   `(sp-show-pair-match-face                   ((t (:background ,darktooth-faded_purple)))) ;; Pair tags highlight
    `(sp-show-pair-mismatch-face                ((t (:background ,darktooth-neutral_red)))) ;; Highlight for bracket without pair
 
    ;; AucTeX
