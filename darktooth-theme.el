@@ -245,6 +245,11 @@
    `(diff-hl-insert                            ((t (:inherit diff-added))))
    `(diff-hl-unknown                           ((t (:foreground ,darktooth-dark_aqua))))
 
+   ;; git-gutter
+   `(git-gutter:modified                       ((t (:inherit diff-changed))))
+   `(git-gutter:deleted                        ((t (:inherit diff-removed))))
+   `(git-gutter:added                          ((t (:inherit diff-added))))
+
    `(js2-warning                               ((t (:underline (:color ,darktooth-bright_yellow :style wave)))))
    `(js2-error                                 ((t (:underline (:color ,darktooth-bright_red :style wave)))))
    `(js2-external-variable                     ((t (:underline (:color ,darktooth-bright_aqua :style wave)))))
