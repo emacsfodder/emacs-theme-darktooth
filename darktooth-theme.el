@@ -622,7 +622,12 @@
                               "#83A598"
                               "#D3869B"
                               "#8EC07C"
-                              "#EBDBB2"])))
+                              "#EBDBB2"])
+   `(evil-normal-state-cursor `(box "#FABD2F"))
+   `(evil-insert-state-cursor `((bar . 2) "#B8BB26"))
+   `(evil-visual-state-cursor `(box ,darktooth-light0))
+   `(evil-motion-state-cursor `(box "#D3869B"))
+   `(evil-emacs-state-cursor  `(box "#83A598"))))
 
 ;;;###autoload
 (and load-file-name
