@@ -446,6 +446,13 @@
    ;; Column-enforce-mode
    `(column-enforce-face                       ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark_red))))
 
+   ;; hydra - Hydra color names
+   `(hydra-face-red                            ((t (:foreground ,darktooth-bright_red))))
+   `(hydra-face-blue                           ((t (:foreground ,darktooth-bright_blue))))
+   `(hydra-face-pink                           ((t (:foreground ,darktooth-bright_purple))))
+   `(hydra-face-amaranth                       ((t (:foreground ,darktooth-bright_orange))))
+   `(hydra-face-teal                           ((t (:foreground ,darktooth-faded_cyan))))
+
    ;; ivy/swiper
    `(ivy-current-match                         ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
    `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
