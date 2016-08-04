@@ -425,6 +425,13 @@
    `(helm-source-header                        ((t (:foreground ,darktooth-light2 :background ,darktooth-dark1))))
    `(helm-visible-mark                         ((t (:foreground ,darktooth-black :background ,darktooth-light3))))
 
+   ;; hydra
+   `(hydra-face-red                            ((t (:foreground ,darktooth-bright_red))))
+   `(hydra-face-blue                           ((t (:foreground ,darktooth-bright_blue))))
+   `(hydra-face-pink                           ((t (:foreground ,darktooth-bright_purple))))
+   `(hydra-face-amaranth                       ((t (:foreground ,darktooth-faded_red))))
+   `(hydra-face-teal                           ((t (:foreground ,darktooth-faded_blue))))
+
    ;; ivy/swiper
    `(ivy-current-match                         ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
    `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
