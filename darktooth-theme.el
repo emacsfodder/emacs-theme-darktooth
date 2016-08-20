@@ -449,8 +449,8 @@
    ;; hydra - Hydra color names
    `(hydra-face-red                            ((t (:foreground ,darktooth-bright_red))))
    `(hydra-face-blue                           ((t (:foreground ,darktooth-bright_blue))))
-   `(hydra-face-pink                           ((t (:foreground ,darktooth-bright_purple))))
-   `(hydra-face-amaranth                       ((t (:foreground ,darktooth-bright_orange))))
+   `(hydra-face-pink                           ((t (:foreground ,darktooth-identifiers-15))))
+   `(hydra-face-amaranth                       ((t (:foreground ,darktooth-faded_purple))))
    `(hydra-face-teal                           ((t (:foreground ,darktooth-faded_cyan))))
 
    ;; ivy/swiper
