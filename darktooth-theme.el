@@ -1,10 +1,10 @@
 ;;; darktooth-theme.el --- Color theme for Emacs, when soothe and gruvbox collide
 
-;; Copyright (c) 2015-2016 Jasonm23 (GPL)
+;; Copyright (c) 2015-2016 Jason Milkins (GNU/GPL Licence)
 
-;; Authors: Jasonm23 <jasonm23@gmail.com>
+;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.41
+;; Version: 0.1.42
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -42,6 +42,7 @@
       (darktooth-bright_purple   (if (display-graphic-p) "#D3869B" "color-175"))
       (darktooth-bright_aqua     (if (display-graphic-p) "#8EC07C" "color-108"))
       (darktooth-bright_orange   (if (display-graphic-p) "#FE8019" "color-208"))
+      (darktooth-bright_cyan     (if (display-graphic-p) "#3FD7E5" "color-45"))
 
       ;; neutral, no 256-color code, requested, nice work-around meanwhile
       (darktooth-neutral_red     (if (display-graphic-p) "#FB4934" "#D75F5F"))
@@ -51,6 +52,7 @@
       (darktooth-neutral_purple  (if (display-graphic-p) "#D3869B" "#D787AF"))
       (darktooth-neutral_aqua    (if (display-graphic-p) "#8EC07C" "#87AF87"))
       (darktooth-neutral_orange  (if (display-graphic-p) "#FE8019" "#FF8700"))
+      (darktooth-neutral_cyan    (if (display-graphic-p) "#17CCD5" "color-80"))
 
       (darktooth-faded_red       (if (display-graphic-p) "#9D0006" "color-88"))
       (darktooth-faded_green     (if (display-graphic-p) "#79740E" "color-100"))
@@ -59,22 +61,25 @@
       (darktooth-faded_purple    (if (display-graphic-p) "#8F3F71" "color-96"))
       (darktooth-faded_aqua      (if (display-graphic-p) "#427B58" "color-66"))
       (darktooth-faded_orange    (if (display-graphic-p) "#AF3A03" "color-130"))
+      (darktooth-faded_cyan      (if (display-graphic-p) "#00A7AF" "color-37"))
 
-      (darktooth-dark_red       (if (display-graphic-p)  "#421E1E" "color-52"))
-      (darktooth-dark_green     (if (display-graphic-p)  "#2B280F" "color-22"))
-      (darktooth-dark_yellow    (if (display-graphic-p)  "#4D3B27" "color-3"))
-      (darktooth-dark_blue      (if (display-graphic-p)  "#2B3C44" "color-4"))
-      (darktooth-dark_purple    (if (display-graphic-p)  "#4E3D45" "color-57"))
-      (darktooth-dark_aqua      (if (display-graphic-p)  "#36473A" "color-23"))
-      (darktooth-dark_orange    (if (display-graphic-p)  "#613620" "color-130"))
+      (darktooth-dark_red        (if (display-graphic-p)  "#421E1E" "color-52"))
+      (darktooth-dark_green      (if (display-graphic-p)  "#2B280F" "color-22"))
+      (darktooth-dark_yellow     (if (display-graphic-p)  "#4D3B27" "color-3"))
+      (darktooth-dark_blue       (if (display-graphic-p)  "#2B3C44" "color-4"))
+      (darktooth-dark_purple     (if (display-graphic-p)  "#4E3D45" "color-57"))
+      (darktooth-dark_aqua       (if (display-graphic-p)  "#36473A" "color-23"))
+      (darktooth-dark_orange     (if (display-graphic-p)  "#613620" "color-130"))
+      (darktooth-dark_cyan       (if (display-graphic-p)  "#205161" "color-24"))
 
-      (darktooth-mid_red       (if (display-graphic-p)  "#3F1B1B" "color-52"))
-      (darktooth-mid_green     (if (display-graphic-p)  "#27321C" "color-22"))
-      (darktooth-mid_yellow    (if (display-graphic-p)  "#4C3A25" "color-3"))
-      (darktooth-mid_blue      (if (display-graphic-p)  "#30434C" "color-4"))
-      (darktooth-mid_purple    (if (display-graphic-p)  "#4C3B43" "color-57"))
-      (darktooth-mid_aqua      (if (display-graphic-p)  "#394C3D" "color-23"))
-      (darktooth-mid_orange    (if (display-graphic-p)  "#603000" "color-130"))
+      (darktooth-mid_red         (if (display-graphic-p)  "#3F1B1B" "color-52"))
+      (darktooth-mid_green       (if (display-graphic-p)  "#27321C" "color-22"))
+      (darktooth-mid_yellow      (if (display-graphic-p)  "#4C3A25" "color-3"))
+      (darktooth-mid_blue        (if (display-graphic-p)  "#30434C" "color-4"))
+      (darktooth-mid_purple      (if (display-graphic-p)  "#4C3B43" "color-57"))
+      (darktooth-mid_aqua        (if (display-graphic-p)  "#394C3D" "color-23"))
+      (darktooth-mid_orange      (if (display-graphic-p)  "#603000" "color-130"))
+      (darktooth-mid_cyan        (if (display-graphic-p)  "#005560" "color-24"))
 
       (darktooth-delimiter-one   (if (display-graphic-p) "#5C7E81" "color-66"))
       (darktooth-delimiter-two   (if (display-graphic-p) "#837486" "color-102"))
@@ -127,10 +132,10 @@
    `(secondary-selection                       ((t (:background ,darktooth-dark_blue))))
    `(cua-rectangle                             ((t (:background ,darktooth-mid_blue))))
    `(header-line                               ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil))))
-   `(minibuffer-prompt                         ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0 :bold nil))))
+   `(minibuffer-prompt                         ((t (:foreground ,darktooth-bright_cyan :background ,darktooth-dark0 :bold nil))))
 
-   ;; compilation messages
-   `(compilation-info                          ((t (:foreground ,darktooth-neutral_green))))
+   ;; compilation messages (also used by several other modes)
+   `(compilation-info                          ((t (:foreground ,darktooth-neutral_aqua))))
    `(compilation-mode-line-fail                ((t (:foreground ,darktooth-neutral_red))))
    `(error                                     ((t (:foreground ,darktooth-bright_orange :bold t))))
    `(success                                   ((t (:foreground ,darktooth-neutral_green :bold t))))
@@ -192,7 +197,7 @@
    `(rainbow-identifiers-identifier-15         ((t (:foreground ,darktooth-identifiers-15))))
 
    ;; ido
-   `(ido-first-match                           ((t (:foreground ,darktooth-turquoise4 :background ,darktooth-dark0_hard))))
+   `(ido-first-match                           ((t (:foreground ,darktooth-faded_cyan :background ,darktooth-dark0_hard))))
    `(ido-only-match                            ((t (:foreground ,darktooth-darkslategray4))))
 
    ;; linum-relative
@@ -342,6 +347,7 @@
    `(show-paren-mismatch                       ((t (:foreground ,darktooth-light0_hard :background ,darktooth-faded_red))))
    `(anzu-mode-line                            ((t (:foreground ,darktooth-light0 :height 100 :background ,darktooth-faded_blue))))
 
+   ;; Avy
    `(avy-lead-face-0                           ((t (:foreground ,darktooth-bright_blue ))))
    `(avy-lead-face-1                           ((t (:foreground ,darktooth-bright_aqua ))))
    `(avy-lead-face-2                           ((t (:foreground ,darktooth-bright_purple ))))
@@ -381,7 +387,7 @@
    `(company-tooltip-mouse                     ((t (:foreground ,darktooth-dark0 :background ,darktooth-bright_blue))))
    `(company-tooltip-selection                 ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
 
-   ;; helm
+   ;; Helm
    `(helm-M-x-key                              ((t (:foreground ,darktooth-neutral_orange))))
    `(helm-action                               ((t (:foreground ,darktooth-white :underline t))))
    `(helm-bookmark-addressbook                 ((t (:foreground ,darktooth-neutral_red))))
@@ -425,6 +431,21 @@
    `(helm-source-header                        ((t (:foreground ,darktooth-light2 :background ,darktooth-dark1))))
    `(helm-visible-mark                         ((t (:foreground ,darktooth-black :background ,darktooth-light3))))
 
+   ;; column-marker
+   `(column-marker-1                           ((t (:background ,darktooth-faded_blue))))
+   `(column-marker-2                           ((t (:background ,darktooth-faded_purple))))
+   `(column-marker-3                           ((t (:background ,darktooth-faded_cyan))))
+
+   ;; vline
+   `(vline                                     ((t (:background ,darktooth-dark_aqua))))
+   `(vline-visual                              ((t (:background ,darktooth-dark_aqua))))
+
+   ;; col-highlight
+   `(col-highlight                             ((t (:inherit vline))))
+
+   ;; Column-enforce-mode
+   `(column-enforce-face                       ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark_red))))
+
    ;; ivy/swiper
    `(ivy-current-match                         ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
    `(ivy-minibuffer-match-face-1               ((t (:background ,darktooth-dark1))))
@@ -437,75 +458,75 @@
 
    ;;Smerge
    ;; TODO: smerge-base, smerge-refined-changed
-   `(smerge-mine            ((t(:background ,darktooth-mid_purple))))
-   `(smerge-other           ((t(:background ,darktooth-mid_blue))))
-   `(smerge-markers         ((t(:background ,darktooth-dark0_soft))))
-   `(smerge-refined-added   ((t(:background ,darktooth-dark_green))))
-   `(smerge-refined-removed ((t(:background ,darktooth-dark_red))))
+   `(smerge-mine                               ((t(:background ,darktooth-mid_purple))))
+   `(smerge-other                              ((t(:background ,darktooth-mid_blue))))
+   `(smerge-markers                            ((t(:background ,darktooth-dark0_soft))))
+   `(smerge-refined-added                      ((t(:background ,darktooth-dark_green))))
+   `(smerge-refined-removed                    ((t(:background ,darktooth-dark_red))))
 
    ;; Magit
-   `(magit-branch                       ((t (:foreground ,darktooth-turquoise4 :background nil))))
-   `(magit-branch-local                 ((t (:foreground ,darktooth-turquoise4 :background nil))))
-   `(magit-branch-remote                ((t (:foreground ,darktooth-aquamarine4 :background nil))))
-   `(magit-cherry-equivalent            ((t (:foreground ,darktooth-neutral_orange))))
-   `(magit-cherry-unmatched             ((t (:foreground ,darktooth-neutral_purple))))
-   `(magit-diff-context                 ((t (:foreground ,darktooth-dark3 :background nil))))
-   `(magit-diff-context-highlight       ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0_soft))))
-   `(magit-diff-added                   ((t (:foreground ,darktooth-bright_green :background ,darktooth-mid_green))))
-   `(magit-diff-added-highlight         ((t (:foreground ,darktooth-bright_green :background ,darktooth-mid_green))))
-   `(magit-diff-removed                 ((t (:foreground ,darktooth-bright_red :background ,darktooth-mid_red))))
-   `(magit-diff-removed-highlight       ((t (:foreground ,darktooth-bright_red :background ,darktooth-mid_red))))
-   `(magit-diff-add                     ((t (:foreground ,darktooth-bright_green))))
-   `(magit-diff-del                     ((t (:foreground ,darktooth-bright_red))))
-   `(magit-diff-file-header             ((t (:foreground ,darktooth-bright_blue))))
-   `(magit-diff-hunk-header             ((t (:foreground ,darktooth-neutral_aqua))))
-   `(magit-diff-merge-current           ((t (:background ,darktooth-dark_yellow))))
-   `(magit-diff-merge-diff3-separator   ((t (:foreground ,darktooth-neutral_orange :weight bold))))
-   `(magit-diff-merge-proposed          ((t (:background ,darktooth-dark_green))))
-   `(magit-diff-merge-separator         ((t (:foreground ,darktooth-neutral_orange))))
-   `(magit-diff-none                    ((t (:foreground ,darktooth-medium))))
-   `(magit-item-highlight               ((t (:background ,darktooth-dark1 :weight normal))))
-   `(magit-item-mark                    ((t (:background ,darktooth-dark0))))
-   `(magit-key-mode-args-face           ((t (:foreground ,darktooth-light4))))
-   `(magit-key-mode-button-face         ((t (:foreground ,darktooth-neutral_orange :weight bold))))
-   `(magit-key-mode-header-face         ((t (:foreground ,darktooth-light4 :weight bold))))
-   `(magit-key-mode-switch-face         ((t (:foreground ,darktooth-turquoise4 :weight bold))))
-   `(magit-log-author                   ((t (:foreground ,darktooth-neutral_aqua))))
-   `(magit-log-date                     ((t (:foreground ,darktooth-faded_orange))))
-   `(magit-log-graph                    ((t (:foreground ,darktooth-light1))))
-   `(magit-log-head-label-bisect-bad    ((t (:foreground ,darktooth-bright_red))))
-   `(magit-log-head-label-bisect-good   ((t (:foreground ,darktooth-bright_green))))
-   `(magit-log-head-label-bisect-skip   ((t (:foreground ,darktooth-neutral_yellow))))
-   `(magit-log-head-label-default       ((t (:foreground ,darktooth-neutral_blue))))
-   `(magit-log-head-label-head          ((t (:foreground ,darktooth-light0 :background ,darktooth-dark_aqua))))
-   `(magit-log-head-label-local         ((t (:foreground ,darktooth-faded_blue :weight bold))))
-   `(magit-log-head-label-patches       ((t (:foreground ,darktooth-faded_orange))))
-   `(magit-log-head-label-remote        ((t (:foreground ,darktooth-neutral_blue :weight bold))))
-   `(magit-log-head-label-tags          ((t (:foreground ,darktooth-neutral_aqua))))
-   `(magit-log-head-label-wip           ((t (:foreground ,darktooth-neutral_red))))
-   `(magit-log-message                  ((t (:foreground ,darktooth-light1))))
-   `(magit-log-reflog-label-amend       ((t (:foreground ,darktooth-bright_blue))))
-   `(magit-log-reflog-label-checkout    ((t (:foreground ,darktooth-bright_yellow))))
-   `(magit-log-reflog-label-cherry-pick ((t (:foreground ,darktooth-neutral_red))))
-   `(magit-log-reflog-label-commit      ((t (:foreground ,darktooth-neutral_green))))
-   `(magit-log-reflog-label-merge       ((t (:foreground ,darktooth-bright_green))))
-   `(magit-log-reflog-label-other       ((t (:foreground ,darktooth-faded_red))))
-   `(magit-log-reflog-label-rebase      ((t (:foreground ,darktooth-bright_blue))))
-   `(magit-log-reflog-label-remote      ((t (:foreground ,darktooth-neutral_orange))))
-   `(magit-log-reflog-label-reset       ((t (:foreground ,darktooth-neutral_yellow))))
-   `(magit-log-sha1                     ((t (:foreground ,darktooth-bright_orange))))
-   `(magit-process-ng                   ((t (:foreground ,darktooth-bright_red :weight bold))))
-   `(magit-process-ok                   ((t (:foreground ,darktooth-bright_green :weight bold))))
-   `(magit-section-heading              ((t (:foreground ,darktooth-light2 :background ,darktooth-dark_blue))))
-   `(magit-signature-bad                ((t (:foreground ,darktooth-bright_red :weight bold))))
-   `(magit-signature-good               ((t (:foreground ,darktooth-bright_green :weight bold))))
-   `(magit-signature-none               ((t (:foreground ,darktooth-faded_red))))
-   `(magit-signature-untrusted          ((t (:foreground ,darktooth-bright_purple :weight bold))))
-   `(magit-tag                          ((t (:foreground ,darktooth-darkslategray4))))
-   `(magit-whitespace-warning-face      ((t (:background ,darktooth-faded_red))))
-   `(magit-bisect-bad                   ((t (:foreground ,darktooth-faded_red))))
-   `(magit-bisect-good                  ((t (:foreground ,darktooth-neutral_green))))
-   `(magit-bisect-skip                  ((t (:foreground ,darktooth-light2))))
+   `(magit-branch                              ((t (:foreground ,darktooth-turquoise4 :background nil))))
+   `(magit-branch-local                        ((t (:foreground ,darktooth-turquoise4 :background nil))))
+   `(magit-branch-remote                       ((t (:foreground ,darktooth-aquamarine4 :background nil))))
+   `(magit-cherry-equivalent                   ((t (:foreground ,darktooth-neutral_orange))))
+   `(magit-cherry-unmatched                    ((t (:foreground ,darktooth-neutral_purple))))
+   `(magit-diff-context                        ((t (:foreground ,darktooth-dark3 :background nil))))
+   `(magit-diff-context-highlight              ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0_soft))))
+   `(magit-diff-added                          ((t (:foreground ,darktooth-bright_green :background ,darktooth-mid_green))))
+   `(magit-diff-added-highlight                ((t (:foreground ,darktooth-bright_green :background ,darktooth-mid_green))))
+   `(magit-diff-removed                        ((t (:foreground ,darktooth-bright_red :background ,darktooth-mid_red))))
+   `(magit-diff-removed-highlight              ((t (:foreground ,darktooth-bright_red :background ,darktooth-mid_red))))
+   `(magit-diff-add                            ((t (:foreground ,darktooth-bright_green))))
+   `(magit-diff-del                            ((t (:foreground ,darktooth-bright_red))))
+   `(magit-diff-file-header                    ((t (:foreground ,darktooth-bright_blue))))
+   `(magit-diff-hunk-header                    ((t (:foreground ,darktooth-neutral_aqua))))
+   `(magit-diff-merge-current                  ((t (:background ,darktooth-dark_yellow))))
+   `(magit-diff-merge-diff3-separator          ((t (:foreground ,darktooth-neutral_orange :weight bold))))
+   `(magit-diff-merge-proposed                 ((t (:background ,darktooth-dark_green))))
+   `(magit-diff-merge-separator                ((t (:foreground ,darktooth-neutral_orange))))
+   `(magit-diff-none                           ((t (:foreground ,darktooth-medium))))
+   `(magit-item-highlight                      ((t (:background ,darktooth-dark1 :weight normal))))
+   `(magit-item-mark                           ((t (:background ,darktooth-dark0))))
+   `(magit-key-mode-args-face                  ((t (:foreground ,darktooth-light4))))
+   `(magit-key-mode-button-face                ((t (:foreground ,darktooth-neutral_orange :weight bold))))
+   `(magit-key-mode-header-face                ((t (:foreground ,darktooth-light4 :weight bold))))
+   `(magit-key-mode-switch-face                ((t (:foreground ,darktooth-turquoise4 :weight bold))))
+   `(magit-log-author                          ((t (:foreground ,darktooth-neutral_aqua))))
+   `(magit-log-date                            ((t (:foreground ,darktooth-faded_orange))))
+   `(magit-log-graph                           ((t (:foreground ,darktooth-light1))))
+   `(magit-log-head-label-bisect-bad           ((t (:foreground ,darktooth-bright_red))))
+   `(magit-log-head-label-bisect-good          ((t (:foreground ,darktooth-bright_green))))
+   `(magit-log-head-label-bisect-skip          ((t (:foreground ,darktooth-neutral_yellow))))
+   `(magit-log-head-label-default              ((t (:foreground ,darktooth-neutral_blue))))
+   `(magit-log-head-label-head                 ((t (:foreground ,darktooth-light0 :background ,darktooth-dark_aqua))))
+   `(magit-log-head-label-local                ((t (:foreground ,darktooth-faded_blue :weight bold))))
+   `(magit-log-head-label-patches              ((t (:foreground ,darktooth-faded_orange))))
+   `(magit-log-head-label-remote               ((t (:foreground ,darktooth-neutral_blue :weight bold))))
+   `(magit-log-head-label-tags                 ((t (:foreground ,darktooth-neutral_aqua))))
+   `(magit-log-head-label-wip                  ((t (:foreground ,darktooth-neutral_red))))
+   `(magit-log-message                         ((t (:foreground ,darktooth-light1))))
+   `(magit-log-reflog-label-amend              ((t (:foreground ,darktooth-bright_blue))))
+   `(magit-log-reflog-label-checkout           ((t (:foreground ,darktooth-bright_yellow))))
+   `(magit-log-reflog-label-cherry-pick        ((t (:foreground ,darktooth-neutral_red))))
+   `(magit-log-reflog-label-commit             ((t (:foreground ,darktooth-neutral_green))))
+   `(magit-log-reflog-label-merge              ((t (:foreground ,darktooth-bright_green))))
+   `(magit-log-reflog-label-other              ((t (:foreground ,darktooth-faded_red))))
+   `(magit-log-reflog-label-rebase             ((t (:foreground ,darktooth-bright_blue))))
+   `(magit-log-reflog-label-remote             ((t (:foreground ,darktooth-neutral_orange))))
+   `(magit-log-reflog-label-reset              ((t (:foreground ,darktooth-neutral_yellow))))
+   `(magit-log-sha1                            ((t (:foreground ,darktooth-bright_orange))))
+   `(magit-process-ng                          ((t (:foreground ,darktooth-bright_red :weight bold))))
+   `(magit-process-ok                          ((t (:foreground ,darktooth-bright_green :weight bold))))
+   `(magit-section-heading                     ((t (:foreground ,darktooth-light2 :background ,darktooth-dark_blue))))
+   `(magit-signature-bad                       ((t (:foreground ,darktooth-bright_red :weight bold))))
+   `(magit-signature-good                      ((t (:foreground ,darktooth-bright_green :weight bold))))
+   `(magit-signature-none                      ((t (:foreground ,darktooth-faded_red))))
+   `(magit-signature-untrusted                 ((t (:foreground ,darktooth-bright_purple :weight bold))))
+   `(magit-tag                                 ((t (:foreground ,darktooth-darkslategray4))))
+   `(magit-whitespace-warning-face             ((t (:background ,darktooth-faded_red))))
+   `(magit-bisect-bad                          ((t (:foreground ,darktooth-faded_red))))
+   `(magit-bisect-good                         ((t (:foreground ,darktooth-neutral_green))))
+   `(magit-bisect-skip                         ((t (:foreground ,darktooth-light2))))
 
    ;; TODO: Many new magit faces to theme
 
@@ -594,7 +615,7 @@
    ;; Term
    `(term-color-black                          ((t (:foreground ,darktooth-dark1))))
    `(term-color-blue                           ((t (:foreground ,darktooth-neutral_blue))))
-   `(term-color-cyan                           ((t (:foreground ,darktooth-neutral_aqua))))
+   `(term-color-cyan                           ((t (:foreground ,darktooth-neutral_cyan))))
    `(term-color-green                          ((t (:foreground ,darktooth-neutral_green))))
    `(term-color-magenta                        ((t (:foreground ,darktooth-neutral_purple))))
    `(term-color-red                            ((t (:foreground ,darktooth-neutral_red))))
@@ -604,9 +625,9 @@
    `(term-default-bg-color                     ((t (:background ,darktooth-dark0)))))
 
   ;; Elfeed
-  `(elfeed-search-date-face ((t (:foreground ,darktooth-dark1))))
-  `(elfeed-search-feed-face ((t (:foreground ,darktooth-dark1))))
-  `(elfeed-search-tag-face ((t (:foreground ,darktooth-dark0))))
+  `(elfeed-search-date-face  ((t (:foreground ,darktooth-dark1))))
+  `(elfeed-search-feed-face  ((t (:foreground ,darktooth-dark1))))
+  `(elfeed-search-tag-face   ((t (:foreground ,darktooth-dark0))))
   `(elfeed-search-title-face ((t (:foreground ,darktooth-dark0))))
 
   (custom-theme-set-variables
@@ -634,7 +655,7 @@
 (provide-theme 'darktooth)
 
 ;; Local Variables:
-;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1))
 ;; End:
 
 ;;; darktooth-theme.el ends here
