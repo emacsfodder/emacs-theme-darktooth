@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.46
+;; Version: 0.1.47
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -557,6 +557,7 @@
    `(magit-refname-stash                       ((t (:inherit magit-refname))))
    `(magit-refname                             ((t (:foreground ,darktooth-light2))))
    `(magit-head                                ((t (:inherit magit-branch-local))))
+   `(magit-popup-disabled-argument             ((t (:foreground ,darktooth-light4))))
 
    ;; Term
    `(term-color-black                          ((t (:foreground ,darktooth-dark1))))
