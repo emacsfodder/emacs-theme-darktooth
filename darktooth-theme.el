@@ -197,8 +197,12 @@
    `(rainbow-identifiers-identifier-15         ((t (:foreground ,darktooth-identifiers-15))))
 
    ;; ido
+   `(ido-indicator                             ((t (:background ,darktooth-bright_red :foreground ,darktooth-bright_yellow))))
    `(ido-first-match                           ((t (:foreground ,darktooth-faded_cyan :background ,darktooth-dark0_hard))))
    `(ido-only-match                            ((t (:foreground ,darktooth-darkslategray4))))
+   `(ido-vertical-match-face                   ((t (:bold t))))
+   `(ido-vertical-only-match-face              ((t (:foreground ,darktooth-bright_cyan))))
+   `(ido-vertical-first-match-face             ((t (:foreground ,darktooth-bright_cyan :background ,darktooth-dark_blue))))
 
    ;; linum-relative
    `(linum-relative-current-face               ((t (:foreground ,darktooth-light4 :background ,darktooth-dark1))))
@@ -215,8 +219,6 @@
 
    ;; Smartparens
    `(sp-pair-overlay-face                      ((t (:background ,darktooth-dark2))))
-   ;;`(sp-wrap-overlay-face                    ((t (:inherit sp-wrap-overlay-face))))
-   ;;`(sp-wrap-tag-overlay-face                ((t (:inherit sp-wrap-overlay-face))))
    `(sp-show-pair-match-face                   ((t (:background ,darktooth-dark2)))) ;; Pair tags highlight
    `(sp-show-pair-mismatch-face                ((t (:background ,darktooth-neutral_red)))) ;; Highlight for bracket without pair
 
