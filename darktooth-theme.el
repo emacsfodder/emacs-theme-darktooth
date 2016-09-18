@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.45
+;; Version: 0.1.46
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -540,91 +540,23 @@
    `(magit-whitespace-warning-face             ((t (:background ,darktooth-faded_red))))
    `(magit-bisect-bad                          ((t (:foreground ,darktooth-faded_red))))
    `(magit-bisect-good                         ((t (:foreground ,darktooth-neutral_green))))
-   `(magit-bisect-skip                         ((t (:foreground ,darktooth-light2))))
-
-   ;; TODO: Many new magit faces to theme
-
-   ;;magit-diff-conflict-heading
-   ;;magit-diff-base
-   ;;magit-diff-base-highlight
-   ;;magit-diff-file-heading
-   ;;magit-diff-file-heading-highlight
-   ;;magit-diff-file-heading-selection
-   ;;magit-diff-hunk-heading
-   ;;magit-diff-hunk-heading-highlight
-   ;;magit-diff-hunk-heading-selection
-   ;;magit-diff-lines-boundary
-   ;;magit-diff-lines-heading
-   ;;magit-diff-our
-   ;;magit-diff-our-highlight
-   ;;magit-diff-their
-   ;;magit-diff-their-highlight
-   ;;magit-diff-whitespace-warning
-   ;;magit-diffstat-added
-   ;;magit-diffstat-removed
-
-   ;;magit-blame-date
-   ;;magit-blame-hash
-   ;;magit-blame-heading
-   ;;magit-blame-name
-   ;;magit-blame-summary
-
-   ;;magit-branch-current
-   ;;magit-branch-local
-   ;;magit-branch-remote
-
-   ;;magit-cherry-equivalent
-   ;;magit-cherry-unmatched
-
-   ;;magit-dimmed
-   ;;magit-filename
-   ;;magit-hash
-   ;;magit-head
-   ;;magit-header-line
-   ;;magit-log-author
-   ;;magit-log-date
-   ;;magit-log-graph
-   ;;magit-popup-argument
-   ;;magit-popup-disabled-argument
-   ;;magit-popup-heading
-   ;;magit-popup-key
-   ;;magit-popup-option-value
-
-   ;;magit-process-ng
-   ;;magit-process-ok
-
-   ;;magit-reflog-amend
-   ;;magit-reflog-checkout
-   ;;magit-reflog-cherry-pick
-   ;;magit-reflog-commit
-   ;;magit-reflog-merge
-   ;;magit-reflog-other
-   ;;magit-reflog-rebase
-   ;;magit-reflog-remote
-   ;;magit-reflog-reset
-
-   ;;magit-refname
-   ;;magit-refname-stash
-   ;;magit-refname-wip
-
-   ;;magit-section-heading
-   ;;magit-section-heading-selection
-   ;;magit-section-highlight
-   ;;magit-section-secondary-heading
-
-   ;;magit-sequence-done
-   ;;magit-sequence-drop
-   ;;magit-sequence-head
-   ;;magit-sequence-onto
-   ;;magit-sequence-part
-   ;;magit-sequence-pick
-   ;;magit-sequence-stop
-
-   ;;magit-signature-bad
-   ;;magit-signature-good
-   ;;magit-signature-untrusted
-
-   ;;magit-tag
+   `(magit-bisect-skip                         ((t (:foreground ,darktooth-light2))))   `(magit-blame-date                          ((t (:inherit magit-blame-heading))))
+   `(magit-blame-name                          ((t (:inherit magit-blame-heading))))
+   `(magit-blame-hash                          ((t (:inherit magit-blame-heading))))
+   `(magit-blame-summary                       ((t (:inherit magit-blame-heading))))
+   `(magit-blame-heading                       ((t (:background ,darktooth-dark1 :foreground ,darktooth-light0))))
+   `(magit-sequence-onto                       ((t (:inherit magit-sequence-done))))
+   `(magit-sequence-done                       ((t (:inherit magit-hash))))
+   `(magit-sequence-drop                       ((t (:foreground ,darktooth-faded_red))))
+   `(magit-sequence-head                       ((t (:foreground ,darktooth-faded_cyan))))
+   `(magit-sequence-part                       ((t (:foreground ,darktooth-bright_yellow))))
+   `(magit-sequence-stop                       ((t (:foreground ,darktooth-bright_aqua))))
+   `(magit-sequence-pick                       ((t (:inherit default))))
+   `(magit-filename                            ((t (:weight normal))))
+   `(magit-refname-wip                         ((t (:inherit magit-refname))))
+   `(magit-refname-stash                       ((t (:inherit magit-refname))))
+   `(magit-refname                             ((t (:foreground ,darktooth-light2))))
+   `(magit-head                                ((t (:inherit magit-branch-local))))
 
    ;; Term
    `(term-color-black                          ((t (:foreground ,darktooth-dark1))))
@@ -639,10 +571,10 @@
    `(term-default-bg-color                     ((t (:background ,darktooth-dark0)))))
 
   ;; Elfeed
-  `(elfeed-search-date-face  ((t (:foreground ,darktooth-dark1))))
-  `(elfeed-search-feed-face  ((t (:foreground ,darktooth-dark1))))
-  `(elfeed-search-tag-face   ((t (:foreground ,darktooth-dark0))))
-  `(elfeed-search-title-face ((t (:foreground ,darktooth-dark0))))
+  `(elfeed-search-date-face                    ((t (:foreground ,darktooth-dark1))))
+  `(elfeed-search-feed-face                    ((t (:foreground ,darktooth-dark1))))
+  `(elfeed-search-tag-face                     ((t (:foreground ,darktooth-dark0))))
+  `(elfeed-search-title-face                   ((t (:foreground ,darktooth-dark0))))
 
   (custom-theme-set-variables
    'darktooth
