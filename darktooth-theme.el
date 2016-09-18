@@ -347,6 +347,13 @@
    `(show-paren-mismatch                       ((t (:foreground ,darktooth-light0_hard :background ,darktooth-faded_red))))
    `(anzu-mode-line                            ((t (:foreground ,darktooth-light0 :height 100 :background ,darktooth-faded_blue))))
 
+   ;; Anzu
+   `(anzu-match-1                              ((t (:foreground ,darktooth-dark0 :background ,darktooth-bright_green))))
+   `(anzu-match-2                              ((t (:foreground ,darktooth-dark0 :background ,darktooth-bright_yellow))))
+   `(anzu-match-3                              ((t (:foreground ,darktooth-dark0 :background ,darktooth-bright_cyan))))
+   `(anzu-replace-highlight                    ((t (:background ,darktooth-dark_aqua))))
+   `(anzu-replace-to                           ((t (:background ,darktooth-dark_cyan))))
+
    ;; Avy
    `(avy-lead-face-0                           ((t (:foreground ,darktooth-bright_blue ))))
    `(avy-lead-face-1                           ((t (:foreground ,darktooth-bright_aqua ))))
