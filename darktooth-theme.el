@@ -232,6 +232,12 @@
    `(elscreen-tab-current-screen-face          ((t (:foreground ,darktooth-dark0 :background ,darktooth-dark4 :box nil)))) ;; Current tab
    `(elscreen-tab-other-screen-face            ((t (:foreground ,darktooth-light4 :background ,darktooth-dark2 :box nil :underline nil)))) ;; Inactive tab
 
+   ;; embrace
+   `(embrace-help-pair-face                    ((t (:foreground ,darktooth-bright_blue))))
+   `(embrace-help-separator-face               ((t (:foreground ,darktooth-bright_orange))))
+   `(embrace-help-key-face                     ((t (:weight bold ,darktooth-bright_aqua))))
+   `(embrace-help-mark-func-face               ((t (:foreground ,darktooth-bright_cyan))))
+
    ;; ag (The Silver Searcher)
    `(ag-hit-face                               ((t (:foreground ,darktooth-neutral_blue))))
    `(ag-match-face                             ((t (:foreground ,darktooth-neutral_red))))
