@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.50
+;; Version: 0.1.51
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -198,6 +198,7 @@
 
    ;; ido
    `(ido-indicator                             ((t (:background ,darktooth-bright_red :foreground ,darktooth-bright_yellow))))
+   `(ido-subdir                                ((t (:foreground ,darktooth-light3))))
    `(ido-first-match                           ((t (:foreground ,darktooth-faded_cyan :background ,darktooth-dark0_hard))))
    `(ido-only-match                            ((t (:foreground ,darktooth-darkslategray4))))
    `(ido-vertical-match-face                   ((t (:bold t))))
