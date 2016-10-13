@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.51
+;; Version: 0.1.52
 
 ;;; Commentary:
 ;;  Color theme for Emacs, when soothe and gruvbox collide.
@@ -417,6 +417,24 @@
    `(company-tooltip-common-selection          ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
    `(company-tooltip-mouse                     ((t (:foreground ,darktooth-dark0 :background ,darktooth-bright_blue))))
    `(company-tooltip-selection                 ((t (:foreground ,darktooth-light0 :background ,darktooth-faded_blue))))
+
+   ;; Dired+ faces
+   `(diredp-file-name                          ((t (:foreground ,darktooth-light2 ))))
+   `(diredp-file-suffix                        ((t (:foreground ,darktooth-light4 ))))
+   `(diredp-dir-name                           ((t (:foreground ,darktooth-faded_cyan ))))
+   `(diredp-dir-heading                        ((t (:foreground ,darktooth-bright_cyan ))))
+   `(diredp-symlink                            ((t (:foreground ,darktooth-bright_orange ))))
+   `(diredp-date-time                          ((t (:foreground ,darktooth-light3 ))))
+   `(diredp-number                             ((t (:foreground ,darktooth-faded_cyan ))))
+   `(diredp-no-priv                            ((t (:foreground ,darktooth-dark4 ))))
+   `(diredp-other-priv                         ((t (:foreground ,darktooth-dark2 ))))
+   `(diredp-dir-priv                           ((t (:foreground ,darktooth-faded_cyan ))))
+   `(diredp-exec-priv                          ((t (:foreground ,darktooth-faded_cyan ))))
+   `(diredp-link-priv                          ((t (:foreground ,darktooth-faded_aqua ))))
+   `(diredp-rare-priv                          ((t (:foreground ,darktooth-dark4 ))))
+   `(diredp-read-priv                          ((t (:foreground ,darktooth-bright_red ))))
+   `(diredp-write-priv                         ((t (:foreground ,darktooth-bright_aqua ))))
+   `(diredp-ignored-file-name                  ((t (:foreground ,darktooth-dark4 ))))
 
    ;; Helm
    `(helm-M-x-key                              ((t (:foreground ,darktooth-neutral_orange))))
