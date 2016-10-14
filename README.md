@@ -6,11 +6,13 @@ An Emacs theme, *From the darkness... it watches.*
 
 ## Installation
 
-Darktooth can be easily installe via MELPA
+Darktooth is easily installed via MELPA.  [Read more here for MELPA setup details](http://melpa.org/#/getting-started)
 
-[Read this for MELPA setup details](http://melpa.org/#/getting-started)
+When your Emacs is setup to use MELPA do this:
 
-Once setup, use `M-x package-install darktooth-theme`
+```
+M-x package-install darktooth-theme
+```
 
 ![Multi window layout with various modes](darktooth-multi-window.png)
 

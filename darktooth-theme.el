@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.56
+;; Version: 0.1.57
 
 ;;; Commentary:
 ;;  A color theme for Emacs, from the darkness... it watches
@@ -439,6 +439,7 @@
    ;; MODE SUPPORT: dired+
    `(diredp-file-name                          ((t (:foreground ,darktooth-light2 ))))
    `(diredp-file-suffix                        ((t (:foreground ,darktooth-light4 ))))
+   `(diredp-compressed-file-suffix             ((t (:foreground ,darktooth-faded_cyan ))))
    `(diredp-dir-name                           ((t (:foreground ,darktooth-faded_cyan ))))
    `(diredp-dir-heading                        ((t (:foreground ,darktooth-bright_cyan ))))
    `(diredp-symlink                            ((t (:foreground ,darktooth-bright_orange ))))
