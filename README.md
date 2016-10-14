@@ -12,7 +12,11 @@ Darktooth can be easily installe via MELPA
 
 Once setup, use `M-x package-install darktooth-theme`
 
-![](darktooth-vera.png)
+![Multi window layout with various modes](darktooth-multi-window.png)
+
+### The Fabled Darktooth Keyboard...
+
+![How can I buy this?!??! Shut up and take my money!](darktooth-keyboard.jpg)
 
 ## Modes supported
 
