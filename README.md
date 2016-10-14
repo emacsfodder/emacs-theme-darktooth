@@ -1,42 +1,67 @@
-[![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
+[![MELPA](http://stable.melpa.org/packages/darktooth-theme-badge.svg)](http://stable.melpa.org/#/darktooth-theme) [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
 
 # Darktooth
 
-![](darktooth-java.png)
+An Emacs theme, *From the darkenss... it watches.*
 
-An Emacs theme inspired by a collision of [Soothe][soothe] and [Gruvbox][gruvbox]
+![](darktooth-java.png)
 
 ![](darktooth-vera.png)
 
 ## Installation
 
-You can install Darktooth easily into Emacs via MELPA
+Darktooth can be easily installe via MELPA
 
-[For details on installing from MELPA see this guide](http://melpa.org/#/getting-started)
+[Read this for MELPA setup details](http://melpa.org/#/getting-started)
 
-Once you have MELPA use `M-x package-install darktooth-theme`
+Once setup, use `M-x package-install darktooth-theme`
 
 ## Modes supported
 
-- Whitespace
-- Rainbow delimiters
-- Rainbow identifiers
-- Linum relative
-- Highlight indentation
-- Smartparens
-- Elscreen
-- Ag
-- Magit
-- Diff/EDiff
-- Js2
-- Org
-- Powerline
-- Popup
-- Pos-tip
-- Anzu
-- Company
-- Helm
-- Term / Ansi Colors
+- ac-dabbrev
+- ag (The Silver Searcher)
+- anzu
+- auctex
+- avy
+- col-highlight
+- column-enforce-mode
+- column-marker
+- company
+- diff
+- diff-hl
+- diff-indicator
+- dired+
+- el-search
+- elfeed
+- elscreen
+- embrace
+- git-gutter+
+- haskell
+- helm
+- hi-lock
+- highlight-indentation-mode
+- highlight-numbers
+- highlight-symbol
+- hydra
+- ido
+- isearch
+- ivy
+- linum-relative
+- magit
+- org-mode
+- popup
+- powerline
+- rainbow-delimiters
+- rainbow-identifiers
+- ripgrep
+- sh mode
+- show-paren
+- smart-mode-line
+- smartparens
+- smerge
+- term / ansi-colors
+- vline
+- whitespace-mode
 
 ### Screenshots
 
@@ -71,6 +96,8 @@ Once you have MELPA use `M-x package-install darktooth-theme`
 ##### Terminal (xterm256 / iTerm)
 
 ![](darktooth-terminal.png)
+
+Inspired by:
 
 [gruvbox]: https://github.com/Greduan/emacs-theme-gruvbox
 [soothe]: https://github.com/emacsfodder/emacs-soothe-theme
