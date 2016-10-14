@@ -33,7 +33,9 @@ Once setup, use `M-x package-install darktooth-theme`
 - elfeed
 - elscreen
 - embrace
+- git-gutter
 - git-gutter+
+- git-gutter-fr+
 - haskell
 - helm
 - hi-lock

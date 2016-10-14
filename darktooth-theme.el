@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.55
+;; Version: 0.1.56
 
 ;;; Commentary:
 ;;  A color theme for Emacs, from the darkness... it watches
@@ -539,6 +539,13 @@
    `(smerge-refined-added                      ((t (:background ,darktooth-dark_green))))
    `(smerge-refined-removed                    ((t (:background ,darktooth-dark_red))))
 
+   ;; MODE SUPPORT: git-gutter
+   `(git-gutter:separator                      ((t (:inherit git-gutter+-separator ))))
+   `(git-gutter:modified                       ((t (:inherit git-gutter+-modified ))))
+   `(git-gutter:added                          ((t (:inherit git-gutter+-added ))))
+   `(git-gutter:deleted                        ((t (:inherit git-gutter+-deleted ))))
+   `(git-gutter:unchanged                      ((t (:inherit git-gutter+-unchanged ))))
+
    ;; MODE SUPPORT: git-gutter+
    `(git-gutter+-commit-header-face            ((t (:inherit font-lock-comment-face))))
    `(git-gutter+-added                         ((t (:foreground ,darktooth-faded_green :background ,darktooth-muted_green ))))
@@ -546,6 +553,9 @@
    `(git-gutter+-modified                      ((t (:foreground ,darktooth-faded_purple :background ,darktooth-muted_purple ))))
    `(git-gutter+-separator                     ((t (:foreground ,darktooth-faded_cyan :background ,darktooth-muted_cyan ))))
    `(git-gutter+-unchanged                     ((t (:foreground ,darktooth-faded_yellow :background ,darktooth-muted_yellow ))))
+
+
+   ;; MODE SUPPORT: git-gutter-fr+
    `(git-gutter-fr+-added                      ((t (:inherit git-gutter+-added))))
    `(git-gutter-fr+-deleted                    ((t (:inherit git-gutter+-deleted))))
    `(git-gutter-fr+-modified                   ((t (:inherit git-gutter+-modified))))
