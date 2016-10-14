@@ -2,11 +2,7 @@
 
 # Darktooth
 
-An Emacs theme, *From the darkenss... it watches.*
-
-![](darktooth-java.png)
-
-![](darktooth-vera.png)
+An Emacs theme, *From the darkness... it watches.*
 
 ## Installation
 
@@ -15,6 +11,8 @@ Darktooth can be easily installe via MELPA
 [Read this for MELPA setup details](http://melpa.org/#/getting-started)
 
 Once setup, use `M-x package-install darktooth-theme`
+
+![](darktooth-vera.png)
 
 ## Modes supported
 
