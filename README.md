@@ -20,6 +20,14 @@ M-x package-install darktooth-theme
 
 ![How can I buy this?!??! Shut up and take my money!](darktooth-keyboard.jpg)
 
+### Darktooth Mode line
+
+There's an optional modeline theme available, run `(darktooth-modeline)`:
+
+**Darktooth modeline - screenshot**
+
+![](darktooth-modeline.png)
+
 ## Modes supported
 
 - ac-dabbrev

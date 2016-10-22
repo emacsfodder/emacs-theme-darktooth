@@ -4,10 +4,12 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.1.58
+;; Version: 0.1.60
 
 ;;; Commentary:
 ;;  A color theme for Emacs, from the darkness... it watches
+
+;;  Since 0.1.60 : includes `darktooth-modeline'
 
 ;;; Code:
 
@@ -655,10 +657,23 @@
    `(term-default-bg-color                     ((t (:background ,darktooth-dark0))))
 
    ;; MODE SUPPORT: Elfeed
-   `(elfeed-search-date-face                    ((t (:foreground ,darktooth-light1))))
-   `(elfeed-search-feed-face                    ((t (:foreground ,darktooth-light1))))
-   `(elfeed-search-tag-face                     ((t (:foreground ,darktooth-light0))))
-   `(elfeed-search-title-face                   ((t (:foreground ,darktooth-light0)))))
+   `(elfeed-search-date-face                    ((t (:foreground ,darktooth-muted_cyan))))
+   `(elfeed-search-feed-face                    ((t (:foreground ,darktooth-faded_cyan))))
+   `(elfeed-search-tag-face                     ((t (:foreground ,darktooth-light3))))
+   `(elfeed-search-title-face                   ((t (:foreground ,darktooth-light3 :bold nil))))
+   `(elfeed-search-unread-title-face            ((t (:foreground ,darktooth-light0_hard :bold nil))))
+
+   ;; MODE SUPPORT: message
+   `(message-header-to                          ((t (:foreground ,darktooth-bright_cyan ))))
+   `(message-header-cc                          ((t (:foreground ,darktooth-bright_cyan ))))
+   `(message-header-subject                     ((t (:foreground ,darktooth-light2 ))))
+   `(message-header-newsgroups                  ((t (:foreground ,darktooth-bright_cyan ))))
+   `(message-header-other                       ((t (:foreground ,darktooth-muted_cyan  ))))
+   `(message-header-name                        ((t (:foreground ,darktooth-bright_cyan ))))
+   `(message-header-xheader                     ((t (:foreground ,darktooth-faded_cyan ))))
+   `(message-separator                          ((t (:foreground ,darktooth-faded_cyan ))))
+   `(message-cited-text                         ((t (:foreground ,darktooth-light3 ))))
+   `(message-mml                                ((t (:foreground ,darktooth-faded_aqua )))))
 
   (custom-theme-set-variables
    'darktooth
@@ -681,6 +696,24 @@
      (add-to-list 'custom-theme-load-path
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
+
+(defun darktooth-modeline ()
+  "Optional modeline styling for darktooth."
+  (interactive)
+  (set-face-attribute 'mode-line nil
+                      :inherit 'mode-line-face
+                      :foreground "#BDAE93"
+                      :background "#1D2021"
+                      :height 120
+                      :inverse-video nil
+                      :box '(:line-width 6 :color "#1D2021" :style nil))
+  (set-face-attribute 'mode-line-inactive nil
+                      :inherit 'mode-line-face
+                      :foreground "#504945"
+                      :background "#32302F"
+                      :height 120
+                      :inverse-video nil
+                      :box '(:line-width 6 :color "#32302F" :style nil)))
 
 (provide-theme 'darktooth)
 
