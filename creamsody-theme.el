@@ -1,4 +1,4 @@
-;;; creamsody-theme.el --- A color theme for Emacs.  Straight from the soda fountain.
+;;; creamsody-theme.el --- Straight from the soda fountain.
 
 ;; Copyright (c) 2015-2016 Jason Milkins (GNU/GPL Licence)
 
@@ -7,7 +7,7 @@
 ;; Version: 0.1.0
 
 ;;; Commentary:
-;;  A color theme for Emacs.  Straight from the soda fountain.
+;;  Straight from the soda fountain.
 
 ;;  Please note: this theme is not intended for terminal use.
 
@@ -16,7 +16,7 @@
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
 
-(deftheme creamsody "A color theme for Emacs.  Straight from the soda fountain.")
+(deftheme creamsody "Straight from the soda fountain.")
 
 (let (
       (creamsody-dark0_hard      "#1D2021")
