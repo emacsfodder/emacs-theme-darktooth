@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.1.0
+;; Version: 0.1.1
 
 ;;; Commentary:
 ;;  Straight from the soda fountain.
