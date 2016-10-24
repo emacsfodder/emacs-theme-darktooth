@@ -369,12 +369,12 @@
    `(sml/position-percentage                   ((t (:foreground ,creamsody-faded_aqua))))
 
    ;; Matches and Isearch
-   `(lazy-highlight                            ((t (:foreground ,creamsody-light0 :background ,creamsody-dark2))))
+   `(lazy-highlight                            ((t (:foreground ,creamsody-light0 :background ,creamsody-dark3))))
    `(highlight                                 ((t (:foreground ,creamsody-light0_hard :background ,creamsody-faded_blue))))
-   `(match                                     ((t (:foreground ,creamsody-light0 :background ,creamsody-dark2))))
+   `(match                                     ((t (:foreground ,creamsody-light0 :background ,creamsody-mid_orange))))
 
    ;; MODE SUPPORT: isearch
-   `(isearch                                   ((t (:foreground ,creamsody-light0 :background ,creamsody-faded_aqua))))
+   `(isearch                                   ((t (:foreground ,creamsody-light0 :background ,creamsody-mid_cyan))))
    `(isearch-fail                              ((t (:foreground ,creamsody-light0_hard :background ,creamsody-faded_red))))
 
    ;; MODE SUPPORT: show-paren
