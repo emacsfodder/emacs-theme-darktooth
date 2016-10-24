@@ -1,32 +1,35 @@
-[![MELPA](http://stable.melpa.org/packages/darktooth-theme-badge.svg)](http://stable.melpa.org/#/darktooth-theme) [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
+[![MELPA](http://stable.melpa.org/packages/creamsody-theme-badge.svg)](http://stable.melpa.org/#/creamsody-theme) [![MELPA](http://melpa.org/packages/creamsody-theme-badge.svg)](http://melpa.org/#/creamsody-theme)
 
-# Darktooth
+# Creamsody
 
-An Emacs theme, *From the darkness... it watches.*
+![](creamsody.png)
+
+A color theme for Emacs.  Straight from the soda fountain.
+
+## Important
+
+Creamsody is only intended for use with 24bit (or better) displays,
+less than 16.8m color displays are not supported.
 
 ## Installation
 
-Darktooth is easily installed via MELPA.  [Read more here for MELPA setup details](http://melpa.org/#/getting-started)
+Creamsody is easily installed via MELPA.  [Read more here for MELPA setup details](http://melpa.org/#/getting-started)
 
 When your Emacs is setup to use MELPA do this:
 
 ```
-M-x package-install darktooth-theme
+M-x package-install creamsody-theme
 ```
 
-![Multi window layout with various modes](darktooth-multi-window.png)
+![Multi window layout with various modes](creamsody-multi-window.png)
 
-### The Fabled Darktooth Keyboard...
+### Creamsody Mode line
 
-![How can I buy this?!??! Shut up and take my money!](darktooth-keyboard.jpg)
+There's an optional modeline theme available, run `(creamsody-modeline)`:
 
-### Darktooth Mode line
+**Creamsody modeline - screenshot**
 
-There's an optional modeline theme available, run `(darktooth-modeline)`:
-
-**Darktooth modeline - screenshot**
-
-![](darktooth-modeline.png)
+![](creamsody-modeline.png)
 
 ## Modes supported
 
@@ -62,6 +65,7 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 - ivy
 - linum-relative
 - magit
+- message
 - org-mode
 - popup
 - powerline
@@ -79,39 +83,12 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 ### Screenshots
 
-##### Popup Menu
+### Forked from Darktooth
 
-![](darktooth-popup-menu.png)
+It's the Creamy Sodarey fork of Darktooth, inspired by the syntax.css I made
+for https://emacsgifs.github.io
 
-##### Popup Tip
+##### Credit
 
-![](darktooth-popup-tip.png)
-
-##### Emacs Lisp
-
-![](darktooth-emacslisp.png)
-
-##### CoffeeScript
-
-![](darktooth-coffee.png)
-
-##### Java
-
-![](darktooth-java.png)
-
-##### XML
-
-![](darktooth-xml.png)
-
-##### Dired
-
-![](darktooth-dired.png)
-
-##### Terminal (xterm256 / iTerm)
-
-![](darktooth-terminal.png)
-
-Inspired by:
-
-[gruvbox]: https://github.com/Greduan/emacs-theme-gruvbox
-[soothe]: https://github.com/emacsfodder/emacs-soothe-theme
+Cherry Cream Soda is a character from Adventure Time.  I have no right
+to use her like this.  For the love of Gob!  Stop me!
