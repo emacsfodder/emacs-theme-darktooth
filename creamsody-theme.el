@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.1.2
+;; Version: 0.1.3
 
 ;;; Commentary:
 ;;  Straight from the soda fountain.
@@ -460,6 +460,14 @@
    `(diredp-link-priv                          ((t (:foreground ,creamsody-faded_aqua  :background ,creamsody-dark_aqua))))
    `(diredp-read-priv                          ((t (:foreground ,creamsody-bright_red  :background ,creamsody-dark_red))))
    `(diredp-write-priv                         ((t (:foreground ,creamsody-bright_aqua :background ,creamsody-dark_aqua))))
+
+   ;; MODE SUPPORT: dired-subtree
+   `(dired-subtree-depth-1-face                ((t (:background nil))))
+   `(dired-subtree-depth-2-face                ((t (:background nil))))
+   `(dired-subtree-depth-3-face                ((t (:background nil))))
+   `(dired-subtree-depth-4-face                ((t (:background nil))))
+   `(dired-subtree-depth-5-face                ((t (:background nil))))
+   `(dired-subtree-depth-6-face                ((t (:background nil))))
 
    ;; MODE SUPPORT: helm
    `(helm-M-x-key                              ((t (:foreground ,creamsody-neutral_orange))))
