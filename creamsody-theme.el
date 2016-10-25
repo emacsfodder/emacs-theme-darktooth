@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-creamsody
-;; Version: 0.1.1
+;; Version: 0.1.2
 
 ;;; Commentary:
 ;;  Straight from the soda fountain.
@@ -133,11 +133,18 @@
    `(mode-line                                 ((t (:foreground ,creamsody-light1 :background ,creamsody-dark0_hard :box nil))))
    `(mode-line-inactive                        ((t (:foreground ,creamsody-light4 :background ,creamsody-dark2 :box nil))))
    `(fringe                                    ((t (:background ,creamsody-dark0))))
+   `(vertical-border                           ((t (:foreground ,creamsody-muted_blue))))
+   `(border                                    ((t (:background ,creamsody-muted_blue))))
+
+   `(window-divider                            ((t (:foreground ,creamsody-muted_blue ))))
+   `(window-divider-first-pixel                ((t (:foreground ,creamsody-muted_blue ))))
+   `(window-divider-last-pixel                 ((t (:foreground ,creamsody-muted_blue ))))
+
    `(linum                                     ((t (:foreground ,creamsody-dark4))))
    `(hl-line                                   ((t (:background ,creamsody-dark_purple))))
    `(region                                    ((t (:background ,creamsody-mid_green :distant-foreground ,creamsody-light0))))
    `(secondary-selection                       ((t (:background ,creamsody-mid_orange))))
-   `(cua-rectangle                             ((t (:background ,creamsody-mid_blue))))
+   `(cua-rectangle                             ((t (:background ,creamsody-mid_green :distant-foreground ,creamsody-light0))))
    `(header-line                               ((t (:foreground ,creamsody-turquoise4 :background ,creamsody-dark0 :bold nil))))
    `(minibuffer-prompt                         ((t (:foreground ,creamsody-bright_cyan :background ,creamsody-dark0 :bold nil))))
 
@@ -149,15 +156,15 @@
    `(warning                                   ((t (:foreground ,creamsody-bright_red :bold t))))
 
    ;; Built-in syntax
-   `(font-lock-builtin-face                    ((t (:foreground ,creamsody-bright_orange))))
-   `(font-lock-constant-face                   ((t (:foreground ,creamsody-sandyblur ))))
-   `(font-lock-comment-face                    ((t (:foreground ,creamsody-dark4))))
-   `(font-lock-function-name-face              ((t (:foreground ,creamsody-light4))))
-   `(font-lock-keyword-face                    ((t (:foreground ,creamsody-floaty))))
-   `(font-lock-string-face                     ((t (:foreground ,creamsody-darkslategray4))))
-   `(font-lock-variable-name-face              ((t (:foreground ,creamsody-aquamarine4))))
-   `(font-lock-type-face                       ((t (:foreground ,creamsody-lightblue4))))
-   `(font-lock-warning-face                    ((t (:foreground ,creamsody-neutral_red :bold t))))
+   `(font-lock-builtin-face                           ((t (:foreground ,creamsody-bright_orange))))
+   `(font-lock-constant-face                          ((t (:foreground ,creamsody-sandyblur ))))
+   `(font-lock-comment-face                           ((t (:foreground ,creamsody-dark4))))
+   `(font-lock-function-name-face                     ((t (:foreground ,creamsody-light4))))
+   `(font-lock-keyword-face                           ((t (:foreground ,creamsody-floaty))))
+   `(font-lock-string-face                            ((t (:foreground ,creamsody-darkslategray4))))
+   `(font-lock-variable-name-face                     ((t (:foreground ,creamsody-aquamarine4))))
+   `(font-lock-type-face                              ((t (:foreground ,creamsody-lightblue4))))
+   `(font-lock-warning-face                           ((t (:foreground ,creamsody-neutral_red :bold t))))
 
    ;; MODE SUPPORT: whitespace-mode
    `(whitespace-space                          ((t (:foreground ,creamsody-dark4 :background ,creamsody-dark0))))
