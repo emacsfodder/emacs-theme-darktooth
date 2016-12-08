@@ -163,6 +163,10 @@
    `(font-lock-type-face                       ((t (:foreground ,darktooth-lightblue4))))
    `(font-lock-warning-face                    ((t (:foreground ,darktooth-neutral_red :bold t))))
 
+   ;; MODE SUPPORT: elixir-mode
+   `(elixir-atom-face                          ((t (:foreground ,darktooth-lightblue4))))
+   `(elixir-attribute-face                     ((t (:foreground ,darktooth-burlywood4))))
+
    ;; MODE SUPPORT: whitespace-mode
    `(whitespace-space                          ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
    `(whitespace-hspace                         ((t (:foreground ,darktooth-dark4 :background ,darktooth-dark0))))
