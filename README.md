@@ -97,6 +97,10 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 ![](darktooth-coffee.png)
 
+##### Elixir
+
+![](darktooth-elixir.png)
+
 ##### Java
 
 ![](darktooth-java.png)
