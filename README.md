@@ -93,11 +93,7 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 ##### CoffeeScript
 
-![](darktooth-coffee.png)
-
-##### Elixir
-
-![](darktooth-elixir.png)
+![](darktooth-coffee.png
 
 ##### Java
 
