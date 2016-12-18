@@ -5,6 +5,7 @@
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
 ;; Version: 0.2.1
+;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
 ;;  From the darkness... it watches
