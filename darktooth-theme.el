@@ -1,13 +1,13 @@
-;;; darktooth-theme.el --- A color theme for Emacs, from the darkness... it watches
+;;; darktooth-theme.el --- From the darkness... it watches
 
 ;; Copyright (c) 2015-2016 Jason Milkins (GNU/GPL Licence)
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.2.0
+;; Version: 0.2.1
 
 ;;; Commentary:
-;;  A color theme for Emacs, from the darkness... it watches
+;;  From the darkness... it watches
 
 ;;  Since 0.2.0  : Built using autothemer
 ;;  Since 0.1.60 : includes `darktooth-modeline'
@@ -17,6 +17,8 @@
 
 (unless (>= emacs-major-version 24)
   (error "Requires Emacs 24 or later"))
+
+(deftheme darktooth "From the darkness... it watches")
 
 (autothemer-deftheme
                      darktooth "A color theme for Emacs, from the darkness... it watches"
