@@ -1,5 +1,3 @@
-![](https://labs.turbo.run/git-brag?user=emacsfodder&repo=emacs-theme-darktooth)
-
 [![MELPA](http://stable.melpa.org/packages/darktooth-theme-badge.svg)](http://stable.melpa.org/#/darktooth-theme) [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
 
 # Darktooth
