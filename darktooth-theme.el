@@ -171,6 +171,14 @@
   (elixir-atom-face                          (:foreground darktooth-lightblue4))
   (elixir-attribute-face                     (:foreground darktooth-burlywood4))
 
+  ;; MODE SUPPORT: man
+  (Man-overstrike                            (:foreground darktooth-bright_red :bold t))
+  (Man-underline                             (:foreground darktooth-bright_green :bold t))
+
+  ;; MODE SUPPORT: woman
+  (woman-bold                               (:foreground darktooth-bright_red :bold t))
+  (woman-italic                             (:foreground darktooth-bright_green :bold t))
+
   ;; MODE SUPPORT: whitespace-mode
   (whitespace-space                          (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-hspace                         (:foreground darktooth-dark4 :background darktooth-dark0))
