@@ -565,6 +565,11 @@
   (git-gutter:separator                     (:foreground darktooth-faded_cyan :background darktooth-muted_cyan ))
   (git-gutter:unchanged                     (:foreground darktooth-faded_yellow :background darktooth-muted_yellow ))
 
+  ;; MODE SUPPORT: git-gutter-fr
+  (git-gutter-fr:added                      (:inherit 'git-gutter:added))
+  (git-gutter-fr:deleted                    (:inherit 'git-gutter:deleted))
+  (git-gutter-fr:modified                   (:inherit 'git-gutter:modified))
+
   ;; MODE SUPPORT: git-gutter+
   (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
   (git-gutter+-added                         (:foreground darktooth-faded_green :background darktooth-muted_green ))
