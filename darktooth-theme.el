@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.3.1
+;; Version: 0.3.2
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
@@ -559,11 +559,16 @@
   (smerge-refined-removed                    (:background darktooth-dark_red))
 
   ;; MODE SUPPORT: git-gutter
-  (git-gutter:separator                      (:inherit 'git-gutter+-separator ))
-  (git-gutter:modified                       (:inherit 'git-gutter+-modified ))
-  (git-gutter:added                          (:inherit 'git-gutter+-added ))
-  (git-gutter:deleted                        (:inherit 'git-gutter+-deleted ))
-  (git-gutter:unchanged                      (:inherit 'git-gutter+-unchanged ))
+  (git-gutter:added                         (:foreground darktooth-faded_green :background darktooth-muted_green ))
+  (git-gutter:deleted                       (:foreground darktooth-faded_red :background darktooth-muted_red ))
+  (git-gutter:modified                      (:foreground darktooth-faded_purple :background darktooth-muted_purple ))
+  (git-gutter:separator                     (:foreground darktooth-faded_cyan :background darktooth-muted_cyan ))
+  (git-gutter:unchanged                     (:foreground darktooth-faded_yellow :background darktooth-muted_yellow ))
+
+  ;; MODE SUPPORT: git-gutter-fr
+  (git-gutter-fr:added                      (:inherit 'git-gutter:added))
+  (git-gutter-fr:deleted                    (:inherit 'git-gutter:deleted))
+  (git-gutter-fr:modified                   (:inherit 'git-gutter:modified))
 
   ;; MODE SUPPORT: git-gutter+
   (git-gutter+-commit-header-face            (:inherit 'font-lock-comment-face))
