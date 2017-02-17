@@ -165,6 +165,9 @@
   (font-lock-type-face                               (:foreground darktooth-lightblue4))
   (font-lock-warning-face                            (:foreground darktooth-neutral_red :bold t))
 
+  ;; MODE SUPPORT: which-key
+  (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
+
   ;; MODE SUPPORT: elixir-mode
   (elixir-atom-face                          (:foreground darktooth-lightblue4))
   (elixir-attribute-face                     (:foreground darktooth-burlywood4))
