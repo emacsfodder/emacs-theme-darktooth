@@ -93,7 +93,7 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 ##### CoffeeScript
 
-![](darktooth-coffee.png
+![](darktooth-coffee.png)
 
 ##### Java
 
@@ -113,5 +113,5 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 Inspired by:
 
-[gruvbox]: https://github.com/Greduan/emacs-theme-gruvbox
-[soothe]: https://github.com/emacsfodder/emacs-soothe-theme
+[gruvbox](https://github.com/Greduan/emacs-theme-gruvbox)  
+[soothe](https://github.com/emacsfodder/emacs-soothe-theme)
