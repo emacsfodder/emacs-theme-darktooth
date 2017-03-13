@@ -586,7 +586,7 @@
   (git-gutter-fr+-modified                   (:inherit 'git-gutter+-modified))
 
   ;; MODE SUPPORT: magit
-  (magit-section-highlight                   (:background darktooth-black))
+  (magit-section-highlight                   (:background darktooth-dark0_soft))
   (magit-branch                              (:foreground darktooth-turquoise4 :background nil))
   (magit-branch-local                        (:foreground darktooth-turquoise4 :background nil))
   (magit-branch-remote                       (:foreground darktooth-aquamarine4 :background nil))
