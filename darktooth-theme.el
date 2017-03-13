@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.3.4
+;; Version: 0.3.5
 ;; Package-Requires: ((autothemer "0.2"))
 
 ;;; Commentary:
