@@ -1,0 +1,5627 @@
+body {
+  font-family: "SauceCodePro Nerd Font";
+  font-weight: lighter;
+  background-color: transparent; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 3px; }
+
+h1 {
+  font-size: 42pt; }
+
+h2 {
+  font-size: 38pt; }
+
+h3 {
+  font-size: 28pt; }
+
+h4 {
+  font-size: 18pt; }
+
+h5 {
+  font-size: 14pt; }
+
+.darktooth-swatch {
+  width: 128px;
+  height: 128px;
+  font-size: 10pt;
+  float: left;
+  margin: 1px 1px 0 0; }
+
+.darktooth-dark0_hard {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #1D2021;
+  height: 120px; }
+  .darktooth-dark0_hard .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark0_hard .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark0_hard .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark0_hard-after {
+  height: 8px;
+  width: 128px;
+  background-color: black; }
+
+.darktooth-dark0_hard-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #1c1c1c;
+  height: 120px; }
+  .darktooth-dark0_hard-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark0_hard-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark0_hard-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark0_hard-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: black; }
+
+.darktooth-dark0 {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #282828;
+  height: 120px; }
+  .darktooth-dark0 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark0 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark0 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark0-after {
+  height: 8px;
+  width: 128px;
+  background-color: #090909; }
+
+.darktooth-dark0-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #262626;
+  height: 120px; }
+  .darktooth-dark0-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark0-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark0-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark0-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #070707; }
+
+.darktooth-dark0_soft {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #32302F;
+  height: 120px; }
+  .darktooth-dark0_soft .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark0_soft .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark0_soft .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark0_soft-after {
+  height: 8px;
+  width: 128px;
+  background-color: #121211; }
+
+.darktooth-dark0_soft-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #303030;
+  height: 120px; }
+  .darktooth-dark0_soft-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark0_soft-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark0_soft-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark0_soft-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #111111; }
+
+.darktooth-dark1 {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #3C3836;
+  height: 120px; }
+  .darktooth-dark1 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark1 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark1 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark1-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1c1a19; }
+
+.darktooth-dark1-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #3a3a3a;
+  height: 120px; }
+  .darktooth-dark1-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark1-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark1-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark1-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1b1b1b; }
+
+.darktooth-dark2 {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #504945;
+  height: 120px; }
+  .darktooth-dark2 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark2 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark2 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark2-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2f2b29; }
+
+.darktooth-dark2-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #4e4e4e;
+  height: 120px; }
+  .darktooth-dark2-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark2-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark2-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark2-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2f2f2f; }
+
+.darktooth-dark3 {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #665C54;
+  height: 120px; }
+  .darktooth-dark3 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark3 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark3 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark3-after {
+  height: 8px;
+  width: 128px;
+  background-color: #443e38; }
+
+.darktooth-dark3-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #626262;
+  height: 120px; }
+  .darktooth-dark3-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark3-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark3-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark3-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #434343; }
+
+.darktooth-dark4 {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #7C6F64;
+  height: 120px; }
+  .darktooth-dark4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #5a5149; }
+
+.darktooth-dark4-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #767676;
+  height: 120px; }
+  .darktooth-dark4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #575757; }
+
+.darktooth-medium {
+  position: relative;
+  color: #000000;
+  background-color: #928374;
+  height: 120px; }
+  .darktooth-medium .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-medium .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-medium .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-medium-after {
+  height: 8px;
+  width: 128px;
+  background-color: #716458; }
+
+.darktooth-medium-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #8a8a8a;
+  height: 120px; }
+  .darktooth-medium-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-medium-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-medium-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-medium-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6b6b6b; }
+
+.darktooth-light0_hard {
+  position: relative;
+  color: #000000;
+  background-color: #FFFFC8;
+  height: 120px; }
+  .darktooth-light0_hard .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light0_hard .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light0_hard .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light0_hard-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffff8b; }
+
+.darktooth-light0_hard-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffffdf;
+  height: 120px; }
+  .darktooth-light0_hard-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light0_hard-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light0_hard-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light0_hard-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffffa2; }
+
+.darktooth-light0 {
+  position: relative;
+  color: #000000;
+  background-color: #FDF4C1;
+  height: 120px; }
+  .darktooth-light0 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light0 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light0 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light0-after {
+  height: 8px;
+  width: 128px;
+  background-color: #fbe986; }
+
+.darktooth-light0-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffffaf;
+  height: 120px; }
+  .darktooth-light0-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light0-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light0-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light0-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffff72; }
+
+.darktooth-light0_soft {
+  position: relative;
+  color: #000000;
+  background-color: #F4E8BA;
+  height: 120px; }
+  .darktooth-light0_soft .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light0_soft .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light0_soft .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light0_soft-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ecd685; }
+
+.darktooth-light0_soft-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffff87;
+  height: 120px; }
+  .darktooth-light0_soft-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light0_soft-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light0_soft-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light0_soft-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffff4a; }
+
+.darktooth-light1 {
+  position: relative;
+  color: #000000;
+  background-color: #EBDBB2;
+  height: 120px; }
+  .darktooth-light1 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light1 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light1 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light1-after {
+  height: 8px;
+  width: 128px;
+  background-color: #dec481; }
+
+.darktooth-light1-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffdfaf;
+  height: 120px; }
+  .darktooth-light1-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light1-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light1-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light1-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffc772; }
+
+.darktooth-light2 {
+  position: relative;
+  color: #000000;
+  background-color: #D5C4A1;
+  height: 120px; }
+  .darktooth-light2 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light2 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light2 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light2-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c2a977; }
+
+.darktooth-light2-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #bcbcbc;
+  height: 120px; }
+  .darktooth-light2-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light2-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light2-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light2-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9d9d9d; }
+
+.darktooth-light3 {
+  position: relative;
+  color: #000000;
+  background-color: #BDAE93;
+  height: 120px; }
+  .darktooth-light3 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light3 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light3 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light3-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a6926d; }
+
+.darktooth-light3-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #a8a8a8;
+  height: 120px; }
+  .darktooth-light3-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light3-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light3-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light3-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #898989; }
+
+.darktooth-light4 {
+  position: relative;
+  color: #000000;
+  background-color: #A89984;
+  height: 120px; }
+  .darktooth-light4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #8c7b63; }
+
+.darktooth-light4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #949494;
+  height: 120px; }
+  .darktooth-light4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-light4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-light4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-light4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #757575; }
+
+.darktooth-bright_red {
+  position: relative;
+  color: #000000;
+  background-color: #FB4933;
+  height: 120px; }
+  .darktooth-bright_red .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_red .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_red .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ec1e05; }
+
+.darktooth-bright_red-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d75f5f;
+  height: 120px; }
+  .darktooth-bright_red-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_red-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_red-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c73232; }
+
+.darktooth-bright_green {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #B8BB26;
+  height: 120px; }
+  .darktooth-bright_green .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_green .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_green .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #86881c; }
+
+.darktooth-bright_green-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #afaf00;
+  height: 120px; }
+  .darktooth-bright_green-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_green-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_green-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #727200; }
+
+.darktooth-bright_yellow {
+  position: relative;
+  color: #000000;
+  background-color: #FABD2F;
+  height: 120px; }
+  .darktooth-bright_yellow .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_yellow .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_yellow .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e6a306; }
+
+.darktooth-bright_yellow-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffaf00;
+  height: 120px; }
+  .darktooth-bright_yellow-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_yellow-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_yellow-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c28500; }
+
+.darktooth-bright_blue {
+  position: relative;
+  color: #000000;
+  background-color: #83A598;
+  height: 120px; }
+  .darktooth-bright_blue .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_blue .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_blue .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #63887a; }
+
+.darktooth-bright_blue-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87afaf;
+  height: 120px; }
+  .darktooth-bright_blue-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_blue-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_blue-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649595; }
+
+.darktooth-bright_purple {
+  position: relative;
+  color: #000000;
+  background-color: #D3869B;
+  height: 120px; }
+  .darktooth-bright_purple .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_purple .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_purple .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c35976; }
+
+.darktooth-bright_purple-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d787af;
+  height: 120px; }
+  .darktooth-bright_purple-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_purple-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_purple-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c85990; }
+
+.darktooth-bright_aqua {
+  position: relative;
+  color: #000000;
+  background-color: #8EC07C;
+  height: 120px; }
+  .darktooth-bright_aqua .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_aqua .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_aqua .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6aac53; }
+
+.darktooth-bright_aqua-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87af87;
+  height: 120px; }
+  .darktooth-bright_aqua-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_aqua-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_aqua-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564; }
+
+.darktooth-bright_orange {
+  position: relative;
+  color: #000000;
+  background-color: #FE8019;
+  height: 120px; }
+  .darktooth-bright_orange .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_orange .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_orange .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d96201; }
+
+.darktooth-bright_orange-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ff8700;
+  height: 120px; }
+  .darktooth-bright_orange-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_orange-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_orange-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c26700; }
+
+.darktooth-bright_cyan {
+  position: relative;
+  color: #000000;
+  background-color: #3FD7E5;
+  height: 120px; }
+  .darktooth-bright_cyan .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_cyan .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_cyan .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_cyan-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1cbccb; }
+
+.darktooth-bright_cyan-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #00d7ff;
+  height: 120px; }
+  .darktooth-bright_cyan-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-bright_cyan-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-bright_cyan-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-bright_cyan-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00a3c2; }
+
+.darktooth-neutral_red {
+  position: relative;
+  color: #000000;
+  background-color: #FB4934;
+  height: 120px; }
+  .darktooth-neutral_red .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_red .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_red .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ed1d05; }
+
+.darktooth-neutral_red-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #D75F5F;
+  height: 120px; }
+  .darktooth-neutral_red-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_red-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_red-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c73232; }
+
+.darktooth-neutral_green {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #B8BB26;
+  height: 120px; }
+  .darktooth-neutral_green .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_green .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_green .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #86881c; }
+
+.darktooth-neutral_green-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #73AF00;
+  height: 120px; }
+  .darktooth-neutral_green-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_green-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_green-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4b7200; }
+
+.darktooth-neutral_yellow {
+  position: relative;
+  color: #000000;
+  background-color: #FABD2F;
+  height: 120px; }
+  .darktooth-neutral_yellow .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_yellow .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_yellow .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e6a306; }
+
+.darktooth-neutral_yellow-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #FFAF00;
+  height: 120px; }
+  .darktooth-neutral_yellow-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_yellow-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_yellow-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c28500; }
+
+.darktooth-neutral_blue {
+  position: relative;
+  color: #000000;
+  background-color: #83A598;
+  height: 120px; }
+  .darktooth-neutral_blue .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_blue .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_blue .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #63887a; }
+
+.darktooth-neutral_blue-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87AFAF;
+  height: 120px; }
+  .darktooth-neutral_blue-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_blue-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_blue-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649595; }
+
+.darktooth-neutral_purple {
+  position: relative;
+  color: #000000;
+  background-color: #D3869B;
+  height: 120px; }
+  .darktooth-neutral_purple .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_purple .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_purple .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c35976; }
+
+.darktooth-neutral_purple-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #D787AF;
+  height: 120px; }
+  .darktooth-neutral_purple-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_purple-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_purple-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c85990; }
+
+.darktooth-neutral_aqua {
+  position: relative;
+  color: #000000;
+  background-color: #8EC07C;
+  height: 120px; }
+  .darktooth-neutral_aqua .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_aqua .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_aqua .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6aac53; }
+
+.darktooth-neutral_aqua-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87AF87;
+  height: 120px; }
+  .darktooth-neutral_aqua-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_aqua-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_aqua-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564; }
+
+.darktooth-neutral_orange {
+  position: relative;
+  color: #000000;
+  background-color: #FE8019;
+  height: 120px; }
+  .darktooth-neutral_orange .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_orange .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_orange .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d96201; }
+
+.darktooth-neutral_orange-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #FF8700;
+  height: 120px; }
+  .darktooth-neutral_orange-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_orange-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_orange-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c26700; }
+
+.darktooth-neutral_cyan {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #17CCD5;
+  height: 120px; }
+  .darktooth-neutral_cyan .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_cyan .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_cyan .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_cyan-after {
+  height: 8px;
+  width: 128px;
+  background-color: #11979e; }
+
+.darktooth-neutral_cyan-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #17CCD5;
+  height: 120px; }
+  .darktooth-neutral_cyan-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-neutral_cyan-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-neutral_cyan-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-neutral_cyan-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #11979e; }
+
+.darktooth-faded_red {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #9D0006;
+  height: 120px; }
+  .darktooth-faded_red .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_red .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_red .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #600004; }
+
+.darktooth-faded_red-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #870000;
+  height: 120px; }
+  .darktooth-faded_red-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_red-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_red-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4a0000; }
+
+.darktooth-faded_green {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #79740E;
+  height: 120px; }
+  .darktooth-faded_green .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_green .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_green .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #423f08; }
+
+.darktooth-faded_green-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #878700;
+  height: 120px; }
+  .darktooth-faded_green-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_green-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_green-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4a4a00; }
+
+.darktooth-faded_yellow {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #B57614;
+  height: 120px; }
+  .darktooth-faded_yellow .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_yellow .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_yellow .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #7e520e; }
+
+.darktooth-faded_yellow-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #af8700;
+  height: 120px; }
+  .darktooth-faded_yellow-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_yellow-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_yellow-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #725800; }
+
+.darktooth-faded_blue {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #076678;
+  height: 120px; }
+  .darktooth-faded_blue .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_blue .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_blue .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #04353e; }
+
+.darktooth-faded_blue-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f87;
+  height: 120px; }
+  .darktooth-faded_blue-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_blue-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_blue-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00344a; }
+
+.darktooth-faded_purple {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #8F3F71;
+  height: 120px; }
+  .darktooth-faded_purple .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_purple .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_purple .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #652c4f; }
+
+.darktooth-faded_purple-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #875f87;
+  height: 120px; }
+  .darktooth-faded_purple-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_purple-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_purple-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #634663; }
+
+.darktooth-faded_aqua {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #427B58;
+  height: 120px; }
+  .darktooth-faded_aqua .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_aqua .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_aqua .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2d533c; }
+
+.darktooth-faded_aqua-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f8787;
+  height: 120px; }
+  .darktooth-faded_aqua-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_aqua-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_aqua-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #466363; }
+
+.darktooth-faded_orange {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #AF3A03;
+  height: 120px; }
+  .darktooth-faded_orange .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_orange .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_orange .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #732602; }
+
+.darktooth-faded_orange-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #af5f00;
+  height: 120px; }
+  .darktooth-faded_orange-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_orange-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_orange-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #723e00; }
+
+.darktooth-faded_cyan {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #00A7AF;
+  height: 120px; }
+  .darktooth-faded_cyan .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_cyan .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_cyan .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_cyan-after {
+  height: 8px;
+  width: 128px;
+  background-color: #006d72; }
+
+.darktooth-faded_cyan-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #00afaf;
+  height: 120px; }
+  .darktooth-faded_cyan-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-faded_cyan-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-faded_cyan-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-faded_cyan-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #007272; }
+
+.darktooth-muted_red {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #901A1E;
+  height: 120px; }
+  .darktooth-muted_red .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_red .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_red .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #5c1113; }
+
+.darktooth-muted_red-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #870000;
+  height: 120px; }
+  .darktooth-muted_red-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_red-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_red-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4a0000; }
+
+.darktooth-muted_green {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #556C21;
+  height: 120px; }
+  .darktooth-muted_green .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_green .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_green .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #303d13; }
+
+.darktooth-muted_green-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #878700;
+  height: 120px; }
+  .darktooth-muted_green-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_green-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_green-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4a4a00; }
+
+.darktooth-muted_yellow {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #A87933;
+  height: 120px; }
+  .darktooth-muted_yellow .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_yellow .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_yellow .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #795725; }
+
+.darktooth-muted_yellow-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #af8700;
+  height: 120px; }
+  .darktooth-muted_yellow-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_yellow-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_yellow-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #725800; }
+
+.darktooth-muted_blue {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #1B5C6B;
+  height: 120px; }
+  .darktooth-muted_blue .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_blue .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_blue .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #0f323a; }
+
+.darktooth-muted_blue-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f87;
+  height: 120px; }
+  .darktooth-muted_blue-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_blue-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_blue-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00344a; }
+
+.darktooth-muted_purple {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #82526E;
+  height: 120px; }
+  .darktooth-muted_purple .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_purple .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_purple .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #5c3a4e; }
+
+.darktooth-muted_purple-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #875f87;
+  height: 120px; }
+  .darktooth-muted_purple-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_purple-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_purple-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #634663; }
+
+.darktooth-muted_aqua {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #506E59;
+  height: 120px; }
+  .darktooth-muted_aqua .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_aqua .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_aqua .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #364b3c; }
+
+.darktooth-muted_aqua-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f8787;
+  height: 120px; }
+  .darktooth-muted_aqua-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_aqua-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_aqua-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #466363; }
+
+.darktooth-muted_orange {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #A24921;
+  height: 120px; }
+  .darktooth-muted_orange .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_orange .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_orange .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #6f3217; }
+
+.darktooth-muted_orange-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #af5f00;
+  height: 120px; }
+  .darktooth-muted_orange-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_orange-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_orange-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #723e00; }
+
+.darktooth-muted_cyan {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #18A7AF;
+  height: 120px; }
+  .darktooth-muted_cyan .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_cyan .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_cyan .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_cyan-after {
+  height: 8px;
+  width: 128px;
+  background-color: #117479; }
+
+.darktooth-muted_cyan-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #00afaf;
+  height: 120px; }
+  .darktooth-muted_cyan-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-muted_cyan-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-muted_cyan-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-muted_cyan-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #007272; }
+
+.darktooth-dark_red {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #421E1E;
+  height: 120px; }
+  .darktooth-dark_red .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_red .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_red .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #180b0b; }
+
+.darktooth-dark_red-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f0000;
+  height: 120px; }
+  .darktooth-dark_red-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_red-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_red-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #220000; }
+
+.darktooth-dark_green {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #232B0F;
+  height: 120px; }
+  .darktooth-dark_green .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_green .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_green .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: black; }
+
+.darktooth-dark_green-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f00;
+  height: 120px; }
+  .darktooth-dark_green-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_green-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_green-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #002200; }
+
+.darktooth-dark_yellow {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #4D3B27;
+  height: 120px; }
+  .darktooth-dark_yellow .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_yellow .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_yellow .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #241c12; }
+
+.darktooth-dark_yellow-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f5f00;
+  height: 120px; }
+  .darktooth-dark_yellow-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_yellow-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_yellow-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #222200; }
+
+.darktooth-dark_blue {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #2B3C44;
+  height: 120px; }
+  .darktooth-dark_blue .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_blue .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_blue .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #131b1f; }
+
+.darktooth-dark_blue-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #00005f;
+  height: 120px; }
+  .darktooth-dark_blue-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_blue-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_blue-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #000022; }
+
+.darktooth-dark_purple {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #4E3D45;
+  height: 120px; }
+  .darktooth-dark_purple .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_purple .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_purple .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2c2227; }
+
+.darktooth-dark_purple-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f00af;
+  height: 120px; }
+  .darktooth-dark_purple-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_purple-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_purple-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #3e0072; }
+
+.darktooth-dark_aqua {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #36473A;
+  height: 120px; }
+  .darktooth-dark_aqua .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_aqua .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_aqua .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1c241e; }
+
+.darktooth-dark_aqua-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f5f;
+  height: 120px; }
+  .darktooth-dark_aqua-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_aqua-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_aqua-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #002222; }
+
+.darktooth-dark_orange {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #613620;
+  height: 120px; }
+  .darktooth-dark_orange .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_orange .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_orange .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #331c11; }
+
+.darktooth-dark_orange-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #af5f00;
+  height: 120px; }
+  .darktooth-dark_orange-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_orange-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_orange-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #723e00; }
+
+.darktooth-dark_cyan {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #205161;
+  height: 120px; }
+  .darktooth-dark_cyan .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_cyan .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_cyan .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_cyan-after {
+  height: 8px;
+  width: 128px;
+  background-color: #112b33; }
+
+.darktooth-dark_cyan-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f87;
+  height: 120px; }
+  .darktooth-dark_cyan-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-dark_cyan-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-dark_cyan-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-dark_cyan-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00344a; }
+
+.darktooth-mid_red {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #3F1B1B;
+  height: 120px; }
+  .darktooth-mid_red .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_red .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_red .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_red-after {
+  height: 8px;
+  width: 128px;
+  background-color: #140909; }
+
+.darktooth-mid_red-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f0000;
+  height: 120px; }
+  .darktooth-mid_red-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_red-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_red-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_red-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #220000; }
+
+.darktooth-mid_green {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #1F321C;
+  height: 120px; }
+  .darktooth-mid_green .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_green .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_green .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_green-after {
+  height: 8px;
+  width: 128px;
+  background-color: #070b06; }
+
+.darktooth-mid_green-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f00;
+  height: 120px; }
+  .darktooth-mid_green-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_green-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_green-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_green-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #002200; }
+
+.darktooth-mid_yellow {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #4C3A25;
+  height: 120px; }
+  .darktooth-mid_yellow .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_yellow .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_yellow .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_yellow-after {
+  height: 8px;
+  width: 128px;
+  background-color: #231b11; }
+
+.darktooth-mid_yellow-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f5f00;
+  height: 120px; }
+  .darktooth-mid_yellow-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_yellow-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_yellow-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_yellow-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #222200; }
+
+.darktooth-mid_blue {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #30434C;
+  height: 120px; }
+  .darktooth-mid_blue .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_blue .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_blue .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_blue-after {
+  height: 8px;
+  width: 128px;
+  background-color: #182226; }
+
+.darktooth-mid_blue-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #00005f;
+  height: 120px; }
+  .darktooth-mid_blue-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_blue-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_blue-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_blue-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #000022; }
+
+.darktooth-mid_purple {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #4C3B43;
+  height: 120px; }
+  .darktooth-mid_purple .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_purple .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_purple .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_purple-after {
+  height: 8px;
+  width: 128px;
+  background-color: #2a2025; }
+
+.darktooth-mid_purple-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f00af;
+  height: 120px; }
+  .darktooth-mid_purple-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_purple-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_purple-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_purple-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #3e0072; }
+
+.darktooth-mid_aqua {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #394C3D;
+  height: 120px; }
+  .darktooth-mid_aqua .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_aqua .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_aqua .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_aqua-after {
+  height: 8px;
+  width: 128px;
+  background-color: #1f2921; }
+
+.darktooth-mid_aqua-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f5f;
+  height: 120px; }
+  .darktooth-mid_aqua-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_aqua-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_aqua-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_aqua-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #002222; }
+
+.darktooth-mid_orange {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #603000;
+  height: 120px; }
+  .darktooth-mid_orange .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_orange .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_orange .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_orange-after {
+  height: 8px;
+  width: 128px;
+  background-color: #231100; }
+
+.darktooth-mid_orange-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #af5f00;
+  height: 120px; }
+  .darktooth-mid_orange-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_orange-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_orange-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_orange-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #723e00; }
+
+.darktooth-mid_cyan {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005560;
+  height: 120px; }
+  .darktooth-mid_cyan .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_cyan .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_cyan .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_cyan-after {
+  height: 8px;
+  width: 128px;
+  background-color: #001f23; }
+
+.darktooth-mid_cyan-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #005f87;
+  height: 120px; }
+  .darktooth-mid_cyan-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-mid_cyan-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-mid_cyan-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-mid_cyan-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #00344a; }
+
+.darktooth-delimiter-one {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5C7E81;
+  height: 120px; }
+  .darktooth-delimiter-one .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-one .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-one .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-one-after {
+  height: 8px;
+  width: 128px;
+  background-color: #435b5d; }
+
+.darktooth-delimiter-one-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f8787;
+  height: 120px; }
+  .darktooth-delimiter-one-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-one-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-one-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-one-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #466363; }
+
+.darktooth-delimiter-two {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #837486;
+  height: 120px; }
+  .darktooth-delimiter-two .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-two .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-two .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-two-after {
+  height: 8px;
+  width: 128px;
+  background-color: #635865; }
+
+.darktooth-delimiter-two-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #875f5f;
+  height: 120px; }
+  .darktooth-delimiter-two-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-two-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-two-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-two-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #634646; }
+
+.darktooth-delimiter-three {
+  position: relative;
+  color: #000000;
+  background-color: #9C6F68;
+  height: 120px; }
+  .darktooth-delimiter-three .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-three .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-three .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-three-after {
+  height: 8px;
+  width: 128px;
+  background-color: #78544f; }
+
+.darktooth-delimiter-three-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #af5f5f;
+  height: 120px; }
+  .darktooth-delimiter-three-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-three-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-three-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-three-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #8b4646; }
+
+.darktooth-delimiter-four {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #7B665C;
+  height: 120px; }
+  .darktooth-delimiter-four .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-four .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-four .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-four-after {
+  height: 8px;
+  width: 128px;
+  background-color: #584942; }
+
+.darktooth-delimiter-four-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f5f5f;
+  height: 120px; }
+  .darktooth-delimiter-four-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-delimiter-four-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-delimiter-four-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-delimiter-four-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #404040; }
+
+.darktooth-identifiers-1 {
+  position: relative;
+  color: #000000;
+  background-color: #E5D5C5;
+  height: 120px; }
+  .darktooth-identifiers-1 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-1 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-1 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-1-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d2b69b; }
+
+.darktooth-identifiers-1-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffdfaf;
+  height: 120px; }
+  .darktooth-identifiers-1-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-1-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-1-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-1-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffc772; }
+
+.darktooth-identifiers-2 {
+  position: relative;
+  color: #000000;
+  background-color: #DFE5C5;
+  height: 120px; }
+  .darktooth-identifiers-2 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-2 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-2 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-2-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c8d29b; }
+
+.darktooth-identifiers-2-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfdfaf;
+  height: 120px; }
+  .darktooth-identifiers-2-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-2-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-2-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-2-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #cece83; }
+
+.darktooth-identifiers-3 {
+  position: relative;
+  color: #000000;
+  background-color: #D5E5C5;
+  height: 120px; }
+  .darktooth-identifiers-3 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-3 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-3 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-3-after {
+  height: 8px;
+  width: 128px;
+  background-color: #b6d29b; }
+
+.darktooth-identifiers-3-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfe5c5;
+  height: 120px; }
+  .darktooth-identifiers-3-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-3-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-3-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-3-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c8d29b; }
+
+.darktooth-identifiers-4 {
+  position: relative;
+  color: #000000;
+  background-color: #CAE5C5;
+  height: 120px; }
+  .darktooth-identifiers-4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a3d29b; }
+
+.darktooth-identifiers-4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffd7af;
+  height: 120px; }
+  .darktooth-identifiers-4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ffb872; }
+
+.darktooth-identifiers-5 {
+  position: relative;
+  color: #000000;
+  background-color: #C5E5CA;
+  height: 120px; }
+  .darktooth-identifiers-5 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-5 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-5 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-5-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9bd2a3; }
+
+.darktooth-identifiers-5-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfdf87;
+  height: 120px; }
+  .darktooth-identifiers-5-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-5-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-5-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-5-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d2d257; }
+
+.darktooth-identifiers-6 {
+  position: relative;
+  color: #000000;
+  background-color: #C5E5D5;
+  height: 120px; }
+  .darktooth-identifiers-6 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-6 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-6 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-6-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9bd2b6; }
+
+.darktooth-identifiers-6-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfdfdf;
+  height: 120px; }
+  .darktooth-identifiers-6-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-6-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-6-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-6-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: silver; }
+
+.darktooth-identifiers-7 {
+  position: relative;
+  color: #000000;
+  background-color: #C5E5DF;
+  height: 120px; }
+  .darktooth-identifiers-7 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-7 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-7 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-7-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9bd2c8; }
+
+.darktooth-identifiers-7-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #afdfdf;
+  height: 120px; }
+  .darktooth-identifiers-7-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-7-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-7-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-7-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #83cece; }
+
+.darktooth-identifiers-8 {
+  position: relative;
+  color: #000000;
+  background-color: #C5DFE5;
+  height: 120px; }
+  .darktooth-identifiers-8 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-8 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-8 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-8-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9bc8d2; }
+
+.darktooth-identifiers-8-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfdfff;
+  height: 120px; }
+  .darktooth-identifiers-8-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-8-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-8-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-8-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a2a2ff; }
+
+.darktooth-identifiers-9 {
+  position: relative;
+  color: #000000;
+  background-color: #C5D5E5;
+  height: 120px; }
+  .darktooth-identifiers-9 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-9 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-9 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-9-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9bb6d2; }
+
+.darktooth-identifiers-9-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #afdfff;
+  height: 120px; }
+  .darktooth-identifiers-9-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-9-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-9-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-9-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #72c7ff; }
+
+.darktooth-identifiers-10 {
+  position: relative;
+  color: #000000;
+  background-color: #C5CAE5;
+  height: 120px; }
+  .darktooth-identifiers-10 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-10 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-10 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-10-after {
+  height: 8px;
+  width: 128px;
+  background-color: #9ba3d2; }
+
+.darktooth-identifiers-10-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfafff;
+  height: 120px; }
+  .darktooth-identifiers-10-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-10-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-10-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-10-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c772ff; }
+
+.darktooth-identifiers-11 {
+  position: relative;
+  color: #000000;
+  background-color: #CAC5E5;
+  height: 120px; }
+  .darktooth-identifiers-11 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-11 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-11 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-11-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a39bd2; }
+
+.darktooth-identifiers-11-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #afafff;
+  height: 120px; }
+  .darktooth-identifiers-11-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-11-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-11-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-11-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #7272ff; }
+
+.darktooth-identifiers-12 {
+  position: relative;
+  color: #000000;
+  background-color: #D5C5E5;
+  height: 120px; }
+  .darktooth-identifiers-12 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-12 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-12 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-12-after {
+  height: 8px;
+  width: 128px;
+  background-color: #b69bd2; }
+
+.darktooth-identifiers-12-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfafaf;
+  height: 120px; }
+  .darktooth-identifiers-12-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-12-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-12-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-12-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ce8383; }
+
+.darktooth-identifiers-13 {
+  position: relative;
+  color: #000000;
+  background-color: #DFC5E5;
+  height: 120px; }
+  .darktooth-identifiers-13 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-13 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-13 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-13-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c89bd2; }
+
+.darktooth-identifiers-13-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfc5e5;
+  height: 120px; }
+  .darktooth-identifiers-13-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-13-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-13-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-13-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c89bd2; }
+
+.darktooth-identifiers-14 {
+  position: relative;
+  color: #000000;
+  background-color: #E5C5DF;
+  height: 120px; }
+  .darktooth-identifiers-14 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-14 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-14 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-14-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d29bc8; }
+
+.darktooth-identifiers-14-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #ffafaf;
+  height: 120px; }
+  .darktooth-identifiers-14-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-14-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-14-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-14-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #ff7272; }
+
+.darktooth-identifiers-15 {
+  position: relative;
+  color: #000000;
+  background-color: #E5C5D5;
+  height: 120px; }
+  .darktooth-identifiers-15 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-15 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-15 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-15-after {
+  height: 8px;
+  width: 128px;
+  background-color: #d29bb6; }
+
+.darktooth-identifiers-15-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #dfdfff;
+  height: 120px; }
+  .darktooth-identifiers-15-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-identifiers-15-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-identifiers-15-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-identifiers-15-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a2a2ff; }
+
+.darktooth-white {
+  position: relative;
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 120px; }
+  .darktooth-white .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-white .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-white .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-white-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e0e0e0; }
+
+.darktooth-white-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 120px; }
+  .darktooth-white-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-white-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-white-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-white-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #e0e0e0; }
+
+.darktooth-black {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 120px; }
+  .darktooth-black .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-black .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-black .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-black-after {
+  height: 8px;
+  width: 128px;
+  background-color: black; }
+
+.darktooth-black-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #000000;
+  height: 120px; }
+  .darktooth-black-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-black-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-black-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-black-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: black; }
+
+.darktooth-sienna {
+  position: relative;
+  color: #000000;
+  background-color: #DD6F48;
+  height: 120px; }
+  .darktooth-sienna .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-sienna .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-sienna .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-sienna-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c34e24; }
+
+.darktooth-sienna-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #d7875f;
+  height: 120px; }
+  .darktooth-sienna-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-sienna-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-sienna-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-sienna-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #c76432; }
+
+.darktooth-darkslategray4 {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #528B8B;
+  height: 120px; }
+  .darktooth-darkslategray4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-darkslategray4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-darkslategray4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-darkslategray4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #3b6565; }
+
+.darktooth-darkslategray4-xterm {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #5f8787;
+  height: 120px; }
+  .darktooth-darkslategray4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-darkslategray4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-darkslategray4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-darkslategray4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #466363; }
+
+.darktooth-lightblue4 {
+  position: relative;
+  color: #000000;
+  background-color: #66999D;
+  height: 120px; }
+  .darktooth-lightblue4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-lightblue4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-lightblue4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-lightblue4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #4d7579; }
+
+.darktooth-lightblue4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #5fafaf;
+  height: 120px; }
+  .darktooth-lightblue4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-lightblue4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-lightblue4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-lightblue4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #468b8b; }
+
+.darktooth-burlywood4 {
+  position: relative;
+  color: #000000;
+  background-color: #BBAA97;
+  height: 120px; }
+  .darktooth-burlywood4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-burlywood4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-burlywood4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-burlywood4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #a38c72; }
+
+.darktooth-burlywood4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #afaf87;
+  height: 120px; }
+  .darktooth-burlywood4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-burlywood4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-burlywood4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-burlywood4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #959564; }
+
+.darktooth-aquamarine4 {
+  position: relative;
+  color: #000000;
+  background-color: #83A598;
+  height: 120px; }
+  .darktooth-aquamarine4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-aquamarine4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-aquamarine4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-aquamarine4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #63887a; }
+
+.darktooth-aquamarine4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #87af87;
+  height: 120px; }
+  .darktooth-aquamarine4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-aquamarine4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-aquamarine4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-aquamarine4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #649564; }
+
+.darktooth-turquoise4 {
+  position: relative;
+  color: #000000;
+  background-color: #61ACBB;
+  height: 120px; }
+  .darktooth-turquoise4 .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-turquoise4 .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-turquoise4 .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-turquoise4-after {
+  height: 8px;
+  width: 128px;
+  background-color: #438d9c; }
+
+.darktooth-turquoise4-xterm {
+  position: relative;
+  color: #000000;
+  background-color: #5fafaf;
+  height: 120px; }
+  .darktooth-turquoise4-xterm .xterm {
+    position: absolute;
+    width: 112px;
+    top: -16px;
+    right: 0px;
+    padding: 3px;
+    transform-origin: right bottom;
+    transform: rotate(270deg);
+    text-alignment: right;
+    font-size: 7pt; }
+  .darktooth-turquoise4-xterm .content {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    font-size: 10pt; }
+  .darktooth-turquoise4-xterm .color-label {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+    font-size: 14pt; }
+
+.darktooth-turquoise4-xterm-after {
+  height: 8px;
+  width: 128px;
+  background-color: #468b8b; }
+
+.separator {
+  clear: left;
+  height: 0px;
+  width: 100%; }
+
+.group-separator {
+  clear: left;
+  height: 10px;
+  width: 100%;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=darktooth-theme-colors.css.map */

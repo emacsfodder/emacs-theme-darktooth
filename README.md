@@ -1,8 +1,8 @@
 [![MELPA](http://stable.melpa.org/packages/darktooth-theme-badge.svg)](http://stable.melpa.org/#/darktooth-theme) [![MELPA](http://melpa.org/packages/darktooth-theme-badge.svg)](http://melpa.org/#/darktooth-theme)
 
-# Darktooth
+![](palette-images/header.png)
 
-An Emacs theme, *From the darkness... it watches.*
+a theme for Emacs
 
 ## Installation
 
@@ -13,20 +13,6 @@ When your Emacs is setup to use MELPA do this:
 ```
 M-x package-install darktooth-theme
 ```
-
-![Multi window layout with various modes](darktooth-multi-window.png)
-
-### The Fabled Darktooth Keyboard...
-
-![How can I buy this?!??! Shut up and take my money!](darktooth-keyboard.jpg)
-
-### Darktooth Mode line
-
-There's an optional modeline theme available, run `(darktooth-modeline)`:
-
-**Darktooth modeline - screenshot**
-
-![](darktooth-modeline.png)
 
 ## Modes supported
 
@@ -76,6 +62,52 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 - term / ansi-colors
 - vline
 - whitespace-mode
+
+# Palette
+
+![](palette-images/darkness.png)
+
+![](palette-images/medium.png)
+
+![](palette-images/lightness.png)
+
+![](palette-images/bright.png)
+
+![](palette-images/neutral.png)
+
+![](palette-images/faded.png)
+
+![](palette-images/muted.png)
+
+![](palette-images/dark.png)
+
+![](palette-images/mid.png)
+
+![](palette-images/accents.png)
+
+![](palette-images/delimiters.png)
+
+![](palette-images/identifiers-1.png)
+
+![](palette-images/identifiers-2.png)
+
+![](palette-images/identifiers-3.png)
+
+# Miscellany
+
+![Multi window layout with various modes](darktooth-multi-window.png)
+
+### The Fabled Darktooth Keyboard...
+
+![How can I buy this?!??! Shut up and take my money!](darktooth-keyboard.jpg)
+
+### Darktooth Mode line
+
+There's an optional modeline theme available, run `(darktooth-modeline)`:
+
+**Darktooth modeline - screenshot**
+
+![](darktooth-modeline.png)
 
 ### Screenshots
 

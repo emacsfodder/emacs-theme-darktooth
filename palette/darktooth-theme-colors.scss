@@ -1,0 +1,288 @@
+$darktooth-palette: (
+  darktooth-dark0_hard:            #1D2021,
+  darktooth-dark0_hard-xterm:      #1c1c1c,
+  darktooth-dark0:                 #282828,
+  darktooth-dark0-xterm:           #262626,
+  darktooth-dark0_soft:            #32302F,
+  darktooth-dark0_soft-xterm:      #303030,
+  darktooth-dark1:                 #3C3836,
+  darktooth-dark1-xterm:           #3a3a3a,
+  darktooth-dark2:                 #504945,
+  darktooth-dark2-xterm:           #4e4e4e,
+  darktooth-dark3:                 #665C54,
+  darktooth-dark3-xterm:           #626262,
+  darktooth-dark4:                 #7C6F64,
+  darktooth-dark4-xterm:           #767676,
+  darktooth-medium:                #928374,
+  darktooth-medium-xterm:          #8a8a8a,
+  darktooth-light0_hard:           #FFFFC8,
+  darktooth-light0_hard-xterm:     #ffffdf,
+  darktooth-light0:                #FDF4C1,
+  darktooth-light0-xterm:          #ffffaf,
+  darktooth-light0_soft:           #F4E8BA,
+  darktooth-light0_soft-xterm:     #ffff87,
+  darktooth-light1:                #EBDBB2,
+  darktooth-light1-xterm:          #ffdfaf,
+  darktooth-light2:                #D5C4A1,
+  darktooth-light2-xterm:          #bcbcbc,
+  darktooth-light3:                #BDAE93,
+  darktooth-light3-xterm:          #a8a8a8,
+  darktooth-light4:                #A89984,
+  darktooth-light4-xterm:          #949494,
+  darktooth-bright_red:            #FB4933,
+  darktooth-bright_red-xterm:      #d75f5f,
+  darktooth-bright_green:          #B8BB26,
+  darktooth-bright_green-xterm:    #afaf00,
+  darktooth-bright_yellow:         #FABD2F,
+  darktooth-bright_yellow-xterm:   #ffaf00,
+  darktooth-bright_blue:           #83A598,
+  darktooth-bright_blue-xterm:     #87afaf,
+  darktooth-bright_purple:         #D3869B,
+  darktooth-bright_purple-xterm:   #d787af,
+  darktooth-bright_aqua:           #8EC07C,
+  darktooth-bright_aqua-xterm:     #87af87,
+  darktooth-bright_orange:         #FE8019,
+  darktooth-bright_orange-xterm:   #ff8700,
+  darktooth-bright_cyan:           #3FD7E5,
+  darktooth-bright_cyan-xterm:     #00d7ff,
+  darktooth-neutral_red:           #FB4934,
+  darktooth-neutral_red-xterm:     #D75F5F,
+  darktooth-neutral_green:         #B8BB26,
+  darktooth-neutral_green-xterm:   #73AF00,
+  darktooth-neutral_yellow:        #FABD2F,
+  darktooth-neutral_yellow-xterm:  #FFAF00,
+  darktooth-neutral_blue:          #83A598,
+  darktooth-neutral_blue-xterm:    #87AFAF,
+  darktooth-neutral_purple:        #D3869B,
+  darktooth-neutral_purple-xterm:  #D787AF,
+  darktooth-neutral_aqua:          #8EC07C,
+  darktooth-neutral_aqua-xterm:    #87AF87,
+  darktooth-neutral_orange:        #FE8019,
+  darktooth-neutral_orange-xterm:  #FF8700,
+  darktooth-neutral_cyan:          #17CCD5,
+  darktooth-neutral_cyan-xterm:    #17CCD5,
+  darktooth-faded_red:             #9D0006,
+  darktooth-faded_red-xterm:       #870000,
+  darktooth-faded_green:           #79740E,
+  darktooth-faded_green-xterm:     #878700,
+  darktooth-faded_yellow:          #B57614,
+  darktooth-faded_yellow-xterm:    #af8700,
+  darktooth-faded_blue:            #076678,
+  darktooth-faded_blue-xterm:      #005f87,
+  darktooth-faded_purple:          #8F3F71,
+  darktooth-faded_purple-xterm:    #875f87,
+  darktooth-faded_aqua:            #427B58,
+  darktooth-faded_aqua-xterm:      #5f8787,
+  darktooth-faded_orange:          #AF3A03,
+  darktooth-faded_orange-xterm:    #af5f00,
+  darktooth-faded_cyan:            #00A7AF,
+  darktooth-faded_cyan-xterm:      #00afaf,
+  darktooth-muted_red:             #901A1E,
+  darktooth-muted_red-xterm:       #870000,
+  darktooth-muted_green:           #556C21,
+  darktooth-muted_green-xterm:     #878700,
+  darktooth-muted_yellow:          #A87933,
+  darktooth-muted_yellow-xterm:    #af8700,
+  darktooth-muted_blue:            #1B5C6B,
+  darktooth-muted_blue-xterm:      #005f87,
+  darktooth-muted_purple:          #82526E,
+  darktooth-muted_purple-xterm:    #875f87,
+  darktooth-muted_aqua:            #506E59,
+  darktooth-muted_aqua-xterm:      #5f8787,
+  darktooth-muted_orange:          #A24921,
+  darktooth-muted_orange-xterm:    #af5f00,
+  darktooth-muted_cyan:            #18A7AF,
+  darktooth-muted_cyan-xterm:      #00afaf,
+  darktooth-dark_red:              #421E1E,
+  darktooth-dark_red-xterm:        #5f0000,
+  darktooth-dark_green:            #232B0F,
+  darktooth-dark_green-xterm:      #005f00,
+  darktooth-dark_yellow:           #4D3B27,
+  darktooth-dark_yellow-xterm:     #5f5f00,
+  darktooth-dark_blue:             #2B3C44,
+  darktooth-dark_blue-xterm:       #00005f,
+  darktooth-dark_purple:           #4E3D45,
+  darktooth-dark_purple-xterm:     #5f00af,
+  darktooth-dark_aqua:             #36473A,
+  darktooth-dark_aqua-xterm:       #005f5f,
+  darktooth-dark_orange:           #613620,
+  darktooth-dark_orange-xterm:     #af5f00,
+  darktooth-dark_cyan:             #205161,
+  darktooth-dark_cyan-xterm:       #005f87,
+  darktooth-mid_red:               #3F1B1B,
+  darktooth-mid_red-xterm:         #5f0000,
+  darktooth-mid_green:             #1F321C,
+  darktooth-mid_green-xterm:       #005f00,
+  darktooth-mid_yellow:            #4C3A25,
+  darktooth-mid_yellow-xterm:      #5f5f00,
+  darktooth-mid_blue:              #30434C,
+  darktooth-mid_blue-xterm:        #00005f,
+  darktooth-mid_purple:            #4C3B43,
+  darktooth-mid_purple-xterm:      #5f00af,
+  darktooth-mid_aqua:              #394C3D,
+  darktooth-mid_aqua-xterm:        #005f5f,
+  darktooth-mid_orange:            #603000,
+  darktooth-mid_orange-xterm:      #af5f00,
+  darktooth-mid_cyan:              #005560,
+  darktooth-mid_cyan-xterm:        #005f87,
+  darktooth-delimiter-one:         #5C7E81,
+  darktooth-delimiter-one-xterm:   #5f8787,
+  darktooth-delimiter-two:         #837486,
+  darktooth-delimiter-two-xterm:   #875f5f,
+  darktooth-delimiter-three:       #9C6F68,
+  darktooth-delimiter-three-xterm: #af5f5f,
+  darktooth-delimiter-four:        #7B665C,
+  darktooth-delimiter-four-xterm:  #5f5f5f,
+  darktooth-identifiers-1:         #E5D5C5,
+  darktooth-identifiers-1-xterm:   #ffdfaf,
+  darktooth-identifiers-2:         #DFE5C5,
+  darktooth-identifiers-2-xterm:   #dfdfaf,
+  darktooth-identifiers-3:         #D5E5C5,
+  darktooth-identifiers-3-xterm:   #dfe5c5,
+  darktooth-identifiers-4:         #CAE5C5,
+  darktooth-identifiers-4-xterm:   #ffd7af,
+  darktooth-identifiers-5:         #C5E5CA,
+  darktooth-identifiers-5-xterm:   #dfdf87,
+  darktooth-identifiers-6:         #C5E5D5,
+  darktooth-identifiers-6-xterm:   #dfdfdf,
+  darktooth-identifiers-7:         #C5E5DF,
+  darktooth-identifiers-7-xterm:   #afdfdf,
+  darktooth-identifiers-8:         #C5DFE5,
+  darktooth-identifiers-8-xterm:   #dfdfff,
+  darktooth-identifiers-9:         #C5D5E5,
+  darktooth-identifiers-9-xterm:   #afdfff,
+  darktooth-identifiers-10:        #C5CAE5,
+  darktooth-identifiers-10-xterm:  #dfafff,
+  darktooth-identifiers-11:        #CAC5E5,
+  darktooth-identifiers-11-xterm:  #afafff,
+  darktooth-identifiers-12:        #D5C5E5,
+  darktooth-identifiers-12-xterm:  #dfafaf,
+  darktooth-identifiers-13:        #DFC5E5,
+  darktooth-identifiers-13-xterm:  #dfc5e5,
+  darktooth-identifiers-14:        #E5C5DF,
+  darktooth-identifiers-14-xterm:  #ffafaf,
+  darktooth-identifiers-15:        #E5C5D5,
+  darktooth-identifiers-15-xterm:  #dfdfff,
+  darktooth-white:                 #FFFFFF,
+  darktooth-white-xterm:           #FFFFFF,
+  darktooth-black:                 #000000,
+  darktooth-black-xterm:           #000000,
+  darktooth-sienna:                #DD6F48,
+  darktooth-sienna-xterm:          #d7875f,
+  darktooth-darkslategray4:        #528B8B,
+  darktooth-darkslategray4-xterm:  #5f8787,
+  darktooth-lightblue4:            #66999D,
+  darktooth-lightblue4-xterm:      #5fafaf,
+  darktooth-burlywood4:            #BBAA97,
+  darktooth-burlywood4-xterm:      #afaf87,
+  darktooth-aquamarine4:           #83A598,
+  darktooth-aquamarine4-xterm:     #87af87,
+  darktooth-turquoise4:            #61ACBB,
+  darktooth-turquoise4-xterm:      #5fafaf,
+);
+
+$dark: #000000;
+$light: #FFFFFF;
+
+@function contrast-foreground($color) {
+  $color-brightness: lightness($color);
+  $dark-text-brightness: lightness($dark);
+  $light-text-brightness: lightness($light);
+  @return if(abs($color-brightness - $light-text-brightness) > abs($color-brightness - $dark-text-brightness),
+             $light,
+             $dark);
+}
+
+@function bottom-bar-color($color) {
+  @return  darken($color, 12%);
+}
+
+$swatch-width: 128px;
+$swatch-height: 128px;
+
+body {
+  font-family: "SauceCodePro Nerd Font";
+  font-weight: lighter;
+  background-color: rgba(0,0,0,0);
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+$heads: (
+  h1: 42pt,
+  h2: 38pt,
+  h3: 28pt,
+  h4: 18pt,
+  h5: 14pt
+);
+
+@each $head, $size in $heads {
+  #{$head} {
+    font-size: $size;
+  }
+}
+
+.darktooth-swatch {
+  width: $swatch-width;
+  height: $swatch-height;
+  font-size: 10pt;
+  float: left;
+  margin: 1px 1px 0 0;
+}
+
+@each $name, $color in $darktooth-palette {
+  .#{$name} {
+    position: relative;
+    color: contrast-foreground($color);
+    background-color: $color;
+    height: $swatch-height - 8px;
+    .xterm {
+      position: absolute;
+      width: 112px;
+      top: -16px;
+      right: 0px;
+      padding: 3px;
+      transform-origin: right bottom;
+      transform: rotate(270deg);
+      text-alignment: right;
+      font-size: 7pt;
+    }
+    .content {
+      position: absolute;
+      top: 5px;
+      left: 8px;
+      font-size: 10pt;
+    }
+    .color-label {
+      position: absolute;
+      bottom: 5px;
+      left: 8px;
+      font-size: 14pt;
+    }
+  }
+  .#{$name}-after {
+    height: 8px;
+    width: $swatch-width;
+    background-color: bottom-bar-color($color);
+  }
+}
+
+.separator {
+  clear: left;
+  height: 0px;
+  width: 100%;
+}
+
+.group-separator {
+  clear: left;
+  height: 10px;
+  width: 100%;
+  border-bottom-color: rgba(0,0,0,0.1);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}
