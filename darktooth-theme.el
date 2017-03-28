@@ -168,6 +168,9 @@
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
 
+  ;; MODE SUPPORT: which-func
+  (which-func                                (:inherit 'font-lock-function-name-face))
+
   ;; MODE SUPPORT: elixir-mode
   (elixir-atom-face                          (:foreground darktooth-lightblue4))
   (elixir-attribute-face                     (:foreground darktooth-burlywood4))
