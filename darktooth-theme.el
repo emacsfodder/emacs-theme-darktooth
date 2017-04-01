@@ -335,7 +335,7 @@
   (org-agenda-structure                      (:inherit 'font-lock-comment-face))
   (org-archived                              (:foreground darktooth-light0 :weight 'bold))
   (org-checkbox                              (:foreground darktooth-light2 :background darktooth-dark0 :box (:line-width 1 :style 'released-button)))
-  (org-date                                  (:foreground darktooth-faded_blue :underline t))
+  (org-date                                  (:foreground darktooth-faded_aqua :underline t))
   (org-deadline-announce                     (:foreground darktooth-faded_red))
   (org-document-info-keyword                 (:foreground darktooth-light2))
   (org-document-info                         (:foreground darktooth-identifiers-7))
