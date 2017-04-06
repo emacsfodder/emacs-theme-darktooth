@@ -711,7 +711,14 @@
   (message-header-xheader                    (:foreground darktooth-faded_cyan ))
   (message-separator                         (:foreground darktooth-faded_cyan ))
   (message-cited-text                        (:foreground darktooth-light3 ))
-  (message-mml                               (:foreground darktooth-faded_aqua )))
+  (message-mml                               (:foreground darktooth-faded_aqua ))
+
+  ;; MODE SUPPORT: Web
+  (web-mode-doctype-face                     (:foreground darktooth-light2 :weight 'bold))
+  (web-mode-html-attr-name-face              (:inherit 'font-lock-variable-name-face))
+  (web-mode-html-attr-equal-face             (:inherit 'default))
+  (web-mode-html-tag-face                    (:foreground darktooth-light3))
+  (web-mode-html-tag-bracket-face            (:inherit 'default)))
 
  (defface darktooth-modeline-one-active
    `((t
