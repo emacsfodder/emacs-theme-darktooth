@@ -183,6 +183,14 @@
   (woman-bold                               (:foreground darktooth-bright_red :bold t))
   (woman-italic                             (:foreground darktooth-bright_green :bold t))
 
+  ;; MODE SUPPORT: tldr
+  (tldr-command-itself                       (:foreground darktooth-bright_red :bold t))
+  (tldr-command-argument                     (:foreground darktooth-bright_green :bold t))
+  (tldr-code-block                           (:foreground darktooth-bright_blue :bold t))
+  (tldr-description                          (:inherit 'default))
+  (tldr-title                                (:foreground darktooth-bright_red :bold t :height 1.2))
+  (tldr-introduction                         (:inherit 'font-lock-comment-face :slant 'italic))
+
   ;; MODE SUPPORT: whitespace-mode
   (whitespace-space                          (:foreground darktooth-dark4 :background darktooth-dark0))
   (whitespace-hspace                         (:foreground darktooth-dark4 :background darktooth-dark0))
