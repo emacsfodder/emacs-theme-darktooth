@@ -273,6 +273,14 @@
   (sp-show-pair-match-face                   (:background darktooth-dark2))
   (sp-show-pair-mismatch-face                (:background darktooth-neutral_red))
 
+  ;; MODE SUPPORT: flycheck
+  (flycheck-warning                          (:underline (:style 'wave :color darktooth-bright_yellow)))
+  (flycheck-error                            (:underline (:style 'wave :color darktooth-bright_red)))
+  (flycheck-info                             (:underline (:style 'wave :color darktooth-bright_blue)))
+  (flycheck-fringe-warning                   (:foreground darktooth-bright_yellow))
+  (flycheck-fringe-error                     (:foreground darktooth-bright_red))
+  (flycheck-fringe-info                      (:foreground darktooth-bright_blue))
+
   ;; MODE SUPPORT: auctex
   (font-latex-math-face                      (:foreground darktooth-lightblue4))
   (font-latex-sectioning-5-face              (:foreground darktooth-neutral_green))
