@@ -302,7 +302,9 @@
   ;; MODE SUPPORT: diff
   (diff-changed                              (:foreground darktooth-light1 :background nil))
   (diff-added                                (:foreground darktooth-neutral_green :background nil))
+  (diff-refine-added                         (:foreground darktooth-bright_green :background darktooth-muted_green))
   (diff-removed                              (:foreground darktooth-neutral_red :background nil))
+  (diff-refine-removed                       (:foreground darktooth-bright_red :background darktooth-muted_red))
 
   ;; MODE SUPPORT: diff-indicator
   (diff-indicator-changed                    (:inherit 'diff-changed))
