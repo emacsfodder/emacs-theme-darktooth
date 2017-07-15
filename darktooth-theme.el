@@ -720,7 +720,12 @@
   (web-mode-html-attr-name-face              (:inherit 'font-lock-variable-name-face))
   (web-mode-html-attr-equal-face             (:inherit 'default))
   (web-mode-html-tag-face                    (:foreground darktooth-light3))
-  (web-mode-html-tag-bracket-face            (:inherit 'default)))
+  (web-mode-html-tag-bracket-face            (:inherit 'default))
+
+  ;; MODE SUPPORT: helm-swoop
+  (helm-swoop-target-word-face               (:foreground darktooth-light0 :background darktooth-faded_aqua))
+  (helm-swoop-target-line-block-face         (:foreground darktooth-light0_hard :background darktooth-faded_blue))
+  (helm-swoop-target-line-face               (:foreground darktooth-light0_hard :background darktooth-faded_blue)))
 
  (defface darktooth-modeline-one-active
    `((t
