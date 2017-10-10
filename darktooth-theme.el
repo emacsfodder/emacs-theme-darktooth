@@ -280,6 +280,9 @@
   (flycheck-fringe-warning                   (:foreground darktooth-bright_yellow))
   (flycheck-fringe-error                     (:foreground darktooth-bright_red))
   (flycheck-fringe-info                      (:foreground darktooth-bright_blue))
+  (flycheck-error-list-warning               (:foreground darktooth-bright_yellow :bold t))
+  (flycheck-error-list-error                 (:foreground darktooth-bright_red :bold t))
+  (flycheck-error-list-info                  (:foreground darktooth-bright_blue :bold t))
 
   ;; MODE SUPPORT: auctex
   (font-latex-math-face                      (:foreground darktooth-lightblue4))
