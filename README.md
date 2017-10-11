@@ -31,13 +31,17 @@ M-x package-install darktooth-theme
 - dired+
 - el-search
 - elfeed
+- elixir-mode
 - elscreen
 - embrace
+- flycheck
 - git-gutter
 - git-gutter+
+- git-gutter-fr
 - git-gutter-fr+
 - haskell
 - helm
+- helm-swoop
 - hi-lock
 - highlight-indentation-mode
 - highlight-numbers
@@ -48,6 +52,8 @@ M-x package-install darktooth-theme
 - ivy
 - linum-relative
 - magit
+- man
+- message
 - org-mode
 - popup
 - powerline
@@ -59,9 +65,15 @@ M-x package-install darktooth-theme
 - smart-mode-line
 - smartparens
 - smerge
+- swoop
 - term / ansi-colors
+- tldr
 - vline
+- web
+- which-func
+- which-key
 - whitespace-mode
+- woman
 
 # Palette
 
