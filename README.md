@@ -35,6 +35,7 @@ M-x package-install darktooth-theme
 - elscreen
 - embrace
 - flycheck
+- flymake
 - git-gutter
 - git-gutter+
 - git-gutter-fr
@@ -157,5 +158,5 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 Inspired by:
 
-[gruvbox](https://github.com/Greduan/emacs-theme-gruvbox)  
+[gruvbox](https://github.com/Greduan/emacs-theme-gruvbox)
 [soothe](https://github.com/emacsfodder/emacs-soothe-theme)
