@@ -760,6 +760,28 @@
   ;; MODE SUPPORT: eldoc
   (eldoc-highlight-function-argument         (:foreground darktooth-aquamarine4 :weight 'bold)))
 
+  ;; MODE SUPPORT: erc
+  (erc-action-face                           (:inherit 'erc-default-face))
+  (erc-bold-face                             (:weight 'bold))
+  (erc-current-nick-face                     (:foreground darktooth-bright_blue
+                                              :weight 'bold))
+  (erc-dangerous-host-face                   (:inherit 'font-lock-warning-face))
+  (erc-default-face                          (:inherit 'default))
+  (erc-direct-msg-face                       (:inherit 'erc-default-face))
+  (erc-error-face                            (:inherit font-lock-warning-face))
+  (erc-fool-face                             (:inherit erc-default-face))
+  ;; (erc-input-face                            (:foreground ,zenburn-yellow))
+  ;; (erc-keyword-face ((t (:foreground ,zenburn-blue :weight bold))))
+  ;; (erc-nick-default-face ((t (:foreground ,zenburn-yellow :weight bold))))
+  ;; (erc-my-nick-face ((t (:foreground ,zenburn-red :weight bold))))
+  ;; (erc-nick-msg-face ((t (:inherit erc-default-face))))
+  ;; (erc-notice-face ((t (:foreground ,zenburn-green))))
+  ;; (erc-pal-face ((t (:foreground ,zenburn-orange :weight bold))))
+  ;; (erc-prompt-face ((t (:foreground ,zenburn-orange :background ,zenburn-bg :weight bold))))
+  ;; (erc-timestamp-face ((t (:foreground ,zenburn-green+4))))
+  ;; (erc-underline-face ((t (:underline t))))
+
+  )
 
  (defface darktooth-modeline-one-active
    `((t
