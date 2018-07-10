@@ -783,7 +783,10 @@
                                               :weight 'bold))
   (erc-keyword-face                          (:foreground darktooth-bright_orange
                                               :weight 'bold))
-  (erc-nick-default-face                     (:weight 'bold)))
+  (erc-nick-default-face                     (:weight 'bold))
+  (erc-button                                (:weight 'bold
+                                              :underline t))
+  )
 
  (defface darktooth-modeline-one-active
    `((t
