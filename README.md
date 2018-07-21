@@ -30,6 +30,7 @@ M-x package-install darktooth-theme
 - diff-indicator
 - dired+
 - el-search
+- eldoc
 - elfeed
 - elixir-mode
 - elscreen
