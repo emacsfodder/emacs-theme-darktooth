@@ -34,6 +34,7 @@ M-x package-install darktooth-theme
 - elfeed
 - elixir-mode
 - elscreen
+- erc
 - embrace
 - flycheck
 - flymake

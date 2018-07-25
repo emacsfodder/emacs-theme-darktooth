@@ -760,6 +760,33 @@
   ;; MODE SUPPORT: eldoc
   (eldoc-highlight-function-argument         (:foreground darktooth-aquamarine4 :weight 'bold)))
 
+  ;; MODE SUPPORT: erc
+  (erc-action-face                           (:inherit 'erc-default-face))
+  (erc-bold-face                             (:weight 'bold))
+  (erc-current-nick-face                     (:foreground darktooth-aquamarine4
+                                              :weight 'bold))
+  (erc-dangerous-host-face                   (:inherit 'font-lock-warning-face))
+  (erc-default-face                          (:inherit 'default))
+  (erc-direct-msg-face                       (:inherit 'erc-default-face))
+  (erc-error-face                            (:inherit 'font-lock-warning-face))
+  (erc-fool-face                             (:inherit 'erc-default-face))
+  (erc-input-face                            (:foreground darktooth-sienna))
+  (erc-my-nick-face                          (:foreground darktooth-sienna
+                                              :weight 'bold))
+  (erc-nick-msg-face                         (:inherit 'erc-default-face))
+  (erc-notice-face                           (:foreground darktooth-dark4))
+  (erc-timestamp-face                        (:foreground darktooth-neutral_green))
+  (erc-underline-face                        (:underline t))
+  (erc-prompt-face                           (:foreground darktooth-sienna
+                                              :weight 'bold))
+  (erc-pal-face                              (:foreground darktooth-neutral_yellow
+                                              :weight 'bold))
+  (erc-keyword-face                          (:foreground darktooth-bright_orange
+                                              :weight 'bold))
+  (erc-nick-default-face                     (:weight 'bold))
+  (erc-button                                (:weight 'bold
+                                              :underline t))
+  )
 
  (defface darktooth-modeline-one-active
    `((t
