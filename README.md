@@ -35,6 +35,7 @@ M-x package-install darktooth-theme
 - elixir-mode
 - elscreen
 - embrace
+- erc
 - flycheck
 - flymake
 - git-gutter
