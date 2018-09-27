@@ -867,7 +867,8 @@
                                                         ,darktooth-neutral_blue
                                                         ,darktooth-neutral_purple
                                                         ,darktooth-neutral_cyan
-                                                        ,darktooth-light1])))
+                                                        ,darktooth-light1])
+			     `(pdf-view-midnight-colors '(,darktooth-light0 . ,darktooth-dark0))))
 
 (defun darktooth-modeline-one ()
   "Optional modeline style one for darktooth."
