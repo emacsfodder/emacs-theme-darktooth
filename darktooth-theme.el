@@ -781,6 +781,27 @@
   (erc-nick-default-face                     (:weight 'bold))
   (erc-button                                (:weight 'bold  :underline t))
 
+  ;; MODE SUPPORT: Ediff
+  (ediff-current-diff-A (:foreground darktooth-light0 :background darktooth-muted_blue))
+  (ediff-current-diff-Ancestor (:foreground darktooth-light0 :background darktooth-muted_blue))
+  (ediff-current-diff-B (:foreground darktooth-light0 :background darktooth-muted_blue))
+  (ediff-current-diff-C (:foreground darktooth-light0 :background darktooth-muted_blue))
+
+  (ediff-fine-diff-A (:foreground darktooth-neutral_orange :background darktooth-muted_blue))
+  (ediff-fine-diff-Ancestor (:foreground darktooth-bright_orange :background darktooth-muted_blue))
+  (ediff-fine-diff-B (:foreground darktooth-neutral_orange :background darktooth-muted_blue))
+  (ediff-fine-diff-C (:foreground darktooth-neutral_orange :background darktooth-muted_blue))
+
+  (ediff-even-diff-A (:foreground darktooth-light0 :background darktooth-dark_blue))
+  (ediff-even-diff-Ancestor (:foreground darktooth-light0 :background darktooth-dark_blue))
+  (ediff-even-diff-B (:foreground darktooth-light0 :background darktooth-dark_blue))
+  (ediff-even-diff-C (:foreground darktooth-light0 :background darktooth-dark_blue))
+
+  (ediff-odd-diff-A (:foreground darktooth-light0 :background darktooth-mid_blue))
+  (ediff-odd-diff-Ancestor (:foreground darktooth-light0 :background darktooth-mid_blue))
+  (ediff-odd-diff-B (:foreground darktooth-light0 :background darktooth-mid_blue))
+  (ediff-odd-diff-C (:foreground darktooth-light0 :background darktooth-mid_blue))
+
   ) ;; autothemer end of reduced-specs
 
  ;; autothemer body
