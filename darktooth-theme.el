@@ -169,6 +169,14 @@
   (font-lock-type-face                               (:foreground darktooth-lightblue4))
   (font-lock-warning-face                            (:foreground darktooth-neutral_red :bold t))
 
+  ;; MODE SUPPORT tab-bar-mode
+  (tab-bar (:foreground darktooth-light0 :background darktooth-dark0))
+  (tab-bar-tab (:foreground darktooth-light0 :background darktooth-dark0))
+  
+  ;; MODE SUPPORT tab-line-mode
+  (tab-line (:foreground darktooth-light0 :background darktooth-dark0))
+  (tab-bar-tab-inactive (:foreground darktooth-light0 :background darktooth-dark0))
+  
   ;; MODE SUPPORT: which-key
   (which-key-key-face                        (:inherit 'font-lock-variable-name-face))
 
