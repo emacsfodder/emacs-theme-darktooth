@@ -29,6 +29,7 @@ M-x package-install darktooth-theme
 - diff-hl
 - diff-indicator
 - dired+
+- ediff
 - el-search
 - eldoc
 - elfeed
