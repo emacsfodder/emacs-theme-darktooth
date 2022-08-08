@@ -1,17 +1,17 @@
 ;;; darktooth-theme.el --- From the darkness... it watches
 
-;; Copyright (c) 2015-2016 Jason Milkins (GNU/GPL Licence)
+;; Copyright (c) 2015-2022 Jason Milkins (GNU/GPL Licence)
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 0.4.0
+;; Version: 0.4.1
 
 ;; Package-Requires: ((emacs "27.1") (autothemer "0.2"))
 
 ;;; Commentary:
 ;;  From the darkness... it watches
 
-;;  Since 0.4.0  : Restructure for simpler theme development/comparison.
+;;  Since 0.4.0  : Restructure for simpler theme development
 ;;  Since 0.3.0  : Official release integrated with autothemer
 ;;  Since 0.2.0  : Built using autothemer
 ;;  Since 0.1.60 : includes `darktooth-modeline'
@@ -103,21 +103,21 @@
    (darktooth-delimiter-three    "#9C6F68" "#af5f5f")
    (darktooth-delimiter-four     "#7B665C" "#5f5f5f")
 
-   (darktooth-identifiers-1      "#FDF4C1" "#ffdfaf")
-   (darktooth-identifiers-2      "#F4E8BA" "#dfdfaf")
-   (darktooth-identifiers-3      "#EBDBB2" "#dfe5c5")
-   (darktooth-identifiers-4      "#D5C4A1" "#ffd7af")
-   (darktooth-identifiers-5      "#FDF" "#dfdf87")
-   (darktooth-identifiers-6      "#F4E8BA" "#dfdfdf")
-   (darktooth-identifiers-7      "#EBDBB2" "#afdfdf")
-   (darktooth-identifiers-8      "#D5C4A1" "#dfdfff")
-   (darktooth-identifiers-9      "#FDF4C1" "#afdfff")
-   (darktooth-identifiers-10     "#F4E8BA" "#dfafff")
-   (darktooth-identifiers-11     "#EBDBB2" "#afafff")
-   (darktooth-identifiers-12     "#D5C4A1" "#dfafaf")
-   (darktooth-identifiers-13     "#FDF4C1" "#dfc5e5")
-   (darktooth-identifiers-14     "#F4E8BA" "#ffafaf")
-   (darktooth-identifiers-15     "#EBDBB2" "#dfdfff")
+   (darktooth-identifiers-1      "#FDF4C1" "#FDF4C1")
+   (darktooth-identifiers-2      "#F4E8BA" "#F4E8BA")
+   (darktooth-identifiers-3      "#EBDBB2" "#EBDBB2")
+   (darktooth-identifiers-4      "#D5C4A1" "#D5C4A1")
+   (darktooth-identifiers-5      "#FDF4C1" "#FDF4C1")
+   (darktooth-identifiers-6      "#F4E8BA" "#F4E8BA")
+   (darktooth-identifiers-7      "#EBDBB2" "#EBDBB2")
+   (darktooth-identifiers-8      "#D5C4A1" "#D5C4A1")
+   (darktooth-identifiers-9      "#FDF4C1" "#FDF4C1")
+   (darktooth-identifiers-10     "#F4E8BA" "#F4E8BA")
+   (darktooth-identifiers-11     "#EBDBB2" "#EBDBB2")
+   (darktooth-identifiers-12     "#D5C4A1" "#D5C4A1")
+   (darktooth-identifiers-13     "#FDF4C1" "#FDF4C1")
+   (darktooth-identifiers-14     "#F4E8BA" "#F4E8BA")
+   (darktooth-identifiers-15     "#EBDBB2" "#EBDBB2")
 
    (darktooth-white              "#FFFFFF" "white")
    (darktooth-black              "#000000" "black")
@@ -564,6 +564,10 @@
    (message-header-xheader                    (:foreground darktooth-faded-cyan))
    (message-mml                               (:foreground darktooth-faded-aqua))
    (message-separator                         (:foreground darktooth-faded-cyan))
+   (orderless-match-face-0                    (:foreground darktooth-foreground-1))
+   (orderless-match-face-1                    (:foreground darktooth-foreground-2))
+   (orderless-match-face-2                    (:foreground darktooth-foreground-3))
+   (orderless-match-face-3                    (:foreground darktooth-foreground-4))
    (org-agenda-date-today                     (:foreground darktooth-foreground-2 :slant 'italic :weight 'bold))
    (org-agenda-structure                      (:inherit 'font-lock-comment-face))
    (org-archived                              (:foreground darktooth-foreground-0 :weight 'bold))
