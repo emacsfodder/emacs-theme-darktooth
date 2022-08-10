@@ -6,6 +6,7 @@ Welcome to Emacs Theme Darktooth! You can contribute to the project in the follo
 	1. Follow the bug reporting issue template and provide clear, concise descriptions and steps to reproduce the bug.
 	2. Ensure that you have searched the existing issues to avoid duplicates.
 	3. Maintainers may close unclear issues that lack enough information to reproduce a bug. [Report a bug here](https://github.com/emacsfodder/emacs-theme-darktooth/issues/new?assignees=&labels=bug&template=bug_report.md).
+    4. Maintainers WILL close issues if they cannot be reliably and repeatedly reproduced, without loading your config.
 
 2. **Feature suggestions:** If you feel there is a nice enhancement or feature that can benefit many users, please open a feature request issue.
 	1. Ensure that you have searched the existing issues to avoid duplicates.
