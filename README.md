@@ -122,41 +122,41 @@ There's an optional modeline theme available, run `(darktooth-modeline)`:
 
 **Darktooth modeline - screenshot**
 
-![](darktooth-modeline.png)
+![](screenshots/darktooth-modeline.png)
 
 ### Screenshots
 
 ##### Popup Menu
 
-![](darktooth-popup-menu.png)
+![](screenshots/darktooth-popup-menu.png)
 
 ##### Popup Tip
 
-![](darktooth-popup-tip.png)
+![](screenshots/darktooth-popup-tip.png)
 
 ##### Emacs Lisp
 
-![](darktooth-emacslisp.png)
+![](screenshots/darktooth-emacslisp.png)
 
 ##### CoffeeScript
 
-![](darktooth-coffee.png)
+![](screenshots/darktooth-coffee.png)
 
 ##### Java
 
-![](darktooth-java.png)
+![](screenshots/darktooth-java.png)
 
 ##### XML
 
-![](darktooth-xml.png)
+![](screenshots/darktooth-xml.png)
 
 ##### Dired
 
-![](darktooth-dired.png)
+![](screenshots/darktooth-dired.png)
 
 ##### Terminal (xterm256 / iTerm)
 
-![](darktooth-terminal.png)
+![](screenshots/darktooth-terminal.png)
 
 Inspired by:
 
