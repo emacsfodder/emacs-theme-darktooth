@@ -1,4 +1,4 @@
-;;; darktooth-theme.el --- From the darkness... it watches
+;;; darktooth-darker-theme.el --- From the darkness... it watches
 
 ;; Copyright (c) 2015-2022 Jason Milkins (GNU/GPL Licence)
 
@@ -23,17 +23,17 @@
 
 (require 'darktooth)
 
-(darktooth-deftheme darktooth "From the darkness... it watches"
+(darktooth-deftheme darktooth-darker "From the darkness... it watches"
   ((((class color) (min-colors #xFFFFFF)) ;; color column 1 GUI/24bit
     ((class color) (min-colors #xFF)))    ;; color column 2 Xterm/256
 
-   (darktooth-background-0-hard  "#1D2021" "#1c1c1c")
-   (darktooth-background-0       "#282828" "#262626")
-   (darktooth-background-0-soft  "#32302F" "#303030")
-   (darktooth-background-1       "#3C3836" "#3a3a3a")
-   (darktooth-background-2       "#504945" "#4e4e4e")
-   (darktooth-background-3       "#665C54" "#626262")
-   (darktooth-background-4       "#7C6F64" "#767676")
+   (darktooth-background-0-hard  "#060607" "#020202")
+   (darktooth-background-0       "#0E0E0E" "#0C0C0C")
+   (darktooth-background-0-soft  "#181616" "#161616")
+   (darktooth-background-1       "#22201E" "#202020")
+   (darktooth-background-2       "#36312E" "#343434")
+   (darktooth-background-3       "#4C443E" "#484848")
+   (darktooth-background-4       "#62574E" "#5C5C5C")
 
    (darktooth-medium             "#928374" "#8a8a8a") ;; or 244
 
@@ -296,10 +296,10 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-(provide-theme 'darktooth)
+(provide-theme 'darktooth-darker)
 
 ;; Local Variables:
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode 1))
 ;; End:
 
-;;; darktooth-theme.el ends here
+;;; darktooth-darker-theme.el ends here
