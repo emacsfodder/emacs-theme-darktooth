@@ -8,11 +8,20 @@ a theme for Emacs
 
 Darktooth is easily installed via MELPA.  [Read more here for MELPA setup details](http://melpa.org/#/getting-started)
 
-When your Emacs is setup to use MELPA do this:
+When your Emacs is setup to use MELPA, do this:
 
 ```
 M-x package-install darktooth-theme
 ```
+
+Darktooth now comes with 2 additional variations, `darktooth-dark` and `arkdooth-darker` to complement the original `darktooth`.
+
+You will need to enable each of the three theme variations, using `(load-theme theme-name t)`, or use:
+
+```
+M-x load-theme RET theme-name RET
+```
+And respond to Emacs prompts to enable the theme. (TODO: Screnshots of the dark and darker variations.)
 
 ## Modes supported
 
