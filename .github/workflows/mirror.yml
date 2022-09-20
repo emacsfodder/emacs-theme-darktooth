@@ -14,4 +14,4 @@ jobs:
           target_repo_url:
             git@notabug.org:emacsfodder/emacs-theme-darktooth.git
           ssh_private_key:
-            ${{ secrets.PRIVATE_KEY }}
+            ${{ secrets.MIRROR_PUSH_KEY }}
