@@ -2,13 +2,14 @@ name: "Mirrored at notabug.org/emacsfodder/emacs-theme-darktooth"
 
 on: [push, delete]
 
+env:
+  notabug: "git@notabug.org:${{ env.GITHUB_REPOSITORY }}.git"
+
 jobs:
   to_notabug:
     runs-on: ubuntu-latest
-    env:
-      notabug: "git@notabug.org:${{ env.GITHUB_REPOSITORY }}.git"
-    steps:
 
+    steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
