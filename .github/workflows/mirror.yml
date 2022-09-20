@@ -1,4 +1,4 @@
-name: "Mirrored at notabug.org/emacsfodder/emacs-theme-darktooth"
+name: "Mirrored at notabug.org/${{ github.repository }}"
 
 on: [push, delete]
 
