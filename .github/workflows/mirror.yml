@@ -1,4 +1,4 @@
-name: "Mirrored at notabug.org/${{ github.repository }}"
+name: "Mirrored at notabug.org"
 
 on: [push, delete]
 
