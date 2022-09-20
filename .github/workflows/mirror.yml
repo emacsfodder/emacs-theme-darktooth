@@ -1,4 +1,4 @@
-name: Mirroring
+name: "Mirrored at notabug.org/emacsfodder/emacs-theme-darktooth"
 
 on: [push, delete]
 
@@ -6,9 +6,15 @@ jobs:
   to_notabug:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+      - name: Env check
+        run: |
+          echo "${{ env.GITHUB_REPOSITORY }}"
+
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
