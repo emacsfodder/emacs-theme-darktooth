@@ -13,7 +13,7 @@ jobs:
 
       - name: Env check
         run: |
-          echo "${{ env.GITHUB_REPOSITORY }}"
+          echo "${{ github.GITHUB_REPOSITORY }}"
 
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
