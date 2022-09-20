@@ -12,6 +12,6 @@ jobs:
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            git@notabug.org:emacsfodder/emacs-theme-darktooth.git
+            git@notabug.org:${{ env.GITHUB_REPOSITORY }}.git
           ssh_private_key:
             ${{ secrets.MIRROR_PUSH_KEY }}
