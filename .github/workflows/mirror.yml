@@ -2,9 +2,6 @@ name: "Mirrored at notabug.org/emacsfodder/emacs-theme-darktooth"
 
 on: [push, delete]
 
-env:
-  notabug: "git@notabug.org:${{ env.GITHUB_REPOSITORY }}.git"
-
 jobs:
   to_notabug:
     runs-on: ubuntu-latest
@@ -14,12 +11,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - run: |
-          echo $notabug
+      - name: Check env
+        env:
+          MIRROR: "git@notabug.org:${{ env.GITHUB_REPOSITORY }}.git"
+        run: |
+          echo '$MIRROR'
 
       - uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
-            ${{ env.notabug }}
+            ${{ env.MIRROR }}
           ssh_private_key:
             ${{ secrets.MIRROR_PUSH_KEY }}
