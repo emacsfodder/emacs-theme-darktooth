@@ -51,7 +51,6 @@
       (column-marker-2                           (:background darktooth-faded-purple))
       (column-marker-3                           (:background darktooth-faded-cyan))
       (company-echo                              (:inherit 'company-echo-common))
-
       (company-echo-common                       (:foreground darktooth-bright-blue :background nil))
       (company-preview                           (:inherit 'company-preview-common))
       (company-preview-common                    (:inherit 'font-lock-comment-face))
@@ -67,7 +66,6 @@
       (company-tooltip-mouse                     (:foreground darktooth-background-0 :background darktooth-bright-blue))
       (company-tooltip-selection                 (:foreground darktooth-foreground-0 :background darktooth-faded-blue))
       (compilation-info                          (:foreground darktooth-neutral-green))
-
       (compilation-mode-line-fail                (:foreground darktooth-neutral-red))
       (cua-rectangle                             (:background darktooth-mid-blue))
       (cursor                                    (:background darktooth-foreground-0))
@@ -83,6 +81,10 @@
       (diff-refine-added                         (:foreground darktooth-bright-green :background darktooth-muted-green))
       (diff-refine-removed                       (:foreground darktooth-bright-red :background darktooth-muted-red))
       (diff-removed                              (:foreground darktooth-neutral-red :background nil))
+      (diff-file-header                          (:weight 'bold :inherit 'default :extend t))
+      (diff-hunk-header                          (:foreground darktooth-light2 :background darktooth-dark2 :extend t))
+      (diff-header                               (:weight 'bold :inherit 'default :extend t))
+      (diff-context                              (:foreground darktooth-dark3 :background nil))
       (dired-directory                           (:inherit 'font-lock-function-name-face))
       (dired-flagged                             (:inherit 'error))
       (dired-header                              (:inherit 'font-lock-type-face))
