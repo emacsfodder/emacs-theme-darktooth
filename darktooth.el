@@ -67,6 +67,7 @@
       (company-tooltip-selection                 (:foreground darktooth-foreground-0 :background darktooth-faded-blue))
       (compilation-info                          (:foreground darktooth-neutral-green))
       (compilation-mode-line-fail                (:foreground darktooth-neutral-red))
+      (completions-annotations                   (:inherit 'font-lock-doc-face))
       (cua-rectangle                             (:background darktooth-mid-blue))
       (cursor                                    (:background darktooth-foreground-0))
       (default                                   (:foreground darktooth-foreground-0 :background darktooth-background-0))
