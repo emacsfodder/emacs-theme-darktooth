@@ -67,6 +67,7 @@
       (company-tooltip-selection                 (:foreground darktooth-foreground-0 :background darktooth-faded-blue))
       (compilation-info                          (:foreground darktooth-neutral-green))
       (compilation-mode-line-fail                (:foreground darktooth-neutral-red))
+      (completions-annotations                   (:inherit 'font-lock-doc-face))
       (corfu-annotations                         (:foreground darktooth-bright-blue :background 'unspecified))
       (corfu-bar                                 (:background darktooth-background-3))
       (corfu-border                              (:background darktooth-background-0))
