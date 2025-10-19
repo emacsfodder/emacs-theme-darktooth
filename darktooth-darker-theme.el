@@ -4,7 +4,7 @@
 
 ;; Authors: Jason Milkins <jasonm23@gmail.com>
 ;; URL: http://github.com/emacsfodder/emacs-theme-darktooth
-;; Version: 1.0.2
+;; Version: 1.0.3
 
 ;; Package-Requires: ((emacs "27.1") (autothemer "0.2"))
 
@@ -210,7 +210,7 @@
    "darktooth modeline inactive four"
    :group 'mode-line-faces)
 
- (custom-theme-set-variables 'darktooth
+ (custom-theme-set-variables 'darktooth-darker
                              `(pos-tip-foreground-color ,darktooth-foreground-0-hard)
                              `(pos-tip-background-color ,darktooth-background-aqua)
                              `(ansi-color-names-vector [,darktooth-background-0-soft
